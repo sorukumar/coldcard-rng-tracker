@@ -1,0 +1,22 @@
+{
+    "summary": {
+        "total_stolen_btc": 0,
+        "swept_utxos_count": 0,
+        "estimated_rescued_btc": 0.0
+    },
+    "timeline": [
+        {
+            "date": "2026-07-28",
+            "stolen_amount": 2.5
+        },
+        {
+            "date": "2026-07-29",
+            "stolen_amount": 15.2
+        },
+        {
+            "date": "2026-07-30",
+            "stolen_amount": 45.8
+        }
+    ],
+    "clusters": []
+}

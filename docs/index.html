@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coldcard Vulnerability Investigation — Bitcoin Data Labs</title>
+
+    <!-- SEO Meta -->
+    <meta name="description"
+        content="Onchain investigation and data tracker for the COLDCARD RNG vulnerability (MicroPython Yasmarang fallback).">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Coldcard Vulnerability Investigation">
+    <meta property="og:description"
+        content="Onchain investigation and data tracker for the COLDCARD RNG vulnerability.">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Coldcard Vulnerability Investigation">
+    <meta name="twitter:description"
+        content="Onchain investigation and data tracker for the COLDCARD RNG vulnerability.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;0,6..72,800;1,6..72,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Bitcoin Data Labs Shell Styles -->
+    <link rel="stylesheet" href="https://bitcoindatalabs.org/styles/styles.css">
+
+    <!-- App-Specific Styles -->
+    <link rel="stylesheet" href="styles/style.css">
+
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@3.0.0/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
+</head>
+
+<body class="has-fixed-header">
+
+    <!-- Bitcoin Data Labs Header -->
+    <div id="header"></div>
+
+    <div class="app-container">
+        <header class="page-header">
+            <h1 class="page-title">Coldcard Vulnerability Tracker</h1>
+            <p class="page-subtitle">
+                Onchain investigation of the RNG fallback vulnerability and theft analysis.
+            </p>
+        </header>
+
+        <main id="main-content">
+            <!-- Stat Cards -->
+            <div class="stats-grid" id="stats-container">
+                <div class="stat-card">
+                    <div class="stat-label">Total BTC Stolen</div>
+                    <div class="stat-value" id="stat-stolen">--</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Estimated Swept UTXOs</div>
+                    <div class="stat-value" id="stat-utxos">--</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Estimated Rescued Funds</div>
+                    <div class="stat-value" id="stat-rescued">--</div>
+                </div>
+            </div>
+
+            <!-- Timeline Chart -->
+            <div class="chart-section">
+                <h2>Theft Timeline</h2>
+                <div class="chart-container">
+                    <canvas id="timelineChart"></canvas>
+                </div>
+            </div>
+
+            <!-- Attacker Clustering Table -->
+            <div class="table-section">
+                <h2>Identified Attacker Clusters</h2>
+                <div class="table-container">
+                    <table class="data-table" id="attacker-table">
+                        <thead>
+                            <tr>
+                                <th>Cluster/Address</th>
+                                <th>First Seen</th>
+                                <th>Total Received (BTC)</th>
+                                <th>Current Balance (BTC)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Populated by JS -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Link to Report -->
+            <div class="report-link-section">
+                <a href="report.html" class="button primary">Read the Full Investigation Report</a>
+            </div>
+        </main>
+    </div>
+
+    <!-- Bitcoin Data Labs Footer -->
+    <div id="footer"></div>
+
+    <!-- Bitcoin Data Labs App Components -->
+    <script src="https://bitcoindatalabs.org/components/app-components.js"></script>
+    
+    <!-- App Logic -->
+    <script src="js/app.js"></script>
+</body>
+
+</html>
