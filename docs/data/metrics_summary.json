@@ -1,0 +1,10 @@
+{
+    "total_stolen_btc": 3138.23687346,
+    "total_stolen_tier_1_btc": 1983.64322828,
+    "total_stolen_tier_2_btc": 0,
+    "total_stolen_heuristic_btc": 1154.59364518,
+    "swept_utxos_count": 3474,
+    "tier_1_clusters_count": 5,
+    "tier_2_clusters_count": 0,
+    "heuristic_clusters_count": 850
+}

@@ -20,4 +20,9 @@ __pycache__/
 *.swo
 
 # Project specific
-docs/data/state.json
+docs/data/state*.json
+docs/data/victim_addresses.json
+docs/data/metrics.json
+docs/data/raw_sweeps.json
+docs/data/electrs_cache.json
+docs/data/traced_clusters.json

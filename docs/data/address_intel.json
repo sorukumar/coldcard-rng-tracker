@@ -1,0 +1,47 @@
+{
+    "bc1qq85v2c926eg6pgxhwp6q7lf6cnsz80qs3fcu9r": {
+        "source": "galaxy_research",
+        "tier": "tier_1_verified",
+        "notes": "Main consolidation wallet 1"
+    },
+    "bc1qx76cae2706qd5q576feh7xq8rfcsjpf2htfhe3": {
+        "source": "galaxy_research",
+        "tier": "tier_1_verified",
+        "notes": "Main consolidation wallet 2"
+    },
+    "bc1q8jy96fe5lf8vfugydnte3cguk92gpev7kwtp3q": {
+        "source": "galaxy_research",
+        "tier": "tier_1_verified",
+        "notes": "Main consolidation wallet 3"
+    },
+    "bc1qnk4zh9qcnap2mycp56qjrgza3cc8ylrh8fecp0": {
+        "source": "galaxy_research",
+        "tier": "tier_1_verified",
+        "notes": "Main consolidation wallet 4"
+    },
+    "bc1qc779m8gec84k3t0ffvu0pps94zheht7lr7ueyn": {
+        "source": "community",
+        "tier": "tier_1_verified",
+        "notes": "Known intermediary wallet"
+    },
+    "bc1qmd5m5ktv7m5ffujxv4248fxv36myvdx79n8jp6": {
+        "source": "coinspect",
+        "tier": "tier_1_verified",
+        "notes": "Reported on x.com/coinspect/status/2083275810601906621 (Promoted via heuristic validation)"
+    },
+    "bc1q0rvn88w08j75k4h48lf9fvhan7unjp7vjf5q6m": {
+        "source": "mariusoffchain",
+        "tier": "tier_2_crowdsourced",
+        "notes": "Reported on x.com/mariusoffchain/status/2083814011859030252"
+    },
+    "bc1qtfrwa4j6rmj9rsgspv6a0yjumkg39js2numu75": {
+        "source": "coldcard-watch",
+        "tier": "tier_2_crowdsourced",
+        "notes": "Scraped from coldcard-watch.vercel.app"
+    },
+    "bc1qhh4jkkj07vxpdt0zlvxctjlfhqmurhxa24x3h2": {
+        "source": "coldcard-watch",
+        "tier": "tier_2_crowdsourced",
+        "notes": "Scraped from coldcard-watch.vercel.app"
+    }
+}

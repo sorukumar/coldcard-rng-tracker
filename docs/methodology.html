@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report & Methodology - Coldcard Tracker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;0,6..72,800;1,6..72,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://bitcoindatalabs.org/styles/styles.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <!-- ECharts -->
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
+</head>
+<body class="has-fixed-header">
+    <!-- Bitcoin Data Labs Header -->
+    <div id="header"></div>
+    <div class="app-container">
+        <main id="main-content">
+            <header class="page-hero" style="padding-bottom:1.5rem;margin-bottom:1.5rem;">
+                <p class="hero-kicker">Bitcoin Data Labs · Coldcard Investigation · Methodology</p>
+                <h1 class="page-title" style="font-size:clamp(1.8rem,4vw,2.8rem);">Report & Methodology</h1>
+                <p class="hero-lede">
+                    Technical details of the vulnerability, on-chain attacker methodology, tracking heuristics, and evasion tactics.
+                </p>
+            </header>
+
+            <section class="section-wrap visible" style="margin-bottom: 3rem;">
+                <div class="report-content" style="line-height: 1.7; font-family: var(--font-sans); color: var(--text-color);">
+                    <div class="alert alert-warning" style="padding: 1rem; border-radius: 0.5rem; margin-bottom: 1.5rem; background-color: var(--wave2-color); color: #fff; border: 1px solid rgba(0,0,0,0.1);">
+                        <strong>Critical Action Required:</strong> If you generated a seed using an affected Coldcard firmware version, Coinkite strongly advises moving your funds immediately. A firmware update alone cannot secure an already compromised seed.
+                    </div>
+
+                <h2 style="margin-top: 0;">1. Vulnerability Summary</h2>
+                <p>
+                    Following reports and collaboration between security researchers, Block's Bitcoin Engineering team, and Coinkite, a severe vulnerability was disclosed affecting specific firmware versions of COLDCARD hardware wallets.
+                </p>
+                <p>
+                    The vulnerability stems from an RNG integration error where <code>ngu.random</code> utilizes MicroPython's deterministic Yasmarang fallback instead of the STM32 hardware RNG. Because the production board configuration defined <code>MICROPY_HW_ENABLE_RNG</code> as zero, the <code>libngu</code> component incorrectly bound to the software generator. For Mk2 and Mk3 (v4 firmware), wallet generation became deterministic, meaning that if an attacker knows the device UID, timer state, and call history, they can offline brute-force the generated seed phrase.
+                </p>
+
+                <h2 style="margin-top: 2rem; margin-bottom: 1rem; font-size: 1.25rem;">Firmware Advisory & Device Status</h2>
+                <div class="table-container" style="margin-bottom: 2rem;">
+                    <table class="data-table" style="width: 100%; border-collapse: collapse; margin-top: 1rem;">
+                        <thead>
+                            <tr style="background-color: #f3f4f6; border-bottom: 2px solid #e5e7eb; text-align: left;">
+                                <th style="padding: 12px 16px; font-weight: 600; color: #374151;">Device Model</th>
+                                <th style="padding: 12px 16px; font-weight: 600; color: #374151;">Affected Firmware</th>
+                                <th style="padding: 12px 16px; font-weight: 600; color: #374151;">Status / Recommendation</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr style="border-bottom: 1px solid #e5e7eb;">
+                                <td style="padding: 12px 16px;"><strong>Coldcard Mk4 & Q</strong></td>
+                                <td style="padding: 12px 16px;"><span style="color: #ef4444; font-weight: bold;">v5.2.2 and earlier</span></td>
+                                <td style="padding: 12px 16px; color: #4b5563;">Critically vulnerable. Do not use. Await patch.</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid #e5e7eb;">
+                                <td style="padding: 12px 16px;"><strong>Coldcard Mk3</strong></td>
+                                <td style="padding: 12px 16px;"><span style="color: #ef4444; font-weight: bold;">v4.1.9 and earlier</span></td>
+                                <td style="padding: 12px 16px; color: #4b5563;">Critically vulnerable. Do not use. Await patch.</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid #e5e7eb;">
+                                <td style="padding: 12px 16px;"><strong>Coldcard Mk2</strong></td>
+                                <td style="padding: 12px 16px;"><span style="color: #f59e0b; font-weight: bold;">Uncertain</span> (Hardware EOL)</td>
+                                <td style="padding: 12px 16px; color: #4b5563;">Manufacturer claims Mk2 is unaffected, but architectural similarities warrant caution. Upgrade recommended.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <h2>2. Onchain Attacker Methodology</h2>
+                <p>
+                    The vulnerability allows an attacker to generate the limited set of possible wallet seeds (roughly 2^31 candidate trials for newer devices, and fully deterministic for older ones). Once a candidate wallet is generated, attackers use public information (such as xpubs or public addresses) as a validation oracle.
+                </p>
+                <p>
+                    Our onchain investigation reveals that attackers are actively exploiting this:
+                </p>
+                <ul style="margin-bottom: 1rem; padding-left: 1.5rem;">
+                    <li style="margin-bottom: 0.5rem;"><strong>Sweeping Scripts:</strong> Automated scripts are monitoring the mempool and sweeping funds as soon as a vulnerable wallet is identified.</li>
+                    <li style="margin-bottom: 0.5rem;"><strong>Fee Rates:</strong> We've observed attackers utilizing high fee rates and Replace-By-Fee (RBF) to outbid users attempting to rescue their own funds.</li>
+                    <li style="margin-bottom: 0.5rem;"><strong>Consolidation:</strong> Stolen UTXOs are frequently consolidated into centralized attacker wallets before being sent to CoinJoin implementations or exchanges.</li>
+                </ul>
+
+                <h2>3. Tracking & Clustering Methodology</h2>
+                <p>
+                    To build the <strong>Coldcard Vulnerability Tracker</strong> dashboard, we are utilizing a local Electrs node to query UTXO movements. Our methodology includes:
+                </p>
+                <ul style="margin-bottom: 1rem; padding-left: 1.5rem;">
+                    <li style="margin-bottom: 0.5rem;"><strong>Timeline Heuristics:</strong> Identifying UTXOs created during the window when vulnerable firmware versions were most actively sold and deployed.</li>
+                    <li style="margin-bottom: 0.5rem;"><strong>Sweep Detection:</strong> Flagging transactions that drain an entire wallet's balance to a new, previously unseen address.</li>
+                    <li style="margin-bottom: 0.5rem;"><strong>Cluster Analysis:</strong> Grouping addresses that co-spend inputs or share distinct transaction fingerprints (e.g., specific locktimes, RBF signaling, or fee bumping patterns) indicative of the attacker's scripts.</li>
+                </ul>
+                <p>
+                    As we identify known attacker addresses, they are added to our tracked clusters, allowing us to estimate the total BTC stolen in near real-time.
+                </p>
+
+                <h2>4. Intelligence Tiers</h2>
+                <p>Our pipeline categorizes addresses into three distinct tiers to ensure data integrity and prevent false positives from inflating our headline metrics:</p>
+                <ul>
+                    <li><strong>Tier 1: Verified Consolidators</strong>: Addresses that are 100% confirmed to belong to the attacker. These are cross-validated by top research firms (Galaxy, Block) and manually verified.</li>
+                    <li><strong>Tier 2: Crowdsourced Suspects</strong>: Addresses reported by the community on social media (e.g. Twitter). We track these but do not include their totals in the verified headline figures.</li>
+                    <li><strong>Tier 3: Heuristic Discoveries</strong>: Addresses automatically flagged by our first-principles script because transactions sweeping funds into them strictly match the attacker's on-chain fingerprints.</li>
+                </ul>
+
+                <h2>5. On-Chain Fingerprints & Heuristics</h2>
+                <p>The attacker utilized an automated script to sweep funds. This script left behind strict, identifiable metadata fingerprints. We scan specific targeted block ranges and score transactions based on the following matching criteria:</p>
+                <ul>
+                    <li><strong>Multi-Wave Fee Rates (+25 pts)</strong>: The attacker utilized hardcoded fee rates across distinct waves: 30.0, 50.2, 10.0, and 201.0 sat/vB.</li>
+                    <li><strong>RBF Sequence (+25 pts)</strong>: The attacker forced a specific Replace-By-Fee sequence (<code>0xfffffffd</code>).</li>
+                    <li><strong>Version/Locktime (+25 pts)</strong>: Expected version (1 or 2) and locktime=0.</li>
+                    <li><strong>BIP-69 Sorting (+25 pts)</strong>: Lexicographical sorting of inputs and outputs.</li>
+                </ul>
+                <p>If a transaction generates a confidence score of <strong>50 or higher</strong>, the destination address is flagged as a Tier 3 Heuristic Discovery.</p>
+                
+                <div class="table-container" style="margin-top: 2rem; margin-bottom: 2rem;">
+                    <h3 style="margin-top: 0; margin-bottom: 1rem; font-size: 1.1rem;">Tier 3: Heuristic Discoveries</h3>
+                    <table class="data-table" id="attacker-table-tier-3">
+                        <thead>
+                            <tr>
+                                <th>Flagged Address</th>
+                                <th>First Seen</th>
+                                <th>Total Received (BTC)</th>
+                                <th>Confidence Score</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Populated by JS -->
+                        </tbody>
+                    </table>
+                    <div class="table-actions" style="margin-top: 1rem;">
+                        <button id="download-csv-btn" class="button"><i class="fas fa-download"></i> Download CSV</button>
+                    </div>
+                </div>
+                
+                <h2>Technical Proof: The RBF Arms Race</h2>
+                <p>This scatter plot visualizes the fee-bumping behavior of the sweeping script, confirming the automated nature of the attack.</p>
+                <div class="chart-container" style="margin-bottom: 2rem;">
+                    <div id="scatterChart" style="width: 100%; height: 100%;"></div>
+                </div>
+
+                <h2>6. Automated Promotion</h2>
+                <p>If a Tier 2 (Crowdsourced) address receives a transaction that strongly matches our strict heuristics (score >= 50), the pipeline automatically promotes that address to Tier 1 (Verified), creating a powerful automated feedback loop for community intelligence.</p>
+
+                <h2>7. Evasion Tactics (Wave 3)</h2>
+                <p>In early waves, the attacker swept thousands of wallets into a handful of shared collector addresses. During Wave 3 (July 31st), the attacker changed tactics to evade address-clustering detection: they swept every victim wallet into its own completely fresh, dedicated P2WSH vault.</p>
+                <p>Because they did not reuse addresses, our system relies entirely on the strict 201.0 sat/vB fingerprint to track Wave 3. This generated tens of thousands of individual clusters in our Tier 3 bucket, successfully capturing the decentralized sweeps without polluting the Tier 1 verified metrics.</p>
+                <h2>8. Actionable Advice</h2>
+                <p>
+                    If you believe you may be affected:
+                </p>
+                <ul style="margin-bottom: 1rem; padding-left: 1.5rem;">
+                    <li style="margin-bottom: 0.5rem;">Generate a new seed phrase on a device running patched firmware (or a different secure device).</li>
+                    <li style="margin-bottom: 0.5rem;">Transfer all funds from the old seed to the new one.</li>
+                    <li style="margin-bottom: 0.5rem;">Use a sufficient fee rate to ensure your transaction confirms quickly and cannot be easily RBF'd by an attacker's sweeping script.</li>
+                    <li style="margin-bottom: 0.5rem;">Review Coinkite's official blog for the definitive technical postmortem and detailed mitigation steps.</li>
+                </ul>
+            </div>
+            </section>
+        </main>
+    </div>
+    <div id="footer"></div>
+    <script src="https://bitcoindatalabs.org/components/app-components.js"></script>
+    <script src="js/app-config.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

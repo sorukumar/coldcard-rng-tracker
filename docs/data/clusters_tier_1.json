@@ -1,0 +1,107 @@
+[
+    {
+        "address": "bc1qnk4zh9qcnap2mycp56qjrgza3cc8ylrh8fecp0",
+        "first_seen": "2026-07-30 01:36:08",
+        "total_received": 594.47722484,
+        "avg_confidence": 83.66,
+        "breakdown": {
+            "total": 85,
+            "fee": true,
+            "fee_matched": 30.0,
+            "destination": true,
+            "version": true,
+            "sequence": false,
+            "bip69": true
+        },
+        "tier": "tier_1_verified",
+        "trace_tree": {
+            "address": "bc1qnk4zh9qcnap2mycp56qjrgza3cc8ylrh8fecp0",
+            "txs_count": 0,
+            "next_hops": []
+        }
+    },
+    {
+        "address": "bc1qq85v2c926eg6pgxhwp6q7lf6cnsz80qs3fcu9r",
+        "first_seen": "2026-07-30 01:51:26",
+        "total_received": 562.01962301,
+        "avg_confidence": 75.0,
+        "breakdown": {
+            "total": 75,
+            "fee": true,
+            "fee_matched": 30.0,
+            "destination": true,
+            "version": true,
+            "sequence": false,
+            "bip69": false
+        },
+        "tier": "tier_1_verified",
+        "trace_tree": {
+            "address": "bc1qq85v2c926eg6pgxhwp6q7lf6cnsz80qs3fcu9r",
+            "txs_count": 0,
+            "next_hops": []
+        }
+    },
+    {
+        "address": "bc1qc779m8gec84k3t0ffvu0pps94zheht7lr7ueyn",
+        "first_seen": "2026-07-30 01:32:48",
+        "total_received": 398.48587857,
+        "avg_confidence": 84.41,
+        "breakdown": {
+            "total": 75,
+            "fee": true,
+            "fee_matched": 30.0,
+            "destination": true,
+            "version": true,
+            "sequence": false,
+            "bip69": false
+        },
+        "tier": "tier_1_verified",
+        "trace_tree": {
+            "address": "bc1qc779m8gec84k3t0ffvu0pps94zheht7lr7ueyn",
+            "txs_count": 0,
+            "next_hops": []
+        }
+    },
+    {
+        "address": "bc1qx76cae2706qd5q576feh7xq8rfcsjpf2htfhe3",
+        "first_seen": "2026-07-30 01:43:00",
+        "total_received": 398.47573857,
+        "avg_confidence": 75.0,
+        "breakdown": {
+            "total": 75,
+            "fee": true,
+            "fee_matched": 30.0,
+            "destination": true,
+            "version": true,
+            "sequence": false,
+            "bip69": false
+        },
+        "tier": "tier_1_verified",
+        "trace_tree": {
+            "address": "bc1qx76cae2706qd5q576feh7xq8rfcsjpf2htfhe3",
+            "txs_count": 0,
+            "next_hops": []
+        }
+    },
+    {
+        "address": "bc1qmd5m5ktv7m5ffujxv4248fxv36myvdx79n8jp6",
+        "first_seen": "2026-07-31 05:48:30",
+        "total_received": 30.18476329,
+        "avg_confidence": 90.11,
+        "breakdown": {
+            "total": 95,
+            "fee": true,
+            "fee_matched": 10.0,
+            "destination": true,
+            "version": true,
+            "sequence": true,
+            "bip69": true
+        },
+        "tier": "tier_1_verified",
+        "trace_tree": {
+            "address": "bc1qmd5m5ktv7m5ffujxv4248fxv36myvdx79n8jp6",
+            "txs_count": 0,
+            "next_hops": []
+        }
+    }
+]
