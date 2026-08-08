@@ -3,10 +3,11 @@
 This document serves as a living repository for clues, hypotheses, and actionable intelligence regarding the Coldcard RNG vulnerability and the subsequent wallet drain. As we ingest more data, thread analyses, and blog posts, we will synthesize our next steps here.
 
 ## 1. Incident Overview
-*   **Scale**: ~594–1,083 BTC (~$38M–$70M+) swept from ~500–1,196 single-signature addresses.
-*   **Timing**: Primary observed wave occurred ~01:10–01:56 UTC on 2026-07-30 (blocks ~960183–960191).
-*   **Nature of Attack**: Automated sweeps. Attackers already knew the keys via offline brute force or candidate scanning; no interactive device compromise required. The attack cost is trivially low (independent researchers confirmed finding 2 stolen keys in ~5 mins for <$5 of GPU time).
-*   **Targets**: Primarily single-sig wallets. High-value wallets were hit early in the sequence. Funds were rapidly consolidated and currently remain mostly static.
+*   **Scale**: ~$111M–$130M+ (1,405 - 1,719+ BTC) verified stolen across 4,925+ single-signature addresses. (Note: Initial heuristic estimates suggested up to 3,138 BTC, but cross-referencing with external sources confirms ~1.4K-1.7K BTC as the floor).
+*   **Victim Demographics**: Median dormancy of swept coins was 3.5 years. 88% of coins were 1+ year old. The median loss per victim is ~1.022 BTC (mean ~4.04 BTC), ranging from 624 sats to 58.97 BTC.
+*   **Timing**: The attack unfolded across **10 distinct waves** (initially only 4 were tracked). Primary observed waves occurred starting ~01:10 UTC on 2026-07-30.
+*   **Nature of Attack**: Automated sweeps. Attackers already knew the keys via offline brute force. The attack cost is trivially low. Furthermore, honeypot tracking (CK Tripwire) shows low-entropy (5-bit) honeypots surviving for days, suggesting attackers are focused on sweeping pre-computed keys rather than actively brute-forcing live dice-rolls.
+*   **Targets & Perpetrators**: Chainalysis confirms **multiple independent attackers** are involved, not a single actor. Funds were rapidly consolidated and are being moved via distinct laundering strategies.
 
 ## 2. Technical Root Cause
 *   **RNG Fallback Issue**: A firmware change (commit ~March 2021, first in v4.0.0) moved seed generation from the hardware RNG (`ckcc.rng_bytes`) to `ngu.random.bytes`. Due to a misconfigured `#ifndef` check in `libngu`, it fell back to MicroPython’s Yasmarang PRNG.
@@ -33,13 +34,14 @@ Based on analyses by Galaxy Research, Chainalysis, and The Block:
 *   **Script Types**: Heavily native SegWit (BIP-84) with a minority of BIP-49/BIP-44, indicating multi-derivation-path scanning.
 *   **Broadcasting**: Batch-style broadcasting across highly concentrated block windows.
 
-### Clue 3: Consolidation Patterns & Evasion Tactics
-*   **Wave 1 & 2 (Centralized Collection)**: Funds were initially swept into a small set of collector addresses and largely remain there. Known final consolidation addresses (Tier 1 Verified):
-    *   `bc1qq85v2c926eg6pgxhwp6q7lf6cnsz80qs3fcu9r` (~562 BTC)
-    *   `bc1qx76cae2706qd5q576feh7xq8rfcsjpf2htfhe3` (~398 BTC)
-    *   `bc1q8jy96fe5lf8vfugydnte3cguk92gpev7kwtp3q` (~90 BTC)
-    *   `bc1qnk4zh9qcnap2mycp56qjrgza3cc8ylrh8fecp0` (~32 BTC)
-*   **Wave 3 (Decentralized Evasion)**: In later waves, the attacker changed tactics to evade detection. Instead of sweeping funds into shared collector addresses, they swept every individual victim wallet into its own fresh, isolated P2WSH vault address. This creates tens of thousands of single-transaction clusters that can only be flagged via strict on-chain fingerprinting (e.g., the 201.0 sat/vB fee rate).
+### Clue 3: Consolidation Patterns & Laundering Strategies
+*   **Wave 1 & 2 (Centralized Collection)**: Funds were initially swept into a small set of collector addresses and largely remain there. We now track **15 known final consolidation addresses** (up from 4), holding over 1,400 BTC.
+*   **Wave 3 (Decentralized Evasion)**: In later waves, attackers changed tactics to evade detection. Instead of sweeping funds into shared collector addresses, they swept every individual victim wallet into its own fresh, isolated P2WSH vault address. 
+*   **Four Distinct Laundering Strategies** (Identified via cross-referencing Chainalysis data):
+    *   **Type 1**: Consolidation → Dormant (e.g. ~$35M still sitting).
+    *   **Type 2**: Cross-chain → TornadoCash mixing.
+    *   **Type 3**: Intermediary addresses → Centralized Exchanges (CEX).
+    *   **Type 4**: Wasabi Wallet mixing.
 
 ### Clue 4: Evolving Community Efforts & Attacker Response
 *   The community is actively tracking the exploit, with basic tracking dashboards already emerging (e.g., [Noackdom's Tracker](https://x.com/noackdom/status/2083235584537931777)). 

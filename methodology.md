@@ -19,14 +19,17 @@ Our investigation draws from two categories of external intelligence:
 | Source | Type | Storage |
 |---|---|---|
 | Galaxy Research, Block, Coinspect | Verified attacker consolidation/vault addresses | `address_intel.json` |
+| Chainalysis | Attacker strategy and laundering taxonomy | `investigation_insights.md` |
+| CK Tripwire | Honeypot survival data | `investigation_insights.md` |
 | Community reports (X/Twitter) | Reported attacker addresses | `address_intel.json` |
 | coldcard-watch.vercel.app | Additional attacker addresses for cross-reference | `address_intel.json` |
+| coldcard.rip | Wave identification for cross-reference | `investigation_insights.md` |
 
 ### Victim-Side Data (Where stolen funds came from)
 
 | Source | Type | Storage |
 |---|---|---|
-| coldcard-watch.vercel.app `/list.html` | 4,312 verified drained victim addresses (SHA-256 hashes) | `compromised_hashes.json` |
+| coldcard-watch.vercel.app `/list.html` | 4,925+ verified drained victim addresses (SHA-256 hashes) | `compromised_hashes.json` |
 
 The victim hashes are used in our client-side privacy-preserving address checker tool. Users can hash their address locally and check for exposure without transmitting their address.
 
@@ -59,7 +62,7 @@ If a transaction generates a confidence score of **50 or higher**, the destinati
 
 ### Known Limitations of v1
 
-> **False Positive Problem**: Our current threshold of 50 allows combinations like `version+bip69` (no fee match) to pass. These two signals alone are true for the vast majority of all Bitcoin transactions. As of the current scan, ~59,779 of our 60,249 confidence=50 sweeps do not match any known attack fee rate. This inflates our heuristic totals to ~39,107 BTC vs the ~1,359 BTC independently verified by coldcard-watch.
+> **False Positive Problem**: Our current threshold of 50 allows combinations like `version+bip69` (no fee match) to pass. These two signals alone are true for the vast majority of all Bitcoin transactions. As of the current scan, ~59,779 of our 60,249 confidence=50 sweeps do not match any known attack fee rate. This inflates our heuristic totals to ~3,138 BTC vs the ~1,405-1,719 BTC independently verified by external sources. We prominently disclose this discrepancy on the dashboard while maintaining the heuristic data as an absolute upper bound.
 
 ### Planned Improvement (v2 — Convergence Scoring)
 
@@ -82,7 +85,7 @@ We scan specific targeted block ranges (Blocks `960183`–`960481`) correspondin
 
 Source: [coldcard-watch.vercel.app/methodology.html](https://coldcard-watch.vercel.app/methodology.html) (independently verified)
 
-Total confirmed by coldcard-watch: **4,312 addresses, ~1,359 BTC**
+Total confirmed by external cross-validation (coldcard-watch, coldcard.rip, Galaxy): **4,925+ addresses, ~1,405 - 1,719+ BTC**
 
 ## 6. Evasion Tactics (Wave 3)
 

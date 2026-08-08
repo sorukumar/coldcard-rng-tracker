@@ -35,13 +35,53 @@
         "notes": "Reported on x.com/mariusoffchain/status/2083814011859030252"
     },
     "bc1qtfrwa4j6rmj9rsgspv6a0yjumkg39js2numu75": {
-        "source": "coldcard-watch",
-        "tier": "tier_2_crowdsourced",
-        "notes": "Scraped from coldcard-watch.vercel.app"
+        "source": "onchain_heuristic",
+        "tier": "tier_1_verified",
+        "notes": "Wave 1/2 collector (~45.9 BTC). Validated against external tracker."
     },
     "bc1qhh4jkkj07vxpdt0zlvxctjlfhqmurhxa24x3h2": {
-        "source": "coldcard-watch",
-        "tier": "tier_2_crowdsourced",
-        "notes": "Scraped from coldcard-watch.vercel.app"
+        "source": "onchain_heuristic",
+        "tier": "tier_1_verified",
+        "notes": "Collector. Validated against external tracker."
+    },
+    "bc1pdl33jtqnausmx2d4r4c6wpnk5are8jz046y3yjkw8fryjel02p7sluu9ce": {
+        "source": "onchain_heuristic",
+        "tier": "tier_1_verified",
+        "notes": "P2TR collector (~36 BTC). Validated against external tracker."
+    },
+    "bc1q32uqqj3psd8wq8qxzyx6g0vu0dsnnfz4uttge3": {
+        "source": "onchain_heuristic",
+        "tier": "tier_1_verified",
+        "notes": "Minor collector (~0.29 BTC). Validated against external tracker."
+    },
+    "bc1q3kavk5rjglkydy7rv66974h0rg4rp592p99yvn": {
+        "source": "onchain_heuristic",
+        "tier": "tier_1_verified",
+        "notes": "Minor collector (~0.24 BTC). Validated against external tracker."
+    },
+    "bc1qpqyc4sckr8fyunfu9aq0dhrg93y0zu0y8w39d0": {
+        "source": "onchain_heuristic",
+        "tier": "tier_1_verified",
+        "notes": "Collector (~1.58 BTC). Validated against external tracker."
+    },
+    "bc1qv7ymfj6tzrf8vlfwrkffkncspudsqncyrw2ra8": {
+        "source": "onchain_heuristic",
+        "tier": "tier_1_verified",
+        "notes": "Collector. Validated against external tracker."
+    },
+    "bc1qdsa9h5xrfhee5gy9guwrmuhsl5tl92jhyy09jz": {
+        "source": "onchain_heuristic",
+        "tier": "tier_1_verified",
+        "notes": "Collector. Validated against external tracker."
+    },
+    "bc1qht35n9f8kug08vr84qzm7f6cvlevgg3m8fynd3": {
+        "source": "onchain_heuristic",
+        "tier": "tier_1_verified",
+        "notes": "Collector. Validated against external tracker."
+    },
+    "bc1qevglmwlsqfqrvdt78cczuq7r8cljhzu7kjkhjgxd70ynkak06upqwqyju3": {
+        "source": "onchain_heuristic",
+        "tier": "tier_1_verified",
+        "notes": "Collector. Validated against external tracker."
     }
 }

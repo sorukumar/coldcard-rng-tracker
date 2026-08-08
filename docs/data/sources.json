@@ -1,0 +1,112 @@
+{
+  "sources": [
+    {
+      "id": "galaxy_research",
+      "name": "Galaxy Research",
+      "type": "research_firm",
+      "url": "https://x.com/glxyresearch",
+      "key_threads": [
+        "https://x.com/glxyresearch/status/2085748513015488758"
+      ],
+      "last_checked": "2026-08-07",
+      "key_data": {
+        "confirmed_btc": 1719,
+        "estimated_usd": 111000000
+      }
+    },
+    {
+      "id": "intangiblecoins",
+      "name": "Alex Thorn (Galaxy)",
+      "type": "researcher",
+      "url": "https://x.com/intangiblecoins",
+      "key_threads": [
+        "https://x.com/intangiblecoins/status/2085752444236005465"
+      ],
+      "key_data": {
+        "victim_reports": 250,
+        "median_dormancy_years": 3.5,
+        "pct_coins_1yr_plus": 88,
+        "median_loss_per_address_btc": 0.014,
+        "mean_loss_per_address_btc": 0.212,
+        "median_loss_per_victim_btc": 1.022,
+        "mean_loss_per_victim_btc": 4.04,
+        "loss_range_min_sats": 624,
+        "loss_range_max_btc": 58.97
+      }
+    },
+    {
+      "id": "chainalysis",
+      "name": "Chainalysis",
+      "type": "blockchain_analytics",
+      "url": "https://x.com/chainalysis",
+      "key_threads": [
+        "https://x.com/chainalysis/status/2085126271042830608"
+      ],
+      "key_data": {
+        "attacker_types": 4,
+        "type_1_dormant_usd": 35000000,
+        "laundering_methods": [
+          "consolidation_dormant",
+          "cross_chain_tornado",
+          "intermediary_cex",
+          "wasabi_mixing"
+        ]
+      }
+    },
+    {
+      "id": "cktripwire",
+      "name": "CK Tripwire (@jamesob)",
+      "type": "honeypot_tracker",
+      "url": "https://cktripwire.com/",
+      "last_checked": "2026-08-07",
+      "key_data": {
+        "honeypots_total": 17,
+        "honeypots_swept": 3,
+        "honeypots_live": 14,
+        "fastest_sweep_minutes": 2
+      }
+    },
+    {
+      "id": "coldcardwatch",
+      "name": "Coldcard Watch",
+      "type": "live_tracker",
+      "url": "https://coldcardwatch.com/",
+      "methodology_url": "https://coldcardwatch.com/methodology.html",
+      "address_list_url": "https://coldcardwatch.com/list.html",
+      "last_checked": "2026-08-07",
+      "key_data": {
+        "verified_btc": 1405.0671,
+        "addresses_drained": 4925,
+        "tracked_wallets": 15
+      }
+    },
+    {
+      "id": "coldcard_rip",
+      "name": "coldcard.rip (@KevinKelbie)",
+      "type": "analysis_dashboard",
+      "url": "https://coldcard.rip/",
+      "last_checked": "2026-08-07",
+      "key_data": {
+        "swept_btc": 1432.48,
+        "swept_addresses": 5477,
+        "swept_utxos": 7346,
+        "sweep_transactions": 2896,
+        "waves_identified": 10,
+        "destination_addresses": 613,
+        "public_sources": 25
+      }
+    },
+    {
+      "id": "coinkite_advisory",
+      "name": "Coinkite Official Advisory",
+      "type": "vendor_advisory",
+      "url": "https://blog.coinkite.com/coldcard-mk3-seed-generation-warning/"
+    },
+    {
+      "id": "block_engineering",
+      "name": "Block Engineering Analysis",
+      "type": "engineering_analysis",
+      "url": "https://engineering.block.xyz/blog/predictable-rng-fallback-and-32-bit-reseed-in-coldcard-firmware"
+    }
+  ]
+}

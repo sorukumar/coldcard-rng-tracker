@@ -6,5 +6,15 @@
     "swept_utxos_count": 3474,
     "tier_1_clusters_count": 5,
     "tier_2_clusters_count": 0,
-    "heuristic_clusters_count": 850
+    "heuristic_clusters_count": 850,
+    "externally_validated_btc": 1405.07,
+    "galaxy_confirmed_btc": 1719,
+    "victim_reports_count": 250,
+    "median_dormancy_years": 3.5,
+    "pct_coins_1yr_plus": 88,
+    "median_loss_per_victim_btc": 1.022,
+    "mean_loss_per_victim_btc": 4.04,
+    "attacker_types_identified": 4,
+    "waves_identified": 10,
+    "addresses_drained_verified": 4925
 }
