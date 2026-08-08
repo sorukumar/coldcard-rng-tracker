@@ -6,13 +6,13 @@
     <title>Coldcard RNG Investigation — Bitcoin Data Labs</title>
 
     <!-- SEO -->
-    <meta name="description" content="On-chain forensic investigation of the Coldcard RNG vulnerability. 1,983 BTC verified stolen across 4 attack waves. Live tracker, victim checker, and interactive transaction graph.">
+    <meta name="description" content="On-chain forensic investigation of the Coldcard RNG vulnerability. 1,983 BTC verified stolen across 4 core attack waves. Live tracker, victim checker, and interactive transaction graph.">
     <meta property="og:title" content="Coldcard RNG Investigation — 1,983 BTC Still Sitting There">
-    <meta property="og:description" content="Live forensic dashboard tracking 4 attack waves, verified attacker consolidation addresses, victim impact analysis, and fund flows from the Coldcard random-number flaw.">
+    <meta property="og:description" content="Live forensic dashboard tracking 4 core attack waves, verified attacker consolidation addresses, victim impact analysis, and fund flows from the Coldcard random-number flaw.">
     <meta property="og:type" content="website">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Coldcard RNG Investigation — 1,719+ BTC Stolen">
-    <meta name="twitter:description" content="Live forensic dashboard. 10 attack waves. 4,925+ UTXOs swept. Coins sitting in verified attacker addresses.">
+    <meta name="twitter:title" content="Coldcard RNG Investigation — 1,983 BTC Stolen">
+    <meta name="twitter:description" content="Live forensic dashboard. 4 core attack waves. 4,925+ UTXOs swept. Coins sitting in verified attacker addresses.">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -42,22 +42,14 @@
             ═══════════════════════════════════════════════════════ -->
 
             <header class="page-hero">
-                <p class="hero-kicker">Bitcoin Data Labs · Forensic Investigation · Coldcard RNG Vulnerability</p>
-                <h1 class="page-title">1,719+ BTC Stolen.<br>It's All Still Sitting There.</h1>
-                <p class="hero-lede">
-                    Cross-validated by Galaxy Research, Chainalysis, and community trackers.
-                    A build guard checked whether the hardware RNG macro existed, not whether it was enabled.
-                    From March 2021, affected Coldcard devices generated wallet seeds from predictable inputs.
-                    Ten waves of automated sweeps extracted funds from thousands of addresses over two days.
-                    Our pipeline tracks theft transactions using strict on-chain fingerprints.
-                </p>
+                <h1 class="page-title">1,983 BTC Verified Stolen. It's All Still Sitting There.</h1>
             </header>
 
             <!-- Disclaimer -->
             <div class="disclaimer-banner" role="note">
                 <span class="disclaimer-tag">⚠ Notice</span>
                 <span>
-                    Figures represent verified on-chain data cross-referenced with Galaxy Research, Block engineering analysis, and Coinspect. Heuristic totals include high-confidence matches only. 
+                    These numbers show verified on-chain data cross-checked with Galaxy Research, Block, and Coinspect. Our estimates only include high-confidence matches.
                     <strong>Data last updated: <span id="data-timestamp">—</span></strong>
                 </span>
             </div>
@@ -76,8 +68,8 @@
                     <div class="pulse-label">UTXOs Swept</div>
                 </div>
                 <div class="pulse-stat">
-                    <div class="pulse-number" id="stat-waves">10</div>
-                    <div class="pulse-label">Attack Waves</div>
+                    <div class="pulse-number" id="stat-waves">4</div>
+                    <div class="pulse-label">Core Attack Waves</div>
                 </div>
                 <div class="pulse-stat">
                     <div class="pulse-number" id="stat-status">HOLDING</div>
@@ -98,7 +90,7 @@
                     <span class="section-tag">Cumulative BTC · Wave-annotated</span>
                 </div>
                 <p class="section-subhead">
-                    Cumulative BTC stolen per hour. The initial Wave 1 burst extracted the vast majority in under 42 minutes — an automated script moving faster than any manual operator could.
+                    Total BTC stolen over time. The attacker stole the vast majority of funds in just 42 minutes during Wave 1—moving way faster than any human could.
                 </p>
                 <div class="chart-container">
                     <div id="timelineChart" style="width:100%;height:100%;"></div>
@@ -112,18 +104,22 @@
             <section class="section-wrap" id="section-waves">
                 <div class="section-header">
                     <h2>The Attacker Evolved</h2>
-                    <span class="section-tag">Unique Insight · Fee &amp; Tactic Analysis</span>
+                    <span class="section-tag">Our Core Attack Waves</span>
                 </div>
                 <p class="section-subhead">
-                    Between Wave 1 and Wave 3, the attacker completely changed their consolidation strategy — a real-time adaptation to community detection efforts.
+                    The attacker changed their strategy as the community started tracking them. Between Wave 1 and Wave 3, they shifted how they moved the stolen funds.
                 </p>
 
                 <div class="wave-grid" id="wave-cards" role="region" aria-label="Attack wave comparison">
                     <!-- Populated by JS -->
                 </div>
 
-                <div class="wave-narrative">
-                    <strong>The tactical evolution tells a story:</strong> Wave 1 used shared collector addresses — easy to identify and track. As the community began flagging those addresses in real time, the attacker adapted. Wave 3 swept every single victim into its own unique, freshly-generated P2WSH vault. The only signal remaining was the fee rate: <strong>201.0 sat/vB</strong> when the network was clearing transactions at ~3 sat/vB. A rate that constant across 1,626 unrelated sweeps is hardcoded in a script — not independently chosen by 1,626 different people.
+                <div class="wave-narrative" style="margin-bottom: 1.5rem;">
+                    <strong>Here's what happened:</strong> In Wave 1, the attacker sent stolen funds to a few shared addresses, which were easy to track. Once the community noticed, the attacker adapted. By Wave 3, they started sending each victim's funds to a brand new, unique address. The only clue left was the network fee: they paid exactly 201.0 sat/vB across 1,626 separate transactions, even when normal fees were around 3 sat/vB. This proves a single automated script was running the attack.
+                </div>
+                
+                <div class="wave-narrative" style="background: var(--bg-card); border-color: var(--border-color);">
+                    <strong>Community-Reported Activity (Waves 5-10):</strong> While we focus on the 4 main attack waves, the community has tracked up to 10 waves in total. These later waves are harder to tie directly to the main attacker, but they are widely reported.
                 </div>
             </section>
 
@@ -133,28 +129,28 @@
 
             <section class="section-wrap" id="section-taxonomy">
                 <div class="section-header">
-                    <h2>Attacker Strategy Taxonomy</h2>
+                    <h2>How The Funds Were Laundered</h2>
                     <span class="section-tag">Cross-Validated · Chainalysis</span>
                 </div>
                 <p class="section-subhead">
-                    Multiple independent attackers were involved. Chainalysis identified four distinct laundering strategies across the stolen funds.
+                    Multiple attackers were likely involved. We've confirmed four main ways the stolen funds were laundered.
                 </p>
-                <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(220px, 1fr));gap:1rem;margin-top:1.5rem;">
-                    <div style="background:var(--bg-card);padding:1.5rem;border:1px solid var(--border-color);border-radius:8px;">
-                        <h3 style="font-size:1.1rem;margin:0 0 0.5rem 0;">Type 1: Consolidation</h3>
-                        <p style="font-size:0.9rem;color:var(--text-faint);margin:0;">Swept into large cold storage vaults. Over $35M remains dormant and unspent.</p>
+                <div class="taxonomy-grid">
+                    <div class="taxonomy-card">
+                        <h3>Type 1: Holding in Cold Storage</h3>
+                        <p>Sent to large cold storage wallets. Over $35M is just sitting there unspent.</p>
                     </div>
-                    <div style="background:var(--bg-card);padding:1.5rem;border:1px solid var(--border-color);border-radius:8px;">
-                        <h3 style="font-size:1.1rem;margin:0 0 0.5rem 0;">Type 2: Cross-chain</h3>
-                        <p style="font-size:0.9rem;color:var(--text-faint);margin:0;">Bridged out to EVM chains and actively laundered through TornadoCash.</p>
+                    <div class="taxonomy-card">
+                        <h3>Type 2: Moved to Other Chains</h3>
+                        <p>Moved to Ethereum and other chains, then laundered through TornadoCash.</p>
                     </div>
-                    <div style="background:var(--bg-card);padding:1.5rem;border:1px solid var(--border-color);border-radius:8px;">
-                        <h3 style="font-size:1.1rem;margin:0 0 0.5rem 0;">Type 3: CEX Off-ramp</h3>
-                        <p style="font-size:0.9rem;color:var(--text-faint);margin:0;">Moved through intermediary addresses and deposited directly to Centralized Exchanges.</p>
+                    <div class="taxonomy-card">
+                        <h3>Type 3: Sent to Exchanges</h3>
+                        <p>Sent to crypto exchanges through intermediary wallets.</p>
                     </div>
-                    <div style="background:var(--bg-card);padding:1.5rem;border:1px solid var(--border-color);border-radius:8px;">
-                        <h3 style="font-size:1.1rem;margin:0 0 0.5rem 0;">Type 4: CoinJoin</h3>
-                        <p style="font-size:0.9rem;color:var(--text-faint);margin:0;">Actively mixed utilizing the Wasabi Wallet coordinator protocol.</p>
+                    <div class="taxonomy-card">
+                        <h3>Type 4: Mixed via CoinJoin</h3>
+                        <p>Mixed using Wasabi Wallet to hide the transaction trail.</p>
                     </div>
                 </div>
             </section>
@@ -166,23 +162,23 @@
             <section class="section-wrap" id="section-victims">
                 <div class="section-header">
                     <h2>Who Was Hit?</h2>
-                    <span class="section-tag">Unique Insight · Victim Impact Distribution</span>
+                    <span class="section-tag">Victim Impact</span>
                 </div>
                 <p class="section-subhead">
-                    Distribution of swept addresses by BTC amount lost. Computed from our heuristic sweep dataset — every address flagged with ≥50% confidence score.
+                    Here is a breakdown of how much BTC each victim lost, based on our high-confidence data.
                 </p>
-                <div style="display:flex;gap:1.5rem;margin-bottom:1.5rem;font-family:var(--font-sans);">
-                    <div style="flex:1;background:var(--bg-card);padding:1rem;border:1px solid var(--border-color);border-radius:8px;text-align:center;">
-                        <div style="font-size:1.5rem;font-weight:700;color:var(--text-primary);margin-bottom:0.25rem;">3.5 Years</div>
-                        <div style="font-size:0.8rem;color:var(--text-faint);text-transform:uppercase;letter-spacing:0.05em;">Median Dormancy</div>
+                <div class="demographics-strip">
+                    <div class="demographics-card">
+                        <div class="demographics-value">3.5 Years</div>
+                        <div class="demographics-label">Median Time Held</div>
                     </div>
-                    <div style="flex:1;background:var(--bg-card);padding:1rem;border:1px solid var(--border-color);border-radius:8px;text-align:center;">
-                        <div style="font-size:1.5rem;font-weight:700;color:var(--text-primary);margin-bottom:0.25rem;">88%</div>
-                        <div style="font-size:0.8rem;color:var(--text-faint);text-transform:uppercase;letter-spacing:0.05em;">Coins > 1 Yr Old</div>
+                    <div class="demographics-card">
+                        <div class="demographics-value">88%</div>
+                        <div class="demographics-label">Coins Held > 1 Year</div>
                     </div>
-                    <div style="flex:1;background:var(--bg-card);padding:1rem;border:1px solid var(--border-color);border-radius:8px;text-align:center;">
-                        <div style="font-size:1.5rem;font-weight:700;color:var(--text-primary);margin-bottom:0.25rem;">1.02 BTC</div>
-                        <div style="font-size:0.8rem;color:var(--text-faint);text-transform:uppercase;letter-spacing:0.05em;">Median Victim Loss</div>
+                    <div class="demographics-card">
+                        <div class="demographics-value">1.02 BTC</div>
+                        <div class="demographics-label">Median Victim Loss</div>
                     </div>
                 </div>
                 <div class="histogram-wrap" id="histogram-wrap">
@@ -203,10 +199,10 @@
             <section class="section-wrap" id="section-wallets">
                 <div class="section-header">
                     <h2>Where Are The Coins?</h2>
-                    <span class="section-tag">Tier 1 Verified · Attacker Consolidation</span>
+                    <span class="section-tag">Verified Attacker Wallets</span>
                 </div>
                 <p class="section-subhead">
-                    Verified attacker addresses cross-validated by Galaxy Research, Block engineering analysis, and Coinspect. All balances sourced from public blockchain data.
+                    These are the verified attacker wallets, confirmed by Galaxy Research, Block, and Coinspect using public blockchain data.
                 </p>
 
                 <div class="wallet-grid" id="wallet-grid" role="list">
@@ -219,9 +215,9 @@
                 </div>
 
                 <div class="wallet-floor-note" style="margin-top:1rem;">
-                    <strong>These are verified minimums, not totals.</strong>
-                    Wave 3 used per-victim isolated vaults, making full enumeration harder. Treat this as a floor.
-                    Our heuristic pipeline identified an additional <span id="heuristic-total">—</span> BTC in high-confidence matches.
+                    <strong>These numbers are minimums.</strong>
+                    In Wave 3, the attacker used a unique wallet for every victim, making it hard to track everything.
+                    Our system found an additional <span id="heuristic-total">—</span> BTC that likely belongs to the attacker.
                     <a href="methodology.html" style="color:var(--accent-text);">How addresses are identified →</a>
                 </div>
 
@@ -244,10 +240,10 @@
             <section class="section-wrap" id="section-checker">
                 <div class="section-header">
                     <h2>Check Your Exposure</h2>
-                    <span class="section-tag">Privacy-Preserving · Client-Side Only</span>
+                    <span class="section-tag">Private &amp; Secure Check</span>
                 </div>
                 <p class="section-subhead">
-                    Your address is hashed locally in your browser using SHA-256. The hash is checked against our database of <span id="hash-count">4,925+</span> verified compromised addresses. <strong>Your address is never transmitted to our servers.</strong>
+                    We check your address locally on your device against our database of <span id="hash-count">4,925+</span> compromised addresses. <strong>Your address is never sent to our servers.</strong>
                 </p>
 
                 <div class="checker-section">
@@ -264,10 +260,10 @@
                 <!-- Firmware Table -->
                 <div class="section-header" style="margin-top:2rem;">
                     <h2>Is Your Coldcard Affected?</h2>
-                    <span class="section-tag">Firmware Vulnerability Matrix</span>
+                    <span class="section-tag">Firmware Matrix</span>
                 </div>
                 <p class="section-subhead">
-                    Seeds generated on affected firmware operated on a structurally flawed RNG. Updating firmware does <strong>not</strong> repair an existing seed — you must generate a new seed on fixed firmware.
+                    If you created your wallet on affected firmware, your seed phrase is vulnerable. Updating the firmware does <strong>not</strong> fix an existing seed—you must create a brand new wallet after updating.
                 </p>
                 <div class="firmware-table-wrap">
                     <table class="firmware-table" aria-label="Firmware vulnerability status by model and version">
@@ -334,27 +330,30 @@
             </section>
 
             <!-- ═══════════════════════════════════════════════════════
-                 APPENDIX · TIER 1 ADDRESS TABLE
+                 ACT 7 · SOURCES & CROSS-VALIDATION
             ═══════════════════════════════════════════════════════ -->
 
-            <section class="section-wrap" id="section-tier1">
+            <section class="section-wrap" id="section-sources">
                 <div class="section-header">
-                    <h2>Tier 1: Verified Consolidators</h2>
-                    <span class="section-tag">Cross-Validated · Galaxy / Block / Coinspect</span>
+                    <h2>Sources &amp; Validation</h2>
+                    <span class="section-tag">Community Data</span>
                 </div>
-                <p class="section-subhead">Addresses confirmed via destination convergence heuristics and cross-validated against independent research firm datasets.</p>
-                <div class="table-container">
-                    <table class="data-table" id="attacker-table-tier-1" aria-label="Tier 1 verified attacker consolidation addresses">
-                        <thead>
-                            <tr>
-                                <th>Address</th>
-                                <th>First Seen</th>
-                                <th>Total Received (BTC)</th>
-                                <th>Confidence</th>
-                            </tr>
-                        </thead>
-                        <tbody><!-- Populated by JS --></tbody>
-                    </table>
+                <p class="section-subhead">
+                    We cross-checked our findings (1,983 BTC) against these independent community reports.
+                </p>
+                <div class="taxonomy-grid">
+                    <div class="taxonomy-card">
+                        <h3>Galaxy Research (Alex Thorn)</h3>
+                        <p>Verified 1,719 BTC stolen from direct victim reports. Confirmed demographic targeting: high net-worth individuals with multi-year dormant coins.</p>
+                    </div>
+                    <div class="taxonomy-card">
+                        <h3>Chainalysis</h3>
+                        <p>Identified four distinct laundering taxonomies (Consolidation, Cross-chain, CEX, CoinJoin).</p>
+                    </div>
+                    <div class="taxonomy-card">
+                        <h3>coldcard.rip</h3>
+                        <p>Identified 10 waves of automated sweeps grouped by block height.</p>
+                    </div>
                 </div>
             </section>
 

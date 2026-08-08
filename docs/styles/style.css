@@ -807,8 +807,72 @@ body {
     box-shadow: var(--shadow-md);
     margin-top: 1.5rem;
 }
-.explorer-cta-text { font-family: var(--font-sans); font-size: 0.9rem; color: var(--text-dim); max-width: 60ch; }
+.explorer-cta-text {
+    font-family: var(--font-sans);
+    font-size: 0.88rem;
+    color: var(--text-dim);
+    line-height: 1.6;
+}
 .explorer-cta-text strong { color: var(--text-color); }
+
+/* ── Taxonomy Grid ────────────────────────────────────────────────────── */
+
+.taxonomy-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.taxonomy-card {
+    background: var(--bg-card);
+    padding: 1.5rem;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+}
+
+.taxonomy-card h3 {
+    font-size: 1.1rem;
+    margin: 0 0 0.5rem 0;
+}
+
+.taxonomy-card p {
+    font-size: 0.9rem;
+    color: var(--text-faint);
+    margin: 0;
+}
+
+/* ── Demographics Strip ───────────────────────────────────────────────── */
+
+.demographics-strip {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-family: var(--font-sans);
+}
+
+.demographics-card {
+    flex: 1;
+    background: var(--bg-card);
+    padding: 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.demographics-value {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--text-color);
+    margin-bottom: 0.25rem;
+}
+
+.demographics-label {
+    font-size: 0.8rem;
+    color: var(--text-faint);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
 
 /* ── Table Actions ────────────────────────────────────────────────────── */
 

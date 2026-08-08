@@ -234,18 +234,11 @@
         <main id="main-content">
 
             <header class="page-hero" style="padding-bottom:1.5rem;margin-bottom:1.5rem;">
-                <p class="hero-kicker">Bitcoin Data Labs · Coldcard Investigation · Transaction Graph Explorer</p>
                 <h1 class="page-title" style="font-size:clamp(1.8rem,4vw,2.8rem);">Fund Flow Graph Explorer</h1>
-                <p class="hero-lede">
-                    Visualize on-chain relationships between swept victim addresses, attacker consolidation wallets, and Wave 3 isolated vaults.
-                    Click any node to inspect details and open in mempool.space.
-                </p>
             </header>
 
             <div class="explorer-intro">
-                <strong>About this graph:</strong> This interactive explorer allows you to visually trace the on-chain fund flows associated with the Coldcard RNG vulnerability. Built directly from our verified pipeline data, it maps the movement of stolen BTC from victim addresses to the attacker's consolidation wallets and isolated vaults.
-                Nodes represent addresses; edges represent BTC transfers. Size scales with BTC value. Color indicates wave.
-                <strong>Three attacker patterns</strong> are visible: centralized collectors (Waves 1 & 2), a noisier pattern with privacy mistakes moving toward Binance/ChangeNOW, and the isolated vault strategy (Wave 3).
+                <strong>About this graph:</strong> Trace the movement of stolen BTC from victims to the attacker's wallets. Nodes are addresses, edges are transfers, and size shows the BTC amount. Color shows the attack wave. You'll see <strong>three main patterns</strong>: centralized collecting (Waves 1 & 2), noisy transfers with privacy mistakes, and isolated vaults (Wave 3). Click any node to see details.
             </div>
 
             <!-- Controls -->
@@ -339,26 +332,25 @@
             <!-- Attacker Pattern Summary -->
             <div style="margin-top:2rem;">
                 <div class="section-header">
-                    <h2>Three Attacker Patterns (per @ProfEduStream)</h2>
-                    <span class="section-tag">Community Investigation · Aug 2, 2026</span>
+                    <h2>Three Attacker Patterns</h2>
+                    <span class="section-tag">Community Investigation</span>
                 </div>
                 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1px;background:var(--border-color);border:1px solid var(--border-color);box-shadow:var(--shadow-md);">
                     <div style="background:var(--bg-card);padding:1.25rem;">
                         <div style="font-family:var(--font-mono);font-size:0.7rem;font-weight:700;color:var(--wave1-color);text-transform:uppercase;letter-spacing:0.08em;margin-bottom:0.5rem;">Pattern A · Scripted Batches</div>
-                        <p style="font-family:var(--font-sans);font-size:0.85rem;color:var(--text-dim);line-height:1.6;margin:0;">Initial wave of five clearly scripted sweeps followed by UTXO consolidation. Bitcoin linked to these transactions <strong style="color:var(--text-color)">remains untouched</strong>. Attacker appears to be waiting out monitoring.</p>
+                        <p style="font-family:var(--font-sans);font-size:0.85rem;color:var(--text-dim);line-height:1.6;margin:0;">Five clear scripted waves followed by consolidation. This Bitcoin <strong style="color:var(--text-color)">remains untouched</strong>. The attacker seems to be waiting.</p>
                     </div>
                     <div style="background:var(--bg-card);padding:1.25rem;">
-                        <div style="font-family:var(--font-mono);font-size:0.7rem;font-weight:700;color:var(--wave2-color);text-transform:uppercase;letter-spacing:0.08em;margin-bottom:0.5rem;">Pattern B · Erratic, Privacy Mistakes</div>
-                        <p style="font-family:var(--font-sans);font-size:0.85rem;color:var(--text-dim);line-height:1.6;margin:0;">Noisy pattern: repeated consolidations with no obvious rationale. Some funds reached a cluster linked to Chivo Wallet &amp; Binance, six transactions via ChangeNOW, one CoinJoin service with outputs to Binance. <strong style="color:var(--text-color)">Potentially a different attacker.</strong></p>
+                        <div style="font-family:var(--font-mono);font-size:0.7rem;font-weight:700;color:var(--wave2-color);text-transform:uppercase;letter-spacing:0.08em;margin-bottom:0.5rem;">Pattern B · Messy & Noisy</div>
+                        <p style="font-family:var(--font-sans);font-size:0.85rem;color:var(--text-dim);line-height:1.6;margin:0;">Repeated, noisy transfers. Some funds moved to Binance or ChangeNOW. <strong style="color:var(--text-color)">This might be a different attacker entirely.</strong></p>
                     </div>
                     <div style="background:var(--bg-card);padding:1.25rem;">
-                        <div style="font-family:var(--font-mono);font-size:0.7rem;font-weight:700;color:var(--wave3-color);text-transform:uppercase;letter-spacing:0.08em;margin-bottom:0.5rem;">Pattern C · Additional Waves, Holding</div>
-                        <p style="font-family:var(--font-sans);font-size:0.85rem;color:var(--text-dim);line-height:1.6;margin:0;">Additional waves resembling Pattern A. Bitcoin <strong style="color:var(--text-color)">has not moved</strong> — possibly because the attacker knows these transactions are being tracked closely on-chain.</p>
+                        <div style="font-family:var(--font-mono);font-size:0.7rem;font-weight:700;color:var(--wave3-color);text-transform:uppercase;letter-spacing:0.08em;margin-bottom:0.5rem;">Pattern C · Holding Steady</div>
+                        <p style="font-family:var(--font-sans);font-size:0.85rem;color:var(--text-dim);line-height:1.6;margin:0;">Similar to Pattern A, this Bitcoin <strong style="color:var(--text-color)">has not moved</strong> — possibly because it's being heavily monitored.</p>
                     </div>
                 </div>
                 <p style="font-family:var(--font-sans);font-size:0.78rem;color:var(--text-faint);margin-top:0.75rem;">
-                    Source: <a href="https://x.com/ProfEduStream/status/2084021570872160545" rel="noopener" target="_blank" style="color:var(--accent-text)">@ProfEduStream (Aug 2, 2026)</a> — independent manual UTXO mapping analysis.
-                    Attribution remains preliminary and uncertain.
+                    Source: <a href="https://x.com/ProfEduStream/status/2084021570872160545" rel="noopener" target="_blank" style="color:var(--accent-text)">@ProfEduStream</a>.
                 </p>
             </div>
 

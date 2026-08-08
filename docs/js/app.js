@@ -108,8 +108,8 @@ function renderStatCards(summary, tier1) {
     const status = document.getElementById('stat-status');
 
     if (stolen) {
-        const btc = Number(summary.externally_validated_btc || summary.total_stolen_tier_1_btc);
-        stolen.textContent = fmt(btc, 2) + ' BTC';
+        const btc = Math.floor(Number(summary.total_stolen_tier_1_btc));
+        stolen.textContent = fmt(btc, 0) + ' BTC';
     }
     if (utxos) utxos.textContent = fmt(summary.addresses_drained_verified || summary.swept_utxos_count, 0);
 
