@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Report & Methodology - Coldcard Tracker</title>
+    <title>How We Track The Stolen Funds - Coldcard Tracker</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;0,6..72,800;1,6..72,400&display=swap" rel="stylesheet">
@@ -19,93 +19,16 @@
     <div class="app-container">
         <main id="main-content">
             <header class="page-hero" style="padding-bottom:1.5rem;margin-bottom:1.5rem;">
-                <h1 class="page-title" style="font-size:clamp(1.8rem,4vw,2.8rem);">Report & Methodology</h1>
+                <h1 class="page-title" style="font-size:clamp(1.8rem,4vw,2.8rem);">How We Track The Stolen Funds</h1>
+                <p class="hero-lede">
+                    Our methodology for detecting, tracking, and verifying stolen funds on-chain.
+                    <br><strong>Data last updated: <span id="data-timestamp">—</span></strong>
+                </p>
             </header>
 
             <section class="section-wrap visible" style="margin-bottom: 3rem;">
                 <div class="report-content" style="line-height: 1.7; font-family: var(--font-sans); color: var(--text-color);">
-                    <div class="alert alert-warning" style="padding: 1rem; border-radius: 0.5rem; margin-bottom: 1.5rem; background-color: var(--wave2-color); color: #fff; border: 1px solid rgba(0,0,0,0.1);">
-                        <strong>Critical Action Required:</strong> If you generated a seed using an affected Coldcard firmware version, Coinkite strongly advises moving your funds immediately. A firmware update alone cannot secure an already compromised seed.
-                    </div>
-
-                <h2 style="margin-top: 0;">1. How The Hack Happened</h2>
-                <p>
-                    A critical flaw was found in specific Coldcard hardware wallets. Due to a coding error, the random number generator on older Mk2 and Mk3 devices didn't use secure hardware entropy. Instead, it used a predictable software fallback. This made it possible for attackers to guess users' wallet seed phrases.
-                </p>
-
-                <h2 style="margin-top: 2rem; margin-bottom: 1rem; font-size: 1.25rem;">Firmware Advisory & Device Status</h2>
-                <div class="firmware-table-wrap">
-                    <table class="firmware-table" aria-label="Firmware vulnerability status by model and version">
-                        <thead>
-                            <tr>
-                                <th>Model</th>
-                                <th>Affected Versions</th>
-                                <th>Entropy</th>
-                                <th>Fixed In</th>
-                                <th>Status</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td><strong>Mk3</strong></td>
-                                <td>v4.0.1 – v4.1.9</td>
-                                <td>~40-bit</td>
-                                <td>v4.2.0 (Jul 31, 2026)</td>
-                                <td class="status-vuln">❌ Fully Vulnerable</td>
-                            </tr>
-                            <tr>
-                                <td><strong>Mk3</strong></td>
-                                <td>v5.0.1, v5.0.3</td>
-                                <td>~40-bit</td>
-                                <td>—</td>
-                                <td class="status-vuln">❌ At Risk (see note)</td>
-                            </tr>
-                            <tr>
-                                <td><strong>Mk2</strong></td>
-                                <td>All</td>
-                                <td>Hardware RNG</td>
-                                <td>No fix published</td>
-                                <td class="status-fixed">✅ Not Affected</td>
-                            </tr>
-                            <tr>
-                                <td><strong>Mk4</strong></td>
-                                <td>v5.0.0 – v5.5.x</td>
-                                <td>~72-bit</td>
-                                <td>v5.6.0 (Jul 31, 2026)</td>
-                                <td class="status-partial">⚠ Partially Affected</td>
-                            </tr>
-                            <tr>
-                                <td><strong>Mk5</strong></td>
-                                <td>v5.0.0 – v5.5.x</td>
-                                <td>~72-bit</td>
-                                <td>v5.6.0 (Jul 31, 2026)</td>
-                                <td class="status-partial">⚠ Partially Affected</td>
-                            </tr>
-                            <tr>
-                                <td><strong>Q</strong></td>
-                                <td>v1.0.0 – v1.4.x</td>
-                                <td>~72-bit</td>
-                                <td>v1.5.0Q (Jul 31, 2026)</td>
-                                <td class="status-partial">⚠ Partially Affected</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-
-                <h2>2. How The Attacker Operated</h2>
-                <p>
-                    Attackers essentially generated all possible vulnerable wallets and checked if any of them held funds.
-                </p>
-                <p>
-                    We found that attackers actively exploited this using:
-                </p>
-                <ul style="margin-bottom: 1rem; padding-left: 1.5rem;">
-                    <li style="margin-bottom: 0.5rem;"><strong>Automated Scripts:</strong> Bots constantly monitor the network to steal funds the moment a vulnerable wallet is found.</li>
-                    <li style="margin-bottom: 0.5rem;"><strong>High Fees:</strong> Attackers pay massive network fees to make sure their theft transactions process before victims can move their own money.</li>
-                    <li style="margin-bottom: 0.5rem;"><strong>Consolidation:</strong> They move the stolen coins into large central wallets before attempting to launder them.</li>
-                </ul>
-
-                <h2>3. How We Track The Stolen Funds</h2>
+                <h2 style="margin-top: 0;">1. Data Pipeline & Tracking Methodology</h2>
                 <p>
                     To track the stolen funds on this dashboard, we monitor the blockchain for specific patterns:
                 </p>
@@ -118,7 +41,7 @@
                     This allows us to estimate the total amount stolen in real-time.
                 </p>
 
-                <h2>4. How We Verify Data</h2>
+                <h2>2. How We Verify Data</h2>
                 <p>We categorize data into three tiers to ensure accuracy:</p>
                 <ul>
                     <li><strong>Tier 1: Verified Wallets</strong>: Addresses confirmed to belong to the attacker, cross-checked with top research firms (Galaxy, Block).</li>
@@ -126,7 +49,7 @@
                     <li><strong>Tier 3: System Discoveries</strong>: Addresses automatically flagged by our system because they match the attacker's strict behavior patterns.</li>
                 </ul>
 
-                <h2>5. The Attacker's Footprint</h2>
+                <h2>3. The Attacker's Footprint</h2>
                 <p>The attacker's automated script left behind clear fingerprints. <strong>We focus on 4 core waves defined by exact network fees, rather than the 10 waves reported by the community.</strong> This strict method guarantees high accuracy. We score transactions based on:</p>
                 <ul>
                     <li><strong>Exact Fees (+25 pts)</strong>: The attacker hardcoded specific fee rates for each wave (30.0, 50.2, 10.0, and 201.0 sat/vB).</li>
@@ -162,22 +85,16 @@
                     <div id="scatterChart" style="width: 100%; height: 100%;"></div>
                 </div>
 
-                <h2>6. Automated Promotion</h2>
+                <h2>4. Automated Promotion</h2>
                 <p>If a Tier 2 (Crowdsourced) address receives a transaction that strongly matches our strict heuristics (score >= 50), the pipeline automatically promotes that address to Tier 1 (Verified), creating a powerful automated feedback loop for community intelligence.</p>
 
-                <h2>7. Evasion Tactics (Wave 3)</h2>
+                <h2>5. Evasion Tactics (Wave 3)</h2>
                 <p>In early waves, the attacker swept thousands of wallets into a handful of shared collector addresses. During Wave 3 (July 31st), the attacker changed tactics to evade address-clustering detection: they swept every victim wallet into its own completely fresh, dedicated P2WSH vault.</p>
                 <p>Because they did not reuse addresses, our system relies entirely on the strict 201.0 sat/vB fingerprint to track Wave 3. This generated tens of thousands of individual clusters in our Tier 3 bucket, successfully capturing the decentralized sweeps without polluting the Tier 1 verified metrics.</p>
-                <h2>8. Actionable Advice</h2>
+                <h2>6. Actionable Advice</h2>
                 <p>
-                    If you believe you may be affected:
+                    If you believe you may be affected, see the <a href="index.html#section-checker">Firmware Advisory</a> on the main dashboard for guidance.
                 </p>
-                <ul style="margin-bottom: 1rem; padding-left: 1.5rem;">
-                    <li style="margin-bottom: 0.5rem;">Generate a new seed phrase on a device running patched firmware (or a different secure device).</li>
-                    <li style="margin-bottom: 0.5rem;">Transfer all funds from the old seed to the new one.</li>
-                    <li style="margin-bottom: 0.5rem;">Use a sufficient fee rate to ensure your transaction confirms quickly and cannot be easily RBF'd by an attacker's sweeping script.</li>
-                    <li style="margin-bottom: 0.5rem;">Review Coinkite's official blog for the definitive technical postmortem and detailed mitigation steps.</li>
-                </ul>
             </div>
             </section>
         </main>

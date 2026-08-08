@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Transaction Graph Explorer — Coldcard Investigation</title>
-    <meta name="description" content="Interactive on-chain transaction graph explorer for the Coldcard RNG vulnerability. Trace fund flows from victims to attacker consolidation addresses visually.">
+    <meta name="description"
+        content="Interactive on-chain transaction graph explorer for the Coldcard RNG vulnerability. Trace fund flows from victims to attacker consolidation addresses visually.">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;0,6..72,800;1,6..72,400&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;0,6..72,800;1,6..72,400&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="https://bitcoindatalabs.org/styles/styles.css">
     <link rel="stylesheet" href="styles/style.css">
@@ -25,15 +29,18 @@
             box-shadow: var(--shadow-lg);
             min-height: 600px;
         }
+
         .graph-canvas {
             background: var(--bg-color);
             height: 640px;
             position: relative;
         }
+
         #graphChart {
             width: 100%;
             height: 100%;
         }
+
         .graph-panel {
             background: var(--bg-card);
             padding: 1.25rem;
@@ -41,6 +48,7 @@
             border-left: 1px solid var(--border-color);
             font-family: var(--font-sans);
         }
+
         .graph-panel h3 {
             font-family: var(--font-sans);
             font-size: 0.72rem;
@@ -52,12 +60,15 @@
             padding-bottom: 0.4rem;
             border-bottom: 1px solid var(--border-color);
         }
+
         .node-detail {
             display: none;
         }
+
         .node-detail.active {
             display: block;
         }
+
         .detail-addr {
             font-family: var(--font-mono);
             font-size: 0.72rem;
@@ -66,6 +77,7 @@
             margin-bottom: 0.75rem;
             line-height: 1.5;
         }
+
         .detail-row {
             display: flex;
             justify-content: space-between;
@@ -75,15 +87,28 @@
             border-bottom: 1px dotted var(--border-color);
             font-size: 0.8rem;
         }
-        .detail-row:last-child { border-bottom: none; }
-        .detail-key { color: var(--text-dim); }
-        .detail-val { font-weight: 700; color: var(--text-color); text-align: right; }
+
+        .detail-row:last-child {
+            border-bottom: none;
+        }
+
+        .detail-key {
+            color: var(--text-dim);
+        }
+
+        .detail-val {
+            font-weight: 700;
+            color: var(--text-color);
+            text-align: right;
+        }
+
         .detail-actions {
             margin-top: 1rem;
             display: flex;
             flex-direction: column;
             gap: var(--sp-2);
         }
+
         .detail-link {
             display: inline-flex;
             align-items: center;
@@ -93,13 +118,17 @@
             text-decoration: none;
             font-weight: 600;
         }
-        .detail-link:hover { text-decoration: underline; }
+
+        .detail-link:hover {
+            text-decoration: underline;
+        }
 
         .legend-wrap {
             margin-bottom: 1.25rem;
             padding-bottom: 1rem;
             border-bottom: 1px solid var(--border-color);
         }
+
         .legend-item {
             display: flex;
             align-items: center;
@@ -108,13 +137,17 @@
             color: var(--text-dim);
             margin-bottom: var(--sp-2);
         }
+
         .legend-dot {
-            width: 10px; height: 10px;
+            width: 10px;
+            height: 10px;
             border-radius: 50%;
             flex-shrink: 0;
         }
+
         .legend-diamond {
-            width: 10px; height: 10px;
+            width: 10px;
+            height: 10px;
             background: var(--wave1-color);
             transform: rotate(45deg);
             flex-shrink: 0;
@@ -127,16 +160,19 @@
             flex-wrap: wrap;
             align-items: center;
         }
+
         .ctrl-label {
             font-family: var(--font-sans);
             font-size: 0.78rem;
             color: var(--text-dim);
             font-weight: 600;
         }
+
         .wave-filter {
             display: flex;
             gap: var(--sp-2);
         }
+
         .wave-btn {
             padding: 4px 10px;
             font-family: var(--font-sans);
@@ -149,19 +185,55 @@
             cursor: pointer;
             transition: all 150ms;
         }
+
         .wave-btn.active {
             color: #fff !important;
         }
-        .wave-btn.w1 { color: var(--wave1-color); border-color: var(--wave1-color); }
-        .wave-btn.w1.active { background: var(--wave1-color); }
-        .wave-btn.w2 { color: var(--wave2-color); border-color: var(--wave2-color); }
-        .wave-btn.w2.active { background: var(--wave2-color); }
-        .wave-btn.w2b { color: var(--wave2b-color); border-color: var(--wave2b-color); }
-        .wave-btn.w2b.active { background: var(--wave2b-color); }
-        .wave-btn.w3 { color: var(--wave3-color); border-color: var(--wave3-color); }
-        .wave-btn.w3.active { background: var(--wave3-color); }
-        .wave-btn.all { color: var(--text-color); border-color: var(--border-strong); }
-        .wave-btn.all.active { background: var(--text-color); }
+
+        .wave-btn.w1 {
+            color: var(--wave1-color);
+            border-color: var(--wave1-color);
+        }
+
+        .wave-btn.w1.active {
+            background: var(--wave1-color);
+        }
+
+        .wave-btn.w2 {
+            color: var(--wave2-color);
+            border-color: var(--wave2-color);
+        }
+
+        .wave-btn.w2.active {
+            background: var(--wave2-color);
+        }
+
+        .wave-btn.w2b {
+            color: var(--wave2b-color);
+            border-color: var(--wave2b-color);
+        }
+
+        .wave-btn.w2b.active {
+            background: var(--wave2b-color);
+        }
+
+        .wave-btn.w3 {
+            color: var(--wave3-color);
+            border-color: var(--wave3-color);
+        }
+
+        .wave-btn.w3.active {
+            background: var(--wave3-color);
+        }
+
+        .wave-btn.all {
+            color: var(--text-color);
+            border-color: var(--border-strong);
+        }
+
+        .wave-btn.all.active {
+            background: var(--text-color);
+        }
 
         .explorer-intro {
             background: var(--bg-card);
@@ -174,7 +246,10 @@
             line-height: 1.6;
             box-shadow: var(--shadow-sm);
         }
-        .explorer-intro strong { color: var(--text-color); }
+
+        .explorer-intro strong {
+            color: var(--text-color);
+        }
 
         .graph-loading {
             position: absolute;
@@ -190,15 +265,25 @@
             gap: var(--sp-3);
             z-index: 10;
         }
-        .graph-loading.hidden { display: none; }
+
+        .graph-loading.hidden {
+            display: none;
+        }
+
         .spinner {
-            width: 28px; height: 28px;
+            width: 28px;
+            height: 28px;
             border: 3px solid var(--border-color);
             border-top-color: var(--accent-text);
             border-radius: 50%;
             animation: spin 0.7s linear infinite;
         }
-        @keyframes spin { to { transform: rotate(360deg); } }
+
+        @keyframes spin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
 
         .placeholder-panel {
             display: flex;
@@ -206,6 +291,7 @@
             gap: var(--sp-3);
             align-items: flex-start;
         }
+
         .placeholder-panel p {
             font-size: 0.82rem;
             color: var(--text-faint);
@@ -218,15 +304,20 @@
             .explorer-layout {
                 grid-template-columns: 1fr;
             }
+
             .graph-panel {
                 border-left: none;
                 border-top: 1px solid var(--border-color);
                 max-height: 320px;
             }
-            .graph-canvas { height: 420px; }
+
+            .graph-canvas {
+                height: 420px;
+            }
         }
     </style>
 </head>
+
 <body class="has-fixed-header">
     <div id="header"></div>
 
@@ -238,18 +329,27 @@
             </header>
 
             <div class="explorer-intro">
-                <strong>About this graph:</strong> Trace the movement of stolen BTC from victims to the attacker's wallets. Nodes are addresses, edges are transfers, and size shows the BTC amount. Color shows the attack wave. You'll see <strong>three main patterns</strong>: centralized collecting (Waves 1 & 2), noisy transfers with privacy mistakes, and isolated vaults (Wave 3). Click any node to see details.
+                <strong>About this graph:</strong> Trace the movement of stolen BTC from victims to the attacker's
+                wallets. Nodes are addresses, edges are transfers, and size shows the BTC amount. Color shows the attack
+                wave. You'll see <strong>three main patterns</strong>: centralized collecting (Waves 1 & 2), noisy
+                transfers with privacy mistakes, and isolated vaults (Wave 3). Click any node to see details.
+                <br><br><strong>Data last updated: <span id="data-timestamp">—</span></strong>
             </div>
 
             <!-- Controls -->
             <div class="graph-controls">
                 <span class="ctrl-label">Filter wave:</span>
                 <div class="wave-filter">
-                    <button class="wave-btn all active" id="filter-all" type="button" onclick="setWaveFilter('all')">All</button>
-                    <button class="wave-btn w1" id="filter-w1" type="button" onclick="setWaveFilter('w1')">Wave 1</button>
-                    <button class="wave-btn w2" id="filter-w2" type="button" onclick="setWaveFilter('w2')">Wave 2</button>
-                    <button class="wave-btn w2b" id="filter-w2b" type="button" onclick="setWaveFilter('w2b')">Wave 2b</button>
-                    <button class="wave-btn w3" id="filter-w3" type="button" onclick="setWaveFilter('w3')">Wave 3</button>
+                    <button class="wave-btn all active" id="filter-all" type="button"
+                        onclick="setWaveFilter('all')">All</button>
+                    <button class="wave-btn w1" id="filter-w1" type="button" onclick="setWaveFilter('w1')">Wave
+                        1</button>
+                    <button class="wave-btn w2" id="filter-w2" type="button" onclick="setWaveFilter('w2')">Wave
+                        2</button>
+                    <button class="wave-btn w2b" id="filter-w2b" type="button" onclick="setWaveFilter('w2b')">Wave
+                        2b</button>
+                    <button class="wave-btn w3" id="filter-w3" type="button" onclick="setWaveFilter('w3')">Wave
+                        3</button>
                 </div>
             </div>
 
@@ -323,7 +423,8 @@
                         </div>
                     </div>
                     <div class="placeholder-panel" id="placeholder-panel">
-                        <p>Click any node in the graph to inspect its details — address, BTC value, wave attribution, and fee rate.</p>
+                        <p>Click any node in the graph to inspect its details — address, BTC value, wave attribution,
+                            and fee rate.</p>
                         <p>Drag to pan · Scroll to zoom · Double-click to focus</p>
                     </div>
                 </div>
@@ -335,22 +436,41 @@
                     <h2>Three Attacker Patterns</h2>
                     <span class="section-tag">Community Investigation</span>
                 </div>
-                <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1px;background:var(--border-color);border:1px solid var(--border-color);box-shadow:var(--shadow-md);">
+                <div
+                    style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1px;background:var(--border-color);border:1px solid var(--border-color);box-shadow:var(--shadow-md);">
                     <div style="background:var(--bg-card);padding:1.25rem;">
-                        <div style="font-family:var(--font-mono);font-size:0.7rem;font-weight:700;color:var(--wave1-color);text-transform:uppercase;letter-spacing:0.08em;margin-bottom:0.5rem;">Pattern A · Scripted Batches</div>
-                        <p style="font-family:var(--font-sans);font-size:0.85rem;color:var(--text-dim);line-height:1.6;margin:0;">Five clear scripted waves followed by consolidation. This Bitcoin <strong style="color:var(--text-color)">remains untouched</strong>. The attacker seems to be waiting.</p>
+                        <div
+                            style="font-family:var(--font-mono);font-size:0.7rem;font-weight:700;color:var(--wave1-color);text-transform:uppercase;letter-spacing:0.08em;margin-bottom:0.5rem;">
+                            Pattern A · Scripted Batches</div>
+                        <p
+                            style="font-family:var(--font-sans);font-size:0.85rem;color:var(--text-dim);line-height:1.6;margin:0;">
+                            Five clear scripted waves followed by consolidation. This Bitcoin <strong
+                                style="color:var(--text-color)">remains untouched</strong>. The attacker seems to be
+                            waiting.</p>
                     </div>
                     <div style="background:var(--bg-card);padding:1.25rem;">
-                        <div style="font-family:var(--font-mono);font-size:0.7rem;font-weight:700;color:var(--wave2-color);text-transform:uppercase;letter-spacing:0.08em;margin-bottom:0.5rem;">Pattern B · Messy & Noisy</div>
-                        <p style="font-family:var(--font-sans);font-size:0.85rem;color:var(--text-dim);line-height:1.6;margin:0;">Repeated, noisy transfers. Some funds moved to Binance or ChangeNOW. <strong style="color:var(--text-color)">This might be a different attacker entirely.</strong></p>
+                        <div
+                            style="font-family:var(--font-mono);font-size:0.7rem;font-weight:700;color:var(--wave2-color);text-transform:uppercase;letter-spacing:0.08em;margin-bottom:0.5rem;">
+                            Pattern B · Messy & Noisy</div>
+                        <p
+                            style="font-family:var(--font-sans);font-size:0.85rem;color:var(--text-dim);line-height:1.6;margin:0;">
+                            Repeated, noisy transfers. Some funds moved to Binance or ChangeNOW. <strong
+                                style="color:var(--text-color)">This might be a different attacker entirely.</strong>
+                        </p>
                     </div>
                     <div style="background:var(--bg-card);padding:1.25rem;">
-                        <div style="font-family:var(--font-mono);font-size:0.7rem;font-weight:700;color:var(--wave3-color);text-transform:uppercase;letter-spacing:0.08em;margin-bottom:0.5rem;">Pattern C · Holding Steady</div>
-                        <p style="font-family:var(--font-sans);font-size:0.85rem;color:var(--text-dim);line-height:1.6;margin:0;">Similar to Pattern A, this Bitcoin <strong style="color:var(--text-color)">has not moved</strong> — possibly because it's being heavily monitored.</p>
+                        <div
+                            style="font-family:var(--font-mono);font-size:0.7rem;font-weight:700;color:var(--wave3-color);text-transform:uppercase;letter-spacing:0.08em;margin-bottom:0.5rem;">
+                            Pattern C · Holding Steady</div>
+                        <p
+                            style="font-family:var(--font-sans);font-size:0.85rem;color:var(--text-dim);line-height:1.6;margin:0;">
+                            Similar to Pattern A, this Bitcoin <strong style="color:var(--text-color)">has not
+                                moved</strong> — possibly because it's being heavily monitored.</p>
                     </div>
                 </div>
                 <p style="font-family:var(--font-sans);font-size:0.78rem;color:var(--text-faint);margin-top:0.75rem;">
-                    Source: <a href="https://x.com/ProfEduStream/status/2084021570872160545" rel="noopener" target="_blank" style="color:var(--accent-text)">@ProfEduStream</a>.
+                    Source: <a href="https://x.com/ProfEduStream/status/2084021570872160545" rel="noopener"
+                        target="_blank" style="color:var(--accent-text)">@ProfEduStream</a>.
                 </p>
             </div>
 
@@ -362,320 +482,321 @@
     <script src="js/app-config.js"></script>
 
     <script>
-    /* ── Graph Explorer Logic ─────────────────────────────────────────── */
+        /* ── Graph Explorer Logic ─────────────────────────────────────────── */
 
-    // Wave → color map
-    const WAVE_COLORS = {
-        w1:  '#C4603A',
-        w2:  '#3B6EA5',
-        w2b: '#6B4A9E',
-        w3:  '#9E2B25',
-        consolidator: '#C4603A'
-    };
-
-    const WAVE_FEE_MAP = {
-        30.0:  'w1',
-        50.2:  'w2',
-        10.0:  'w2b',
-        201.0: 'w3'
-    };
-
-    const CONSOLIDATORS = [
-        { address: 'bc1qq85v2c926eg6pgxhwp6q7lf6cnsz80qs3fcu9r', label: 'Collector A', btc: 562.02, source: 'Galaxy Research' },
-        { address: 'bc1qx76cae2706qd5q576feh7xq8rfcsjpf2htfhe3', label: 'Collector B', btc: 398.48, source: 'Galaxy Research' },
-        { address: 'bc1qc779m8gec84k3t0ffvu0pps94zheht7lr7ueyn', label: 'Collector C', btc: 398.49, source: 'Community' },
-        { address: 'bc1qnk4zh9qcnap2mycp56qjrgza3cc8ylrh8fecp0', label: 'Collector D', btc: 594.48, source: 'Galaxy Research' },
-        { address: 'bc1qmd5m5ktv7m5ffujxv4248fxv36myvdx79n8jp6', label: 'Collector E (W2b)', btc: 30.18, source: 'Coinspect' },
-    ];
-
-    let allNodes = [];
-    let allEdges = [];
-    let graphChart = null;
-    let currentFilter = 'all';
-
-    function getWaveFromFee(feeRate) {
-        const rounded = Math.round(feeRate * 10) / 10;
-        if (rounded >= 29 && rounded <= 31) return 'w1';
-        if (rounded >= 49 && rounded <= 51) return 'w2';
-        if (rounded >= 9.5 && rounded <= 10.5) return 'w2b';
-        if (rounded >= 195 && rounded <= 210) return 'w3';
-        return null;
-    }
-
-    async function buildGraph() {
-        const loadingEl = document.getElementById('graph-loading');
-
-        // Load scored sweeps for victim sample
-        let sweeps = [];
-        try {
-            const res = await fetch('data/scored_sweeps.json');
-            if (res.ok) {
-                const raw = await res.json();
-                sweeps = (raw.suspected_sweeps || []).filter(s => s.confidence_score >= 75);
-            }
-        } catch(e) {
-            console.warn('Scored sweeps not available, using cluster data');
-        }
-
-        // Load tier1 for consolidator details
-        let tier1 = [];
-        try {
-            const res = await fetch('data/clusters_tier_1.json');
-            if (res.ok) tier1 = await res.json();
-        } catch(e) {}
-
-        // Build nodes — consolidators first (large diamond nodes)
-        const nodes = [];
-        const edges = [];
-        const seenAddrs = new Set();
-
-        // Consolidator nodes
-        CONSOLIDATORS.forEach((c, i) => {
-            nodes.push({
-                id: c.address,
-                name: c.label,
-                address: c.address,
-                btc: c.btc,
-                type: 'consolidator',
-                source: c.source,
-                wave: null,
-                fee: null,
-                conf: 100,
-                symbolSize: Math.max(28, Math.min(60, c.btc / 20)),
-                symbol: 'diamond',
-                itemStyle: { color: '#C4603A', borderColor: '#8A3520', borderWidth: 2 },
-                label: { show: true, formatter: c.label, fontFamily: 'Inter, sans-serif', fontSize: 9, fontWeight: 700, color: '#1A1D24' }
-            });
-            seenAddrs.add(c.address);
-        });
-
-        // Take a representative sample of victim sweeps — cap per wave for performance
-        const waveSweeeps = { w1: [], w2: [], w2b: [], w3: [] };
-        sweeps.forEach(s => {
-            const w = getWaveFromFee(s.fee_rate);
-            if (w && waveSweeeps[w]) waveSweeeps[w].push(s);
-        });
-
-        // Sample up to 60 victims per wave, sorted by value descending
-        const victims = [];
-        Object.entries(waveSweeeps).forEach(([wave, ws]) => {
-            ws.sort((a, b) => b.value_btc - a.value_btc).slice(0, 60).forEach(s => {
-                victims.push({ ...s, waveId: wave });
-            });
-        });
-
-        // If no scored sweeps, build synthetic from consolidator amounts
-        if (victims.length === 0) {
-            buildFallbackGraph(nodes, edges, seenAddrs);
-        } else {
-            victims.forEach(s => {
-                const srcId = `victim-${s.txid.slice(0, 10)}`;
-                const dstAddr = s.attacker_address;
-                const color = WAVE_COLORS[s.waveId] || 'rgba(26,29,36,0.35)';
-                const waveLabel = { w1: 'Wave 1', w2: 'Wave 2', w2b: 'Wave 2b', w3: 'Wave 3' }[s.waveId] || '?';
-
-                if (!seenAddrs.has(srcId)) {
-                    nodes.push({
-                        id: srcId,
-                        name: '',
-                        address: `Victim · ${s.txid.slice(0, 8)}…`,
-                        btc: s.value_btc,
-                        type: 'victim',
-                        wave: waveLabel,
-                        fee: s.fee_rate,
-                        conf: s.confidence_score,
-                        waveId: s.waveId,
-                        symbolSize: Math.max(6, Math.min(20, s.value_btc * 2)),
-                        symbol: 'circle',
-                        itemStyle: { color: color, opacity: 0.75, borderColor: 'rgba(26,29,36,0.1)', borderWidth: 1 },
-                        label: { show: false }
-                    });
-                    seenAddrs.add(srcId);
-                }
-
-                // Edge to nearest consolidator or to wave3 (wave 3 has own vault — show as edge to w3-marker)
-                let targetId;
-                if (s.waveId === 'w3') {
-                    // Wave 3 goes to unique vault — use a "Wave 3 Vaults" aggregated node
-                    targetId = 'wave3-vaults';
-                } else {
-                    // Find a matching consolidator — simple mapping by wave
-                    const w1Targets = ['bc1qnk4zh9qcnap2mycp56qjrgza3cc8ylrh8fecp0', 'bc1qq85v2c926eg6pgxhwp6q7lf6cnsz80qs3fcu9r', 'bc1qc779m8gec84k3t0ffvu0pps94zheht7lr7ueyn', 'bc1qx76cae2706qd5q576feh7xq8rfcsjpf2htfhe3'];
-                    const w2bTarget = 'bc1qmd5m5ktv7m5ffujxv4248fxv36myvdx79n8jp6';
-                    if (s.waveId === 'w2b') {
-                        targetId = w2bTarget;
-                    } else {
-                        // Round-robin for visual spread
-                        const hashChar = s.txid.charCodeAt(0);
-                        targetId = w1Targets[hashChar % w1Targets.length];
-                    }
-                }
-
-                // Add wave3-vaults node if needed
-                if (targetId === 'wave3-vaults' && !seenAddrs.has('wave3-vaults')) {
-                    nodes.push({
-                        id: 'wave3-vaults',
-                        name: 'Wave 3 Vaults\n(1,626 isolated)',
-                        address: 'Wave 3 — 1,626 unique P2WSH vaults',
-                        btc: 200.33,
-                        type: 'vault',
-                        wave: 'Wave 3',
-                        fee: 201.0,
-                        conf: 100,
-                        symbolSize: 40,
-                        symbol: 'roundRect',
-                        itemStyle: { color: '#9E2B25', opacity: 0.9 },
-                        label: { show: true, fontFamily: 'Inter, sans-serif', fontSize: 8, fontWeight: 700, color: '#fff' }
-                    });
-                    seenAddrs.add('wave3-vaults');
-                }
-
-                edges.push({
-                    source: srcId,
-                    target: targetId,
-                    value: s.value_btc,
-                    waveId: s.waveId,
-                    lineStyle: {
-                        color: color,
-                        width: Math.max(0.5, Math.min(3, s.value_btc / 5)),
-                        opacity: 0.35,
-                        curveness: 0.15
-                    }
-                });
-            });
-        }
-
-        allNodes = nodes;
-        allEdges = edges;
-
-        if (loadingEl) loadingEl.classList.add('hidden');
-        renderGraph(nodes, edges);
-    }
-
-    function buildFallbackGraph(nodes, edges, seenAddrs) {
-        // Fallback: show just consolidators with relative sizing if sweeps fail to load
-        const victimCounts = [120, 95, 102, 580, 298];
-        CONSOLIDATORS.forEach((c, i) => {
-            for (let j = 0; j < Math.min(12, victimCounts[i]); j++) {
-                const id = `v-${i}-${j}`;
-                const wave = i < 4 ? 'w1' : 'w2b';
-                nodes.push({
-                    id,
-                    name: '',
-                    address: `Victim · ${i}-${j}`,
-                    btc: Math.random() * 5 + 0.1,
-                    type: 'victim',
-                    wave: wave === 'w1' ? 'Wave 1' : 'Wave 2b',
-                    fee: wave === 'w1' ? 30.0 : 10.0,
-                    conf: 75,
-                    waveId: wave,
-                    symbolSize: 6 + Math.random() * 8,
-                    symbol: 'circle',
-                    itemStyle: { color: WAVE_COLORS[wave], opacity: 0.7 },
-                    label: { show: false }
-                });
-                seenAddrs.add(id);
-                edges.push({
-                    source: id,
-                    target: c.address,
-                    value: 1,
-                    waveId: wave,
-                    lineStyle: { color: WAVE_COLORS[wave], width: 1, opacity: 0.3, curveness: 0.2 }
-                });
-            }
-        });
-    }
-
-    function renderGraph(nodes, edges) {
-        const container = document.getElementById('graphChart');
-        if (!container) return;
-
-        if (!graphChart) graphChart = echarts.init(container);
-
-        const option = {
-            tooltip: { show: false },
-            series: [{
-                type: 'graph',
-                layout: 'force',
-                animation: true,
-                animationDuration: 800,
-                animationEasingUpdate: 'quinticInOut',
-                force: {
-                    repulsion: 220,
-                    gravity: 0.06,
-                    edgeLength: [60, 200],
-                    layoutAnimation: true
-                },
-                roam: true,
-                draggable: true,
-                data: nodes,
-                edges: edges,
-                emphasis: {
-                    focus: 'adjacency',
-                    scale: true,
-                    lineStyle: { width: 4, opacity: 0.9 }
-                },
-                lineStyle: { curveness: 0.15 },
-                label: { show: false, position: 'bottom', fontFamily: 'Inter, sans-serif', fontSize: 9 }
-            }],
-            backgroundColor: '#F1F2DC'
+        // Wave → color map
+        const WAVE_COLORS = {
+            w1: '#C4603A',
+            w2: '#3B6EA5',
+            w2b: '#6B4A9E',
+            w3: '#9E2B25',
+            consolidator: '#C4603A'
         };
 
-        graphChart.setOption(option);
+        const WAVE_FEE_MAP = {
+            30.0: 'w1',
+            50.2: 'w2',
+            10.0: 'w2b',
+            201.0: 'w3'
+        };
 
-        graphChart.on('click', params => {
-            if (params.dataType === 'node') showNodeDetail(params.data);
-        });
+        const CONSOLIDATORS = [
+            { address: 'bc1qq85v2c926eg6pgxhwp6q7lf6cnsz80qs3fcu9r', label: 'Collector A', btc: 562.02, source: 'Galaxy Research' },
+            { address: 'bc1qx76cae2706qd5q576feh7xq8rfcsjpf2htfhe3', label: 'Collector B', btc: 398.48, source: 'Galaxy Research' },
+            { address: 'bc1qc779m8gec84k3t0ffvu0pps94zheht7lr7ueyn', label: 'Collector C', btc: 398.49, source: 'Community' },
+            { address: 'bc1qnk4zh9qcnap2mycp56qjrgza3cc8ylrh8fecp0', label: 'Collector D', btc: 594.48, source: 'Galaxy Research' },
+            { address: 'bc1qmd5m5ktv7m5ffujxv4248fxv36myvdx79n8jp6', label: 'Collector E (W2b)', btc: 30.18, source: 'Coinspect' },
+        ];
 
-        window.addEventListener('resize', () => graphChart.resize());
-    }
+        let allNodes = [];
+        let allEdges = [];
+        let graphChart = null;
+        let currentFilter = 'all';
 
-    function showNodeDetail(node) {
-        document.getElementById('placeholder-panel').style.display = 'none';
-        document.getElementById('node-detail').classList.add('active');
-
-        const addr = node.address || node.id || '—';
-        document.getElementById('detail-addr').textContent = addr;
-        document.getElementById('detail-type').textContent =
-            node.type === 'consolidator' ? '🔴 Attacker Consolidator' :
-            node.type === 'vault' ? '🔴 Wave 3 Vault' : '⚪ Victim Address (Swept)';
-        document.getElementById('detail-btc').textContent = node.btc ? node.btc.toFixed(4) + ' BTC' : '—';
-        document.getElementById('detail-wave').textContent = node.wave || '—';
-        document.getElementById('detail-fee').textContent = node.fee ? node.fee + ' sat/vB' : '—';
-        document.getElementById('detail-conf').textContent = node.conf !== undefined ? node.conf + '%' : '—';
-
-        const mempoolLink = document.getElementById('detail-mempool');
-        if (node.id && node.id.startsWith('bc1')) {
-            mempoolLink.href = `https://mempool.space/address/${node.id}`;
-            mempoolLink.style.display = 'flex';
-        } else {
-            mempoolLink.style.display = 'none';
+        function getWaveFromFee(feeRate) {
+            const rounded = Math.round(feeRate * 10) / 10;
+            if (rounded >= 29 && rounded <= 31) return 'w1';
+            if (rounded >= 49 && rounded <= 51) return 'w2';
+            if (rounded >= 9.5 && rounded <= 10.5) return 'w2b';
+            if (rounded >= 195 && rounded <= 210) return 'w3';
+            return null;
         }
-    }
 
-    function setWaveFilter(wave) {
-        currentFilter = wave;
+        async function buildGraph() {
+            const loadingEl = document.getElementById('graph-loading');
 
-        // Update button states
-        document.querySelectorAll('.wave-btn').forEach(b => b.classList.remove('active'));
-        document.getElementById(`filter-${wave}`).classList.add('active');
+            // Load scored sweeps for victim sample
+            let sweeps = [];
+            try {
+                const res = await fetch('data/scored_sweeps.json');
+                if (res.ok) {
+                    const raw = await res.json();
+                    sweeps = (raw.suspected_sweeps || []).filter(s => s.confidence_score >= 75);
+                }
+            } catch (e) {
+                console.warn('Scored sweeps not available, using cluster data');
+            }
 
-        if (!allNodes.length) return;
+            // Load tier1 for consolidator details
+            let tier1 = [];
+            try {
+                const res = await fetch('data/clusters_tier_1.json');
+                if (res.ok) tier1 = await res.json();
+            } catch (e) { }
 
-        const filteredNodes = wave === 'all' ? allNodes : allNodes.filter(n =>
-            n.type === 'consolidator' || n.type === 'vault' || n.waveId === wave
-        );
-        const filteredNodeIds = new Set(filteredNodes.map(n => n.id));
-        const filteredEdges = wave === 'all' ? allEdges : allEdges.filter(e =>
-            e.waveId === wave && filteredNodeIds.has(e.source) && filteredNodeIds.has(e.target)
-        );
+            // Build nodes — consolidators first (large diamond nodes)
+            const nodes = [];
+            const edges = [];
+            const seenAddrs = new Set();
 
-        renderGraph(filteredNodes, filteredEdges);
-    }
+            // Consolidator nodes
+            CONSOLIDATORS.forEach((c, i) => {
+                nodes.push({
+                    id: c.address,
+                    name: c.label,
+                    address: c.address,
+                    btc: c.btc,
+                    type: 'consolidator',
+                    source: c.source,
+                    wave: null,
+                    fee: null,
+                    conf: 100,
+                    symbolSize: Math.max(28, Math.min(60, c.btc / 20)),
+                    symbol: 'diamond',
+                    itemStyle: { color: '#C4603A', borderColor: '#8A3520', borderWidth: 2 },
+                    label: { show: true, formatter: c.label, fontFamily: 'Inter, sans-serif', fontSize: 9, fontWeight: 700, color: '#1A1D24' }
+                });
+                seenAddrs.add(c.address);
+            });
 
-    document.addEventListener('DOMContentLoaded', () => {
-        buildGraph();
-    });
+            // Take a representative sample of victim sweeps — cap per wave for performance
+            const waveSweeeps = { w1: [], w2: [], w2b: [], w3: [] };
+            sweeps.forEach(s => {
+                const w = getWaveFromFee(s.fee_rate);
+                if (w && waveSweeeps[w]) waveSweeeps[w].push(s);
+            });
+
+            // Sample up to 60 victims per wave, sorted by value descending
+            const victims = [];
+            Object.entries(waveSweeeps).forEach(([wave, ws]) => {
+                ws.sort((a, b) => b.value_btc - a.value_btc).slice(0, 60).forEach(s => {
+                    victims.push({ ...s, waveId: wave });
+                });
+            });
+
+            // If no scored sweeps, build synthetic from consolidator amounts
+            if (victims.length === 0) {
+                buildFallbackGraph(nodes, edges, seenAddrs);
+            } else {
+                victims.forEach(s => {
+                    const srcId = `victim-${s.txid.slice(0, 10)}`;
+                    const dstAddr = s.attacker_address;
+                    const color = WAVE_COLORS[s.waveId] || 'rgba(26,29,36,0.35)';
+                    const waveLabel = { w1: 'Wave 1', w2: 'Wave 2', w2b: 'Wave 2b', w3: 'Wave 3' }[s.waveId] || '?';
+
+                    if (!seenAddrs.has(srcId)) {
+                        nodes.push({
+                            id: srcId,
+                            name: '',
+                            address: `Victim · ${s.txid.slice(0, 8)}…`,
+                            btc: s.value_btc,
+                            type: 'victim',
+                            wave: waveLabel,
+                            fee: s.fee_rate,
+                            conf: s.confidence_score,
+                            waveId: s.waveId,
+                            symbolSize: Math.max(6, Math.min(20, s.value_btc * 2)),
+                            symbol: 'circle',
+                            itemStyle: { color: color, opacity: 0.75, borderColor: 'rgba(26,29,36,0.1)', borderWidth: 1 },
+                            label: { show: false }
+                        });
+                        seenAddrs.add(srcId);
+                    }
+
+                    // Edge to nearest consolidator or to wave3 (wave 3 has own vault — show as edge to w3-marker)
+                    let targetId;
+                    if (s.waveId === 'w3') {
+                        // Wave 3 goes to unique vault — use a "Wave 3 Vaults" aggregated node
+                        targetId = 'wave3-vaults';
+                    } else {
+                        // Find a matching consolidator — simple mapping by wave
+                        const w1Targets = ['bc1qnk4zh9qcnap2mycp56qjrgza3cc8ylrh8fecp0', 'bc1qq85v2c926eg6pgxhwp6q7lf6cnsz80qs3fcu9r', 'bc1qc779m8gec84k3t0ffvu0pps94zheht7lr7ueyn', 'bc1qx76cae2706qd5q576feh7xq8rfcsjpf2htfhe3'];
+                        const w2bTarget = 'bc1qmd5m5ktv7m5ffujxv4248fxv36myvdx79n8jp6';
+                        if (s.waveId === 'w2b') {
+                            targetId = w2bTarget;
+                        } else {
+                            // Round-robin for visual spread
+                            const hashChar = s.txid.charCodeAt(0);
+                            targetId = w1Targets[hashChar % w1Targets.length];
+                        }
+                    }
+
+                    // Add wave3-vaults node if needed
+                    if (targetId === 'wave3-vaults' && !seenAddrs.has('wave3-vaults')) {
+                        nodes.push({
+                            id: 'wave3-vaults',
+                            name: 'Wave 3 Vaults\n(1,626 isolated)',
+                            address: 'Wave 3 — 1,626 unique P2WSH vaults',
+                            btc: 200.33,
+                            type: 'vault',
+                            wave: 'Wave 3',
+                            fee: 201.0,
+                            conf: 100,
+                            symbolSize: 40,
+                            symbol: 'roundRect',
+                            itemStyle: { color: '#9E2B25', opacity: 0.9 },
+                            label: { show: true, fontFamily: 'Inter, sans-serif', fontSize: 8, fontWeight: 700, color: '#fff' }
+                        });
+                        seenAddrs.add('wave3-vaults');
+                    }
+
+                    edges.push({
+                        source: srcId,
+                        target: targetId,
+                        value: s.value_btc,
+                        waveId: s.waveId,
+                        lineStyle: {
+                            color: color,
+                            width: Math.max(0.5, Math.min(3, s.value_btc / 5)),
+                            opacity: 0.35,
+                            curveness: 0.15
+                        }
+                    });
+                });
+            }
+
+            allNodes = nodes;
+            allEdges = edges;
+
+            if (loadingEl) loadingEl.classList.add('hidden');
+            renderGraph(nodes, edges);
+        }
+
+        function buildFallbackGraph(nodes, edges, seenAddrs) {
+            // Fallback: show just consolidators with relative sizing if sweeps fail to load
+            const victimCounts = [120, 95, 102, 580, 298];
+            CONSOLIDATORS.forEach((c, i) => {
+                for (let j = 0; j < Math.min(12, victimCounts[i]); j++) {
+                    const id = `v-${i}-${j}`;
+                    const wave = i < 4 ? 'w1' : 'w2b';
+                    nodes.push({
+                        id,
+                        name: '',
+                        address: `Victim · ${i}-${j}`,
+                        btc: Math.random() * 5 + 0.1,
+                        type: 'victim',
+                        wave: wave === 'w1' ? 'Wave 1' : 'Wave 2b',
+                        fee: wave === 'w1' ? 30.0 : 10.0,
+                        conf: 75,
+                        waveId: wave,
+                        symbolSize: 6 + Math.random() * 8,
+                        symbol: 'circle',
+                        itemStyle: { color: WAVE_COLORS[wave], opacity: 0.7 },
+                        label: { show: false }
+                    });
+                    seenAddrs.add(id);
+                    edges.push({
+                        source: id,
+                        target: c.address,
+                        value: 1,
+                        waveId: wave,
+                        lineStyle: { color: WAVE_COLORS[wave], width: 1, opacity: 0.3, curveness: 0.2 }
+                    });
+                }
+            });
+        }
+
+        function renderGraph(nodes, edges) {
+            const container = document.getElementById('graphChart');
+            if (!container) return;
+
+            if (!graphChart) graphChart = echarts.init(container);
+
+            const option = {
+                tooltip: { show: false },
+                series: [{
+                    type: 'graph',
+                    layout: 'force',
+                    animation: true,
+                    animationDuration: 800,
+                    animationEasingUpdate: 'quinticInOut',
+                    force: {
+                        repulsion: 220,
+                        gravity: 0.06,
+                        edgeLength: [60, 200],
+                        layoutAnimation: true
+                    },
+                    roam: true,
+                    draggable: true,
+                    data: nodes,
+                    edges: edges,
+                    emphasis: {
+                        focus: 'adjacency',
+                        scale: true,
+                        lineStyle: { width: 4, opacity: 0.9 }
+                    },
+                    lineStyle: { curveness: 0.15 },
+                    label: { show: false, position: 'bottom', fontFamily: 'Inter, sans-serif', fontSize: 9 }
+                }],
+                backgroundColor: '#F1F2DC'
+            };
+
+            graphChart.setOption(option);
+
+            graphChart.on('click', params => {
+                if (params.dataType === 'node') showNodeDetail(params.data);
+            });
+
+            window.addEventListener('resize', () => graphChart.resize());
+        }
+
+        function showNodeDetail(node) {
+            document.getElementById('placeholder-panel').style.display = 'none';
+            document.getElementById('node-detail').classList.add('active');
+
+            const addr = node.address || node.id || '—';
+            document.getElementById('detail-addr').textContent = addr;
+            document.getElementById('detail-type').textContent =
+                node.type === 'consolidator' ? '🔴 Attacker Consolidator' :
+                    node.type === 'vault' ? '🔴 Wave 3 Vault' : '⚪ Victim Address (Swept)';
+            document.getElementById('detail-btc').textContent = node.btc ? node.btc.toFixed(4) + ' BTC' : '—';
+            document.getElementById('detail-wave').textContent = node.wave || '—';
+            document.getElementById('detail-fee').textContent = node.fee ? node.fee + ' sat/vB' : '—';
+            document.getElementById('detail-conf').textContent = node.conf !== undefined ? node.conf + '%' : '—';
+
+            const mempoolLink = document.getElementById('detail-mempool');
+            if (node.id && node.id.startsWith('bc1')) {
+                mempoolLink.href = `https://mempool.space/address/${node.id}`;
+                mempoolLink.style.display = 'flex';
+            } else {
+                mempoolLink.style.display = 'none';
+            }
+        }
+
+        function setWaveFilter(wave) {
+            currentFilter = wave;
+
+            // Update button states
+            document.querySelectorAll('.wave-btn').forEach(b => b.classList.remove('active'));
+            document.getElementById(`filter-${wave}`).classList.add('active');
+
+            if (!allNodes.length) return;
+
+            const filteredNodes = wave === 'all' ? allNodes : allNodes.filter(n =>
+                n.type === 'consolidator' || n.type === 'vault' || n.waveId === wave
+            );
+            const filteredNodeIds = new Set(filteredNodes.map(n => n.id));
+            const filteredEdges = wave === 'all' ? allEdges : allEdges.filter(e =>
+                e.waveId === wave && filteredNodeIds.has(e.source) && filteredNodeIds.has(e.target)
+            );
+
+            renderGraph(filteredNodes, filteredEdges);
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            buildGraph();
+        });
     </script>
 </body>
+
 </html>

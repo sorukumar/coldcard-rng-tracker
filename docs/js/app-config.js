@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
             navLinks: [
                 { name: 'Dashboard', url: 'index.html', icon: 'fas fa-chart-pie' },
                 { name: 'Graph Explorer', url: 'explorer.html', icon: 'fas fa-project-diagram' },
-                { name: 'Report & Methodology', url: 'methodology.html', icon: 'fas fa-book-open' }
+                { name: 'How We Track', url: 'methodology.html', icon: 'fas fa-book-open' }
             ],
             suiteLinks: [] // Pass empty array to prevent defaults
         });

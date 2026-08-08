@@ -188,7 +188,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 230306,
+            "coin_age_days": 1599.35
         },
         {
             "txid": "e0ff9491369063dc1c1072172f6a5160af74e91a18df257554c081a6bec99b2c",
@@ -207,7 +209,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 120758,
+            "coin_age_days": 838.6
         },
         {
             "txid": "9a2219e5cf2b54fd110d8d36b52c3408f1d0a8c342c9874d1f9a13bd2204f02c",
@@ -853,7 +857,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 83003,
+            "coin_age_days": 576.41
         },
         {
             "txid": "c81ec349810a4fbab7a4fad2594388c5aae88fecce1be96e07b73c2f2d99fb85",
@@ -1062,7 +1068,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 123858,
+            "coin_age_days": 860.12
         },
         {
             "txid": "94ff92544d327f324b8b402036fe639d757cd705dda163fa77016ebbd88e3da5",
@@ -1537,7 +1545,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 119048,
+            "coin_age_days": 826.72
         },
         {
             "txid": "1f9e001db9caaf52d1fed7ec0e1eac0439de03e64d83349ed17b49f7061476d7",
@@ -1575,7 +1585,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 84427,
+            "coin_age_days": 586.3
         },
         {
             "txid": "5be5f97bd89c7910df8c7c1811c037ce13e5b267b7644589108977bf9adc89d9",
@@ -1879,7 +1891,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 258144,
+            "coin_age_days": 1792.67
         },
         {
             "txid": "f0327f5f13306a3294293f165934ec2c2e921d98ec2c1d32eafda536280ae320",
@@ -2164,7 +2178,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 281683,
+            "coin_age_days": 1956.13
         },
         {
             "txid": "3317173b6fd821fd1d7498ab5ff62701bbd1b098419e53b8a581a5bcf41c8f4b",
@@ -2316,7 +2332,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 239985,
+            "coin_age_days": 1666.56
         },
         {
             "txid": "6f34978701ba4c547d4c96a20b418fbbe3ba75b4752ed70779d6d93119dcee54",
@@ -2354,7 +2372,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 141040,
+            "coin_age_days": 979.44
         },
         {
             "txid": "4261a82444d0b5cd4be83ed977656268c5958a37d50af78ff2d54c2db4d20457",
@@ -2411,7 +2431,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 281406,
+            "coin_age_days": 1954.21
         },
         {
             "txid": "dad8c94492f8c521a68b8667380dbc647ed2f177c205184d6a34bc20fadaaa63",
@@ -2506,7 +2528,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 187526,
+            "coin_age_days": 1302.26
         },
         {
             "txid": "7fc5a1287622032146d2d642ac495e0cf04c864cc620341d22124d866b6b8774",
@@ -2525,7 +2549,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 101845,
+            "coin_age_days": 707.26
         },
         {
             "txid": "b92bd765a4fb0900fc0fde8e81d5e36fea56fd0a8f4f4be252fbcc0d35650c75",
@@ -2544,7 +2570,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 133292,
+            "coin_age_days": 925.64
         },
         {
             "txid": "9c383680425ad5252fd80d65dddaeebfbb313efd3d7b5a1c0bdc77d4a9760a78",
@@ -2563,7 +2591,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 281382,
+            "coin_age_days": 1954.04
         },
         {
             "txid": "3ed79b17f85ce79e6729c74258c6bad469d40e757374b00f71d207d8b1f8b979",
@@ -2620,7 +2650,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 138344,
+            "coin_age_days": 960.72
         },
         {
             "txid": "8b658172f7740d9fe1e81bcfa16e0cf837fbf06bc5561427c5f4341377458e81",
@@ -2696,7 +2728,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 54047,
+            "coin_age_days": 375.33
         },
         {
             "txid": "60110d7329bf1f3fcab913607d3b8acfda538a3afd3bdd786a1623fa72fd8a8b",
@@ -3342,7 +3376,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 235656,
+            "coin_age_days": 1636.5
         },
         {
             "txid": "4dc48cb5d47936bc24e39449892a6224c4edf3242479a7d9a808d033ec1d7fee",
@@ -3513,7 +3549,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 43314,
+            "coin_age_days": 300.79
         },
         {
             "txid": "a5ddd8aa3a0e90579d7bec50f38d9ca85fb8673f4a59d30e480a0166beef67e3",
@@ -3684,7 +3722,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 0,
+            "coin_age_days": 0.0
         },
         {
             "txid": "1f5898affa2474cfac3c5930ee620fab21ba05ab488a5fb2d6078d6b63b9e017",
@@ -3722,7 +3762,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 88524,
+            "coin_age_days": 614.75
         },
         {
             "txid": "99a35e8a98c517e39096cd6a634b74274144f3686042f8c154ec381d0d389901",
@@ -3741,7 +3783,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 214897,
+            "coin_age_days": 1492.34
         },
         {
             "txid": "d9510850b3174f8c1de67ca5f0e855e0bc7cc449b6741d22b39286904ff41c04",
@@ -3798,7 +3842,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 21033,
+            "coin_age_days": 146.06
         },
         {
             "txid": "41244fa875cd258a18a65c303096b4867324bf14b9c790b9d524df19930db707",
@@ -3817,7 +3863,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 148416,
+            "coin_age_days": 1030.67
         },
         {
             "txid": "09f096ccd14c70b6d04d0d6fbb3738f7a70be0ed9f27ff288283a2232c6e3b08",
@@ -3931,7 +3979,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 153814,
+            "coin_age_days": 1068.15
         },
         {
             "txid": "f36a3d10cf4781bcb80662987da23bc275616f593410dc830e6bd13237729f0d",
@@ -4026,7 +4076,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 235825,
+            "coin_age_days": 1637.67
         },
         {
             "txid": "07d0e6e2e44ff934704e909161bc93bbd605fc13a4b48634c34a0bb622968711",
@@ -4140,7 +4192,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 164909,
+            "coin_age_days": 1145.2
         },
         {
             "txid": "2a3c140288d7f077f015ab6d56f24f4a8a0944cb543c4ba915aa5eb5bac6a91e",
@@ -4159,7 +4213,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 153145,
+            "coin_age_days": 1063.51
         },
         {
             "txid": "5f277e12518bc56c322e9b6a39875c80e878bf5fe9a9c7b405eff6feae4df71e",
@@ -4235,7 +4291,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 250201,
+            "coin_age_days": 1737.51
         },
         {
             "txid": "38310918eea87815fc2b84371a69deb6ddc7e4c8964128b6c70e6129de465d23",
@@ -4463,7 +4521,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 82966,
+            "coin_age_days": 576.15
         },
         {
             "txid": "c38a5c96fa1063337eb90d2feec8fd24fe017ff6bd8a4db219a9cf117848f02f",
@@ -4482,7 +4542,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 189191,
+            "coin_age_days": 1313.83
         },
         {
             "txid": "4699892ffb06992bcb7bc6cb8cb772cae42426c00a5f9a132eb7e238a2f24f31",
@@ -4577,7 +4639,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 277557,
+            "coin_age_days": 1927.48
         },
         {
             "txid": "f9268aae1e7984337f2190ce6bde0b8fc65e9453f9ba1cd10044c0e2f88b1d34",
@@ -4615,7 +4679,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 68088,
+            "coin_age_days": 472.83
         },
         {
             "txid": "b0fa7cdfb55e0a6536afbcce1a8db03efd789693ae820279d1fece6649652a37",
@@ -4672,7 +4738,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 197720,
+            "coin_age_days": 1373.06
         },
         {
             "txid": "7776d2cd5dda3a2a16d955bcfee68994588b0bdd37d8b06cdb296a631f1e3538",
@@ -4691,7 +4759,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 24847,
+            "coin_age_days": 172.55
         },
         {
             "txid": "b92c1d619db33cd59aff6d7054b8a087d6c1408b699f6990e4ca71dd4c9f4738",
@@ -4710,7 +4780,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 237044,
+            "coin_age_days": 1646.14
         },
         {
             "txid": "c01051791521439360bb6d6231cee7a9183a5b6fc7372d72dbea31e44374a338",
@@ -4767,7 +4839,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 197904,
+            "coin_age_days": 1374.33
         },
         {
             "txid": "195a5c13dfb303310e8fef0f87e0e5308459f9dae57e64c2735b4bc0cad6283a",
@@ -4881,7 +4955,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 147741,
+            "coin_age_days": 1025.98
         },
         {
             "txid": "02923a380511ead464557e283c0e28dccf74cc507ea79b33f4e7ccc1c800f442",
@@ -4900,7 +4976,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 238096,
+            "coin_age_days": 1653.44
         },
         {
             "txid": "6c9d3ad51a561620e74bdef35c3706990b7bb369d4bb9815b40f417793c35a45",
@@ -4938,7 +5016,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 14825,
+            "coin_age_days": 102.95
         },
         {
             "txid": "e8c3e567afc00762db06f442c548d38365ac8f5a03cba7d864aa5f0713868e4a",
@@ -4957,7 +5037,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 254730,
+            "coin_age_days": 1768.96
         },
         {
             "txid": "2e7683f2bec1a501667b475cece37d1f2b9ada0345b1e868b09889ea44b2544c",
@@ -5014,7 +5096,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 147139,
+            "coin_age_days": 1021.8
         },
         {
             "txid": "d87d10abde2e361637527022e60061acddbcabbcee380e8194c864137105ce52",
@@ -5071,7 +5155,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 147183,
+            "coin_age_days": 1022.1
         },
         {
             "txid": "4afff9c1783ddea59509005ac8242216568cc06671fb25a158bceb7b1a00fc55",
@@ -5128,7 +5214,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 14828,
+            "coin_age_days": 102.97
         },
         {
             "txid": "1a55fcb612d486d05db3c23363b5f0309a51cd4ccc479a8226f89e6106b5cd59",
@@ -5204,7 +5292,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 151557,
+            "coin_age_days": 1052.48
         },
         {
             "txid": "086d5f37d8988e00dd64aa02677278d826e7826b01318f77e0e44b15cb860c5e",
@@ -5261,7 +5351,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 165033,
+            "coin_age_days": 1146.06
         },
         {
             "txid": "c9f11c6bf127e80e0957c2d5b643aad0d55aad1bc6c190325fedeb1974a91e61",
@@ -5337,7 +5429,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 14825,
+            "coin_age_days": 102.95
         },
         {
             "txid": "5412b4a10db9e957fc145381c8e2282ff521a3773d5cb006c22ca47698a7b165",
@@ -5394,7 +5488,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 222302,
+            "coin_age_days": 1543.76
         },
         {
             "txid": "89d84bbb78d94f3212526375d0105f96bf674435b5f36324ce7415abe1fb086a",
@@ -5470,7 +5566,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 189148,
+            "coin_age_days": 1313.53
         },
         {
             "txid": "a7c419a4901550348d8856c0cb3693230e74834b6b0637aa85962dad032d8d6f",
@@ -5527,7 +5625,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 249852,
+            "coin_age_days": 1735.08
         },
         {
             "txid": "73b6a61682c891b070abf3530d20fe3d249638743a4eb419ddbd90fc67928272",
@@ -5660,7 +5760,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 148635,
+            "coin_age_days": 1032.19
         },
         {
             "txid": "8ab56442777ed6ea941493e89cd190f54c2fd6bd83850b4c7b73295736b5167c",
@@ -5679,7 +5781,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 227744,
+            "coin_age_days": 1581.56
         },
         {
             "txid": "5836894fb0dfde96bbf26babe78ad0b078e3dcbc1d86dd8016b9c69bc1d7827d",
@@ -5698,7 +5802,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 14825,
+            "coin_age_days": 102.95
         },
         {
             "txid": "3394a72a2c815da67d7bdacd76f5a12f534959968e0309dd4ec297253e76b57d",
@@ -5793,7 +5899,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 73259,
+            "coin_age_days": 508.74
         },
         {
             "txid": "5770dd6328f733850417740e200114f16d1917307cc45d09de8d15ef201b2b83",
@@ -5869,7 +5977,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 153145,
+            "coin_age_days": 1063.51
         },
         {
             "txid": "2d68db5e46cdbfd9115aaed54afff9e738b669e3a773b37ef48a2390996d5e89",
@@ -5964,7 +6074,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 86382,
+            "coin_age_days": 599.88
         },
         {
             "txid": "6d8dcc9f47839ab28bf97ff7d6d48f4cb7777a349533a4cbe56a81fda92ca490",
@@ -5983,7 +6095,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 257692,
+            "coin_age_days": 1789.53
         },
         {
             "txid": "9e928a8e98bd961ad2eba761d4b101931df3e8c07b14d5511ef0dd02cf24c992",
@@ -6021,7 +6135,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 147120,
+            "coin_age_days": 1021.67
         },
         {
             "txid": "2c5b43ba19212ec2a33b4d99cd9cc1726158b0ad813be3b0cf9d555a226a4895",
@@ -6040,7 +6156,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 147140,
+            "coin_age_days": 1021.81
         },
         {
             "txid": "da4d6df7f75f68a0619a7c28b41c6b314365283b6e7fef3c0ef4b14390b60098",
@@ -6116,7 +6234,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 223664,
+            "coin_age_days": 1553.22
         },
         {
             "txid": "25ebf56da21a40c6986558b9f9715581d387db4dcc5feb7ee5eabc8d45a8bd9b",
@@ -6192,7 +6312,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 249602,
+            "coin_age_days": 1733.35
         },
         {
             "txid": "32be894e5abc99429b7438635564216f902a4536293ef58b6eef0ca08035f79f",
@@ -6287,7 +6409,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 163664,
+            "coin_age_days": 1136.56
         },
         {
             "txid": "421267d18036d1a20e090ec08133fa2f5c23e21a7b2cf95e92c292ac41abd9a4",
@@ -6325,7 +6449,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 235517,
+            "coin_age_days": 1635.53
         },
         {
             "txid": "00e3146d1ab5459500c1cbe8aabbcda72d47933324c104725b7612bd59c438a6",
@@ -6344,7 +6470,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 155410,
+            "coin_age_days": 1079.24
         },
         {
             "txid": "a6b693a9456ebc6bc2d9a92f043947c43a6b46fa5525a3a9e5c8fec6f1437da8",
@@ -6458,7 +6586,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 147770,
+            "coin_age_days": 1026.18
         },
         {
             "txid": "5f4aeaa421254de99e7339878ae40a399f05aba09ed9cae04365b60701f29eb0",
@@ -6477,7 +6607,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 149453,
+            "coin_age_days": 1037.87
         },
         {
             "txid": "1e00ce763250fafbff3adee29d3416f70ce79424dcc40a697b82c536686d9fb0",
@@ -6553,7 +6685,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 165091,
+            "coin_age_days": 1146.47
         },
         {
             "txid": "f0d4b2459c8b999f828e8c4023fb41afe216732b603ddbfc75949b1464dbe5b2",
@@ -6591,7 +6725,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 209514,
+            "coin_age_days": 1454.96
         },
         {
             "txid": "47a369b0ed942dc929fa71379b86113f30678e667832e698f124097db12643b4",
@@ -6629,7 +6765,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 80879,
+            "coin_age_days": 561.66
         },
         {
             "txid": "f797fc773908a5d5ebd9c8557ab8c7241da46a420ce361bc6116be4286ce56b8",
@@ -6667,7 +6805,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 63225,
+            "coin_age_days": 439.06
         },
         {
             "txid": "97e749db257030b2cee14005563ef976acff6ead9f3418fbf138a203c7caf0ba",
@@ -6686,7 +6826,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 249796,
+            "coin_age_days": 1734.69
         },
         {
             "txid": "f4ff4a86e1ec701fc8b04451cbea75d5835b50ad98046330140fe5737ab423bc",
@@ -6800,7 +6942,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 149102,
+            "coin_age_days": 1035.43
         },
         {
             "txid": "174d0691876b52c463c38b2ac3fbe0d087d0b345bae7d4f04b0405b708dc34c2",
@@ -6857,7 +7001,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 12233,
+            "coin_age_days": 84.95
         },
         {
             "txid": "1fb925b6c3fc6c542015fea14413f585a77836f40a91dc4fd8fa12bfefa5abc2",
@@ -6933,7 +7079,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 153151,
+            "coin_age_days": 1063.55
         },
         {
             "txid": "656aadb79a3a474db2229ea47b6f1b5935e43135624e3424bfd084fbefb706c6",
@@ -6990,7 +7138,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 187439,
+            "coin_age_days": 1301.66
         },
         {
             "txid": "14dc1bddaff1eadab39b7953225e8ee289d9173667404670c6096cd2ae02eac8",
@@ -7180,7 +7330,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 147067,
+            "coin_age_days": 1021.3
         },
         {
             "txid": "4a0672fd101e99d5394df2d5f1e07b87c87b69b268168d63e4b7e0c1ae4e53d5",
@@ -7199,7 +7351,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 223423,
+            "coin_age_days": 1551.55
         },
         {
             "txid": "c1bc95b7a11a24173ac39130d868aff1f7d5ae0c62a287e8290e6b603d4ebad7",
@@ -7237,7 +7391,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 236071,
+            "coin_age_days": 1639.38
         },
         {
             "txid": "d6090fa33eca2fea1c608bf57f5c2d5bae8c9ab9d70c8333157fb0e62f33c9d9",
@@ -7256,7 +7412,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 147183,
+            "coin_age_days": 1022.1
         },
         {
             "txid": "0f18e310422db47b5bb696728b8cfedfa77b36ebd20810d1858c88f494941cda",
@@ -7370,7 +7528,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 135410,
+            "coin_age_days": 940.35
         },
         {
             "txid": "74304d92333dbe2de32795353b4ad4bf2b6c8fab5af89c135c69c3cc6b227dde",
@@ -7427,7 +7587,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 213626,
+            "coin_age_days": 1483.51
         },
         {
             "txid": "55b692c220d0bd5fb05a0809788ad5102e590e99878920bb72eaf8cae6661ce2",
@@ -7522,7 +7684,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 164080,
+            "coin_age_days": 1139.44
         },
         {
             "txid": "bad69c71f559883037d3ec31f7f25dccb9211f6151f951914379eab230f6b0e6",
@@ -7541,7 +7705,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 156270,
+            "coin_age_days": 1085.21
         },
         {
             "txid": "5d25a9c8c4ccba2cdcb026cfce5416632cf3b098f63c3acf0225bd5aad62b6e8",
@@ -7617,7 +7783,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 149255,
+            "coin_age_days": 1036.49
         },
         {
             "txid": "e1add4121841752244a2c0f801997bcdbee23a6a3e168b7c6d63fb87ae4163ed",
@@ -7731,7 +7899,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 279573,
+            "coin_age_days": 1941.48
         },
         {
             "txid": "72fc703f0cfb1d60a3d871a41cfcc97d012594a482b0ae64637fa4c9026cecf6",
@@ -7750,7 +7920,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 125933,
+            "coin_age_days": 874.53
         },
         {
             "txid": "19985f15ddc011401adbe9d1341daaf59697e870ca4ef01c47aa646a37584af7",
@@ -7769,7 +7941,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 166271,
+            "coin_age_days": 1154.66
         },
         {
             "txid": "af9168976ba0f41416b84d00f8cf82e580191a44a3686b1d05a9ec27fc855ff9",
@@ -7845,7 +8019,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 264737,
+            "coin_age_days": 1838.45
         },
         {
             "txid": "265201d39f75d97bb58d7825e2e2364378727cbd606a76e6e1ad3b89fccd29fc",
@@ -7883,7 +8059,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 276836,
+            "coin_age_days": 1922.47
         },
         {
             "txid": "563a4e3984a2226e30a9ab7ceb875c8514cef3097b822fe171f0b1ac6de12fbd",
@@ -7902,7 +8080,9 @@
                 "sequence": false,
                 "bip69": false
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 217979,
+            "coin_age_days": 1513.74
         },
         {
             "txid": "c1525ae38440569d256e70bbd42b661cb6aa4f15407b78bf3438cc193c970abc",
@@ -7940,7 +8120,9 @@
                 "sequence": false,
                 "bip69": false
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 163441,
+            "coin_age_days": 1135.01
         },
         {
             "txid": "b1e0b429960e3a83d488887d250293b12505e7b930b8371d9897d42c13754279",
@@ -7959,7 +8141,9 @@
                 "sequence": false,
                 "bip69": false
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 154319,
+            "coin_age_days": 1071.66
         },
         {
             "txid": "720727ce445b61cadbd608eb565b0ab97d2489e84a28923296802acfb573b2a4",
@@ -8073,7 +8257,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 14825,
+            "coin_age_days": 102.95
         },
         {
             "txid": "1049251ac074c8bec2dfa000940cac3e69dd3bb811c34fb2013013beb3bd4106",
@@ -8092,7 +8278,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 188966,
+            "coin_age_days": 1312.26
         },
         {
             "txid": "65c3d40f246b9a2bd5085cec825bee7d2f67ff43a5bb80ff6c59bc4b8765e106",
@@ -8187,7 +8375,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 63215,
+            "coin_age_days": 438.99
         },
         {
             "txid": "e3c7e67a1cfc5b05379329d41e652811c3937f92cb6c803547e0465bde283b0d",
@@ -8206,7 +8396,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 125933,
+            "coin_age_days": 874.53
         },
         {
             "txid": "d3653be1679a7bbe960ac40413f038d13b4537bd6cd5535d6bc981d4765e6d0e",
@@ -8263,7 +8455,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 20175,
+            "coin_age_days": 140.1
         },
         {
             "txid": "e30ade53c35a55f387b3d69378f9a114eb1a52af5f16b01d2be0bcd9dff75c11",
@@ -8282,7 +8476,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 132472,
+            "coin_age_days": 919.94
         },
         {
             "txid": "57a0ed16c50d3e68aa2f9fd02ede16950edbb6bac54db2e0e4b787a1c3641e12",
@@ -8301,7 +8497,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 25344,
+            "coin_age_days": 176.0
         },
         {
             "txid": "fe983aded3dcd8914f7fb57cbe009f389a55b250de2377e347a550e18519b014",
@@ -8339,7 +8537,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 163940,
+            "coin_age_days": 1138.47
         },
         {
             "txid": "1345772670b9749a4f4fd7b94e71ef7a0d54c3869e2964d969e520042b488317",
@@ -8358,7 +8558,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 23237,
+            "coin_age_days": 161.37
         },
         {
             "txid": "0a5395ab4148ab912756ccdf860282cd0bb577d5f34cf140f833ebaa027c641a",
@@ -8491,7 +8693,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 248977,
+            "coin_age_days": 1729.01
         },
         {
             "txid": "d2cc1decd2b361f4227f32f9f5ec33eff21c56345e2cc76878784e06192ea31f",
@@ -8643,7 +8847,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 147528,
+            "coin_age_days": 1024.5
         },
         {
             "txid": "a3e8ca39aefc3f100eed0d2f9a4e2141c9c3a8bb2320913c1c915b326c6ee62a",
@@ -8719,7 +8925,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 258212,
+            "coin_age_days": 1793.14
         },
         {
             "txid": "88cab0370752c3dab29a53bbc889a74b2096de05d7d06d3912c5de07b895cb31",
@@ -8738,7 +8946,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 166591,
+            "coin_age_days": 1156.88
         },
         {
             "txid": "4a3226c1df58658451b89465208869e485e2eb85abd264d4d7a13449313f9e33",
@@ -8757,7 +8967,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 147138,
+            "coin_age_days": 1021.79
         },
         {
             "txid": "0c9bce98cdc12f726143475f5ca419871a77f716f3da8e85f2b7404ca6c98734",
@@ -8795,7 +9007,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 17326,
+            "coin_age_days": 120.32
         },
         {
             "txid": "e5461b7276412037e76cd3868d768c729967418797fc219363226a82d0b2f436",
@@ -8871,7 +9085,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 152527,
+            "coin_age_days": 1059.22
         },
         {
             "txid": "c97ec3b3645d1c9ee06faec417b0e2ed2ad4427966176477fed49a6e174b863a",
@@ -8947,7 +9163,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 254800,
+            "coin_age_days": 1769.44
         },
         {
             "txid": "f988da7bd0869817aa739d3c43e7d51bfe7cac519f7fee8601d7af1e1d9c3240",
@@ -9042,7 +9260,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 126939,
+            "coin_age_days": 881.52
         },
         {
             "txid": "8a3611d770bd704a7fc0dc26dbac3b04b76ed5c9930c10efb1ecdf7177d92045",
@@ -9080,7 +9300,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 95475,
+            "coin_age_days": 663.02
         },
         {
             "txid": "52feea27e29ca37dda09e31b42ca0320acfc851ed6b18f7ac686a3f5e4018f46",
@@ -9099,7 +9321,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 80062,
+            "coin_age_days": 555.99
         },
         {
             "txid": "a28a5384ad4533c87a93ae71634ba80a1c5cb3aa4ccad2175aa0d34f0001d346",
@@ -9156,7 +9380,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 148483,
+            "coin_age_days": 1031.13
         },
         {
             "txid": "12f61cdfce0f4f7affb4e1131475e91cfc330c4ab141c58e6bed52da3b0e3b48",
@@ -9175,7 +9401,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 217364,
+            "coin_age_days": 1509.47
         },
         {
             "txid": "402c2d0a4af5959e41749f31ed4a4812c29b8967ade5ff92d698fb0a76485b48",
@@ -9232,7 +9460,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 249900,
+            "coin_age_days": 1735.42
         },
         {
             "txid": "9a21c86f0dd6d8c09708a21e5558eef8b5a36db4b452a6d03ef2193954cfc94a",
@@ -9327,7 +9557,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 14828,
+            "coin_age_days": 102.97
         },
         {
             "txid": "973318b54c17470ee6db739167a9fb8d93defde83ba3ee5eb28ad0d71a76554f",
@@ -9365,7 +9597,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 25388,
+            "coin_age_days": 176.31
         },
         {
             "txid": "0c95b23f6ce44bc30ee7f4047ab7276eca8c879c36940f1fa240c2d3e2670952",
@@ -9384,7 +9618,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 24843,
+            "coin_age_days": 172.52
         },
         {
             "txid": "3b8dc301d8a2a8103e6b80657b1a3ab5c95d239826db09fcdb067377967a3652",
@@ -9422,7 +9658,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 250622,
+            "coin_age_days": 1740.43
         },
         {
             "txid": "37af4d1becc2e25340532f6ed1fa0b42a1192fcc78a8be38bd27bdc6830a1953",
@@ -9517,7 +9755,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 125933,
+            "coin_age_days": 874.53
         },
         {
             "txid": "0c6bfcc79dda617c3463b84fd196db46117c53f11fac03a88c17788ed9509358",
@@ -9555,7 +9795,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 164144,
+            "coin_age_days": 1139.89
         },
         {
             "txid": "cf5e86d11cd4cae24e549e31edc0d9b96eab99526749e5a40bebfae087f7815c",
@@ -9612,7 +9854,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 51564,
+            "coin_age_days": 358.08
         },
         {
             "txid": "9f42814bdb70032a3010bd49bef4bafccbf351453b18df81b99e4678c9f1455f",
@@ -9650,7 +9894,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 147117,
+            "coin_age_days": 1021.65
         },
         {
             "txid": "87ade2385841bc0940dbf5c20994ab39b4f4773e893195bbb24ada01b95eac60",
@@ -9669,7 +9915,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 63218,
+            "coin_age_days": 439.01
         },
         {
             "txid": "762b742c0f291253e197e81285f7ae8616c4b7b8b8ced88955f514a47c991b65",
@@ -9764,7 +10012,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 249728,
+            "coin_age_days": 1734.22
         },
         {
             "txid": "4a544bf2ccc339ec0997e5770dce45e168d3eac924c2b3a7d8c6fff16131a168",
@@ -9783,7 +10033,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 90577,
+            "coin_age_days": 629.01
         },
         {
             "txid": "14ceb8b5369c3aa5a2ecb0fec4737409487389f446e012854c62865e8e3c7769",
@@ -9859,7 +10111,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 42408,
+            "coin_age_days": 294.5
         },
         {
             "txid": "a6f5817d2bec02c9133b96d6b418ead081c4325f0b23baa98ab2eadde8eae56d",
@@ -10011,7 +10265,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 123206,
+            "coin_age_days": 855.6
         },
         {
             "txid": "82aae383f1ecea2c8995f6f68e54454c51aaf8a39df307d5c0c4fe0e3e010773",
@@ -10030,7 +10286,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 147149,
+            "coin_age_days": 1021.87
         },
         {
             "txid": "dac7927b8959048e3efaddfbfba2583148ee9a25011a46164abb7c995b295d76",
@@ -10144,7 +10402,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 244625,
+            "coin_age_days": 1698.78
         },
         {
             "txid": "bf6bceb661c6939d61d0c926c30cf848213749562aa02d72b9706a776f2c4083",
@@ -10372,7 +10632,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 63210,
+            "coin_age_days": 438.96
         },
         {
             "txid": "295a25f65cd02517f872ffb692fab9f59b02a40e774e22ff89e94f6170caee8c",
@@ -10448,7 +10710,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 224035,
+            "coin_age_days": 1555.8
         },
         {
             "txid": "ca69e152ebbccf737819e5010e68413da1a87d08fdc3743efc413a249fc39d8f",
@@ -10524,7 +10788,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 249900,
+            "coin_age_days": 1735.42
         },
         {
             "txid": "165eb59d96c047a96bc52530dd0837ebf2de885fb4fc8e98197d176e20214997",
@@ -10657,7 +10923,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 225584,
+            "coin_age_days": 1566.56
         },
         {
             "txid": "fcb90e3ff5041a2571ad62b211da003834bacb3e2befa646f30c186dd29e059e",
@@ -10676,7 +10944,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 165098,
+            "coin_age_days": 1146.51
         },
         {
             "txid": "19b202b2c163f941ebeddc105f1c54f3e1784227daabff00effb5adbe64db49e",
@@ -10847,7 +11117,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 159483,
+            "coin_age_days": 1107.52
         },
         {
             "txid": "3d7c459ff74c20b0c18aa07320e1acc775f1240f2a7eb52672860b786ef951ab",
@@ -10866,7 +11138,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 152764,
+            "coin_age_days": 1060.86
         },
         {
             "txid": "54e2084d65369354c08294139a5ae5c7fe33e4389c009bca3b032b52509206b2",
@@ -10961,7 +11235,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 166584,
+            "coin_age_days": 1156.83
         },
         {
             "txid": "09263f5c726df440b6b4fbbb60ec2264f654c8347859b7fef0ce72c3a30b1db9",
@@ -11322,7 +11598,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 254789,
+            "coin_age_days": 1769.37
         },
         {
             "txid": "0fd85d2258803d67616eb2f7aefe14567d2a950ec5fb87e66075dd62796d65cf",
@@ -11360,7 +11638,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 249728,
+            "coin_age_days": 1734.22
         },
         {
             "txid": "5f193b1bfb7a2252868a2c939141feb20571a55f15bceb7acbb04012557cbad2",
@@ -11493,7 +11773,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 24847,
+            "coin_age_days": 172.55
         },
         {
             "txid": "92093496312bf4ce4baf41a3841ce761fdfd43f09f59c06c6862277141f33bd9",
@@ -11607,7 +11889,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 255961,
+            "coin_age_days": 1777.51
         },
         {
             "txid": "9e0bb10c6e5d7dd1b456dfd5d1606e9a4c1228f56ae491f9241e27fcc5d075df",
@@ -11683,7 +11967,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 238828,
+            "coin_age_days": 1658.53
         },
         {
             "txid": "e8cd229fb8e94794431df68bccd39ec916e9bf713c723e0a329a2bc28eeb3de2",
@@ -11778,7 +12064,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 98979,
+            "coin_age_days": 687.35
         },
         {
             "txid": "98fd1b6e20b0eb47ca83bd8378f6cc46f0b602721ef409756bb7ea542d4c84e5",
@@ -11797,7 +12085,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 219418,
+            "coin_age_days": 1523.74
         },
         {
             "txid": "9c37d99ad7c6ef9a8ae182d06bc4c784884a1d40e6ed263c8e58779ac282dae7",
@@ -11835,7 +12125,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 14825,
+            "coin_age_days": 102.95
         },
         {
             "txid": "0125ebe2be8d6dcb53c7fc795b43fd833b9b259cf4bcf5107df298999f0d40e9",
@@ -11911,7 +12203,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 249728,
+            "coin_age_days": 1734.22
         },
         {
             "txid": "e4d36b539e2fdb1e1934f2d464057086be1a681a2f7c6d343bd2f3200a499eeb",
@@ -11968,7 +12262,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 146705,
+            "coin_age_days": 1018.78
         },
         {
             "txid": "fd905d5fd445331653aa4270d1dab3a7c0b170d4c8ebce43598319b9891513ed",
@@ -12044,7 +12340,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 69531,
+            "coin_age_days": 482.85
         },
         {
             "txid": "56bfcf32e4943d64c3f5586e4616c1352eeb17728d231d27215951e719c209f1",
@@ -12120,7 +12418,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 24839,
+            "coin_age_days": 172.49
         },
         {
             "txid": "ba7d8bcb2b667355725ec7ad6905cf6c579a6cd9db3ffaea7b8bf003b08732f8",
@@ -12329,7 +12629,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 99418,
+            "coin_age_days": 690.4
         },
         {
             "txid": "2a74ea1c46252469e1203c5650e53ca364e4ac9ec5c6f8e4f3eb604a7674dd0c",
@@ -12367,7 +12669,9 @@
                 "sequence": false,
                 "bip69": false
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 219354,
+            "coin_age_days": 1523.29
         },
         {
             "txid": "124ac835933534c830bb2e2857e71c003423638f11b6382cb9f9b00cd457a83f",
@@ -12405,7 +12709,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 168089,
+            "coin_age_days": 1167.28
         },
         {
             "txid": "23c1f0f38ee90808600b66bd231fef19f206efd96a43f437e2123d4fa398c69b",
@@ -12462,7 +12768,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 21124,
+            "coin_age_days": 146.69
         },
         {
             "txid": "c5f6a86acc3d4fbbfd74ab6306185e23fd388e8e3fcfd398a72ee456bcbbdea7",
@@ -12500,7 +12808,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 17497,
+            "coin_age_days": 121.51
         },
         {
             "txid": "d9a9c73a789aee2ebadee935185478fce91a7a1ce272f8a4c5bd66917b0442dc",
@@ -12519,7 +12829,9 @@
                 "sequence": false,
                 "bip69": false
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 3761,
+            "coin_age_days": 26.12
         },
         {
             "txid": "8ed121b969924bdec96169a1958bb6a0a5b48e8fd1d703e0b80b993b7cd3b15d",
@@ -12576,7 +12888,9 @@
                 "sequence": false,
                 "bip69": false
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 10940,
+            "coin_age_days": 75.97
         },
         {
             "txid": "a2ae2fa972ceb11fe1218b466b73f2be0008e6b87c0f4c9393700626b0280839",
@@ -12595,7 +12909,9 @@
                 "sequence": false,
                 "bip69": false
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 239269,
+            "coin_age_days": 1661.59
         },
         {
             "txid": "e480fa867e761fae11e814fc75c5cb8ca7dba34925036b550679f8b7fd95df80",
@@ -12652,7 +12968,9 @@
                 "sequence": false,
                 "bip69": false
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 13266,
+            "coin_age_days": 92.12
         },
         {
             "txid": "e4061fd96e10c391f923955a6d59eb1d199305deb7126762b14baf0ccc94157b",
@@ -12671,7 +12989,9 @@
                 "sequence": false,
                 "bip69": false
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 13622,
+            "coin_age_days": 94.6
         },
         {
             "txid": "1ad4f51c5372a539b4a977adef25f1672d2764e5e049b515e3c92102bd9c42ba",
@@ -12709,7 +13029,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 189447,
+            "coin_age_days": 1315.6
         },
         {
             "txid": "5794f56cf64bcf5cd750faaf550c906f7a67d18f2a06731426195a67dbb9fa8c",
@@ -12747,7 +13069,9 @@
                 "sequence": false,
                 "bip69": false
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 81169,
+            "coin_age_days": 563.67
         },
         {
             "txid": "90d8eade381cb61020ffbb7ed7723d7b4b397973fdf6999ea304a6edc9bc84fa",
@@ -12842,7 +13166,9 @@
                 "sequence": false,
                 "bip69": false
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 90336,
+            "coin_age_days": 627.33
         },
         {
             "txid": "deb331a98a5264e5ac985d64a6967d760addf12c652a9460ee23eb6442e91556",
@@ -12861,7 +13187,9 @@
                 "sequence": false,
                 "bip69": false
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 251026,
+            "coin_age_days": 1743.24
         },
         {
             "txid": "ce5b9e4eee283f9019e945312ae400537f0ec66798f1b3da0b4cbada31f9168f",
@@ -12937,7 +13265,9 @@
                 "sequence": false,
                 "bip69": false
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 80202,
+            "coin_age_days": 556.96
         },
         {
             "txid": "85859e7d875a819183207ecb97850180eeb71ce22409a6a5962690acb86a349f",
@@ -13089,7 +13419,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 19665,
+            "coin_age_days": 136.56
         },
         {
             "txid": "40f6f8d90ae782ccd1ff374537adc7888f9f09bddcdbcbd160853630388ba997",
@@ -13108,7 +13440,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 19275,
+            "coin_age_days": 133.85
         },
         {
             "txid": "b24d7c205f213a2b8c058b0c1afeabadca183c317a963e0b51bf6c21c87dcce7",
@@ -13127,7 +13461,9 @@
                 "sequence": false,
                 "bip69": false
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 22725,
+            "coin_age_days": 157.81
         },
         {
             "txid": "344a4a7e3522bf0ab7dd59b1be28fdad94f91e2db640abf9fe6bcf7944f9b116",
@@ -13146,7 +13482,9 @@
                 "sequence": false,
                 "bip69": false
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 3765,
+            "coin_age_days": 26.15
         },
         {
             "txid": "f2a7578cb38651bd1a713cd4a1629a33374b17e0cf14071489be59a727837c4e",
@@ -13165,7 +13503,9 @@
                 "sequence": false,
                 "bip69": false
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 8691,
+            "coin_age_days": 60.35
         },
         {
             "txid": "78ac8968ccf5a586d2fb9509f5af13f41e0a288bfa0f0b177d4e4b6bbebad05d",
@@ -13184,7 +13524,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 12615,
+            "coin_age_days": 87.6
         },
         {
             "txid": "c791d88c4bd744e1e72f69880365adec116597cfa9fdbb404896f73c7b01fd64",
@@ -13203,7 +13545,9 @@
                 "sequence": false,
                 "bip69": false
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 168133,
+            "coin_age_days": 1167.59
         },
         {
             "txid": "4ba82beb75f442055c25f591fc7a3c427299785fad47a0496af31f14b7a3afb8",
@@ -13222,7 +13566,9 @@
                 "sequence": false,
                 "bip69": false
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 8722,
+            "coin_age_days": 60.57
         },
         {
             "txid": "8151171951b75d312dc885f403bc70d5b892340c90ece4dcee4d4647e2f3cbba",
@@ -13241,7 +13587,9 @@
                 "sequence": false,
                 "bip69": false
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 193016,
+            "coin_age_days": 1340.39
         },
         {
             "txid": "d4413128d05c94b3f1ba268bd2d4c18a7d55c770dbbfe0055605090c7cd3bdbc",
@@ -13260,7 +13608,9 @@
                 "sequence": false,
                 "bip69": false
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 8778,
+            "coin_age_days": 60.96
         },
         {
             "txid": "0abb92950e601bfe98eb0102ff8cf1a17c2c4cbebc32a45b8d6b422db4e6b5c0",
@@ -13279,7 +13629,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 8995,
+            "coin_age_days": 62.47
         },
         {
             "txid": "4ef56b39200eb30c1ad0d34551fcf153442a630f59f6b545c481bc67f0ceefcc",
@@ -13298,7 +13650,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 8534,
+            "coin_age_days": 59.26
         },
         {
             "txid": "b12b8f994493488edb66940c3539fcab2b46709f1f67c3e70bba3773f649d6d0",
@@ -13317,7 +13671,9 @@
                 "sequence": false,
                 "bip69": false
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 16272,
+            "coin_age_days": 113.0
         },
         {
             "txid": "d40fab97661d82fe658c7e616345f24d9292214d74231062f8a26b774c2396d3",
@@ -13336,7 +13692,9 @@
                 "sequence": false,
                 "bip69": false
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 80326,
+            "coin_age_days": 557.82
         },
         {
             "txid": "9bd9b6fb1b8655f68f856907ac0764bb74f0270c7154a5af1d8c63edf63ce8d5",
@@ -13355,7 +13713,9 @@
                 "sequence": false,
                 "bip69": false
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 12026,
+            "coin_age_days": 83.51
         },
         {
             "txid": "bae03508e4e5c81e27f9de13f7a31d18e8b20bc9d5c1fc5fe830510d65b6df5d",
@@ -13374,7 +13734,9 @@
                 "sequence": false,
                 "bip69": false
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 10400,
+            "coin_age_days": 72.22
         },
         {
             "txid": "ac8edf50afe2234a4204a87695b009f5656a3f2dc9587f606b7e301b8221c2ce",
@@ -13393,7 +13755,9 @@
                 "sequence": false,
                 "bip69": false
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 80909,
+            "coin_age_days": 561.87
         },
         {
             "txid": "aa4723bb2ff669f6d8857560c81eaf1e118c209ebcd0afaef8d723e2c52e6c01",
@@ -13412,7 +13776,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 134274,
+            "coin_age_days": 932.46
         },
         {
             "txid": "96490dd51ebcde2356c38369c3d959fd4d1d569bdac9e6f8454e476aed83140f",
@@ -13431,7 +13797,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 214476,
+            "coin_age_days": 1489.42
         },
         {
             "txid": "c1f1e98245f5b38ff0a56797208ac3f0ec909ec7d1a816fda5e7ddc236a8c90f",
@@ -13450,7 +13818,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 21041,
+            "coin_age_days": 146.12
         },
         {
             "txid": "792995d1c06664241b50e5aeb1e003c75d35d507990077db3de02c28c0678e1b",
@@ -13469,7 +13839,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 35525,
+            "coin_age_days": 246.7
         },
         {
             "txid": "4f1ad0dd1e22e9fb869c4adc6a217ad02bc6ea96081fb5e4b16d7f327255241f",
@@ -13488,7 +13860,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 266569,
+            "coin_age_days": 1851.17
         },
         {
             "txid": "1b3b0245337abc6c44d005096262acc74f660e9473d9fbe170bc3a4ebe8b9d20",
@@ -13507,7 +13881,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 228993,
+            "coin_age_days": 1590.23
         },
         {
             "txid": "89c2a0e0a9b31942c8858acf538bea6c2e2036ed5f72100e602f3a91cdc14522",
@@ -13526,7 +13902,9 @@
                 "sequence": false,
                 "bip69": false
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 20412,
+            "coin_age_days": 141.75
         },
         {
             "txid": "f3cedc563e615f9d58b2bd7f5981eceaa95e64f84100204d0211e68f50c92f2a",
@@ -13545,7 +13923,9 @@
                 "sequence": false,
                 "bip69": false
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 15091,
+            "coin_age_days": 104.8
         },
         {
             "txid": "314bfca621c921085ce327ca1782be6cd8b4fa3bf3cbe426df7ebd7688d50b32",
@@ -13564,7 +13944,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 4498,
+            "coin_age_days": 31.24
         },
         {
             "txid": "4a4c749c47b97615bdd576138fb6d0885a9f3cbf759ab666138e1f08271d973e",
@@ -13583,7 +13965,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 25622,
+            "coin_age_days": 177.93
         },
         {
             "txid": "fb709372b9fdf776d7e042115ccf572ee64a513370b83352518a73bce2eba83f",
@@ -13602,7 +13986,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 214476,
+            "coin_age_days": 1489.42
         },
         {
             "txid": "845486b754cbfb87dbb7fd437aad8f00278ad9fe8988e96bb5d77396d281c244",
@@ -13621,7 +14007,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 169079,
+            "coin_age_days": 1174.16
         },
         {
             "txid": "54e3fd34685373445e9e8a005acd469427aeb5e32aeb98ff391b9a885e7ddb46",
@@ -13640,7 +14028,9 @@
                 "sequence": false,
                 "bip69": false
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 10379,
+            "coin_age_days": 72.08
         },
         {
             "txid": "ed0e54822b725a5526c5044760bb380479653799d12d4740ffb4a26ad32f0151",
@@ -13659,7 +14049,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 218292,
+            "coin_age_days": 1515.92
         },
         {
             "txid": "e638c4e6873a5535aa075a8f9839863c938d9f6676c8e90685482ca21eae0555",
@@ -13678,7 +14070,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 4210,
+            "coin_age_days": 29.24
         },
         {
             "txid": "2d11fa39e490b5525acb2e2f4febd8dd68446567f102d4edfd0dc5a0ee1e935d",
@@ -13697,7 +14091,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 245893,
+            "coin_age_days": 1707.59
         },
         {
             "txid": "4f37f6ad3e748e2c356f9e13afde96445a02b683a9cb1b7ded8cde5f592b095f",
@@ -13716,7 +14112,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 104724,
+            "coin_age_days": 727.25
         },
         {
             "txid": "0808e90ee79112d04acf74d62611238d9f209d215143c6b425aa291e42f3e55f",
@@ -13735,7 +14133,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 36684,
+            "coin_age_days": 254.75
         },
         {
             "txid": "de40e15d8ee0fb987a3a4aa411e75a34aaaa05ec908869e3b32395cfc6426460",
@@ -13754,7 +14154,9 @@
                 "sequence": false,
                 "bip69": false
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 237107,
+            "coin_age_days": 1646.58
         },
         {
             "txid": "5c32189db379d8245f54e602d0f0879a3daa50147ffebf86e2843582f542a861",
@@ -13773,7 +14175,9 @@
                 "sequence": false,
                 "bip69": false
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 267082,
+            "coin_age_days": 1854.74
         },
         {
             "txid": "4bb2554d9701a4f019f6b9edef47ba1cff1c02032cd09b355c8371d827f91563",
@@ -13792,7 +14196,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 140092,
+            "coin_age_days": 972.86
         },
         {
             "txid": "f827c55c8ab85116217fe5c0c1cec36ea35b481695c5a5dc3014e128d5105364",
@@ -13811,7 +14217,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 192791,
+            "coin_age_days": 1338.83
         },
         {
             "txid": "a235e6c6a38fdba7635f56ef373d58be168b28818c1632519198814990c41a65",
@@ -13830,7 +14238,9 @@
                 "sequence": false,
                 "bip69": false
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 21594,
+            "coin_age_days": 149.96
         },
         {
             "txid": "b57c6a2e0fdc021f1a6dc6ce073a6c677c0687e9f791722d39d6d0f1c06fe26c",
@@ -13849,7 +14259,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 89766,
+            "coin_age_days": 623.38
         },
         {
             "txid": "2cfbaf06ba99bd159373d973cd87a1f623c6ffb58b6e1935593c8f101e1d2072",
@@ -13868,7 +14280,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 23088,
+            "coin_age_days": 160.33
         },
         {
             "txid": "04c5f379418d24b04c19255927a118d328f7b05c9a1b3b1145d6c3898306ea77",
@@ -13887,7 +14301,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 119910,
+            "coin_age_days": 832.71
         },
         {
             "txid": "2d1b3afa3fa0b1b83c7ccdee478e6f66225458f93fd4c4cc05fc9f1f4f3fdd79",
@@ -13906,7 +14322,9 @@
                 "sequence": false,
                 "bip69": false
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 15547,
+            "coin_age_days": 107.97
         },
         {
             "txid": "a88fda60c5bcb08d9f29264742ef286488681ff00c1f32ab234afa7328670580",
@@ -13925,7 +14343,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 112262,
+            "coin_age_days": 779.6
         },
         {
             "txid": "d4fb0daaeedcff3939509cc8544950edca39b64b20d459b305e24ae9612b9287",
@@ -13944,7 +14364,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 15548,
+            "coin_age_days": 107.97
         },
         {
             "txid": "3ba122c6dd82a2a56feb00d4b063b58b9bbb9d5eb6111607520e1c3fc703448a",
@@ -13963,7 +14385,9 @@
                 "sequence": false,
                 "bip69": false
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 8780,
+            "coin_age_days": 60.97
         },
         {
             "txid": "4252c39da19374c07ad711785cde659dab694602e16eea35702dd10e72f66e8c",
@@ -13982,7 +14406,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 127946,
+            "coin_age_days": 888.51
         },
         {
             "txid": "f57e6cf81946383dcbb9fe5522ab3f98071e0d5109521e87993d4ec950716996",
@@ -14001,7 +14427,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 4305,
+            "coin_age_days": 29.9
         },
         {
             "txid": "b985eabd876ffbcf7905e2fd7483e6fd0432b96f33bd8165b47aa2b58175ad97",
@@ -14020,7 +14448,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 178470,
+            "coin_age_days": 1239.38
         },
         {
             "txid": "bafb03587062aff238431b2b7f5b9339725a91cb38326ddf74bfeb83b6e2469a",
@@ -14039,7 +14469,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 113412,
+            "coin_age_days": 787.58
         },
         {
             "txid": "1fc3f22028e11c287134531f776806196efcac46b266790e9a3965f0d51793a3",
@@ -14058,7 +14490,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 167333,
+            "coin_age_days": 1162.03
         },
         {
             "txid": "8bb23dae058afd4099b58e200ec19ca1b29edead320f8e7a611cb5b97f81dca8",
@@ -14077,7 +14511,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 123329,
+            "coin_age_days": 856.45
         },
         {
             "txid": "5ac2bf7f30cfbe6dc04d6c5541e4012ea4ced0e2a85c39d56e6e8dda56b011aa",
@@ -14096,7 +14532,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 178463,
+            "coin_age_days": 1239.33
         },
         {
             "txid": "fabcf8b3daa3f9bee7f89c5dc911f5507028db92c1fde81e6caaf4a7b8e428ab",
@@ -14115,7 +14553,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 192989,
+            "coin_age_days": 1340.2
         },
         {
             "txid": "fa7f8d917138fe855daa3b156dcc25a3afe584bd4f9874fad1dccf82fa35c2b4",
@@ -14134,7 +14574,9 @@
                 "sequence": false,
                 "bip69": false
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 140581,
+            "coin_age_days": 976.26
         },
         {
             "txid": "826a6700a35b969ee54bc2bf611b5e1c4c75a4c6861d2e315870611321a9d9cc",
@@ -14153,7 +14595,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 214476,
+            "coin_age_days": 1489.42
         },
         {
             "txid": "69a2f2d0c781adf1b0055d93944cd8b33f486feb7ffb9b5f2f04caf4949136d0",
@@ -14172,7 +14616,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 75725,
+            "coin_age_days": 525.87
         },
         {
             "txid": "6a9a2d33397a3cbee6e89c7c4941ca8b7ed091f341dcb6c19a38ad1fc56e05e1",
@@ -14191,7 +14637,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 20553,
+            "coin_age_days": 142.73
         },
         {
             "txid": "83ce482dcbd6a2774c658de35c4813cea371b27bf643425a3a8a77907f6694e2",
@@ -14210,7 +14658,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 236247,
+            "coin_age_days": 1640.6
         },
         {
             "txid": "0ab12fb49dd2df0322a90fd70a4a21fefae958687be2be880105b7b493f265ee",
@@ -14229,7 +14679,9 @@
                 "sequence": false,
                 "bip69": false
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 20545,
+            "coin_age_days": 142.67
         },
         {
             "txid": "9146c6b7cdaa817bcb223782cde982ff20c438797b515114b9ddc982b721a3f4",
@@ -14248,7 +14700,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 185557,
+            "coin_age_days": 1288.59
         },
         {
             "txid": "08a64f7293b3a4b0d364d8481fe5db9c4c48f14f9640e978c9950754072f87fe",
@@ -14267,7 +14721,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 159432,
+            "coin_age_days": 1107.17
         },
         {
             "txid": "acc05fce730e5163ae3be97bc73627e45af50a9c8fa456e478059a3e57a3cce5",
@@ -14305,7 +14761,9 @@
                 "sequence": false,
                 "bip69": false
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 164831,
+            "coin_age_days": 1144.66
         },
         {
             "txid": "6a143dcad0f1dda03720c56b17bf839fa042bca85a0014ff9d05ef793faa7d66",
@@ -14324,7 +14782,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 227006,
+            "coin_age_days": 1576.43
         },
         {
             "txid": "99ad39551ae8b61af47e70f57263991a1192e18e78fffc7447cb24117d0c6493",
@@ -14343,7 +14803,9 @@
                 "sequence": false,
                 "bip69": false
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 214961,
+            "coin_age_days": 1492.78
         },
         {
             "txid": "1920e52ae427f0a41ea7ea7541a2596d439db547dee23a69dcfad4f12011a160",
@@ -14362,7 +14824,9 @@
                 "sequence": false,
                 "bip69": false
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 1253,
+            "coin_age_days": 8.7
         },
         {
             "txid": "db7876dd4c417287790d5b59df16409ea13a711c7834c6a2e2383a6e69a87097",
@@ -14381,7 +14845,9 @@
                 "sequence": false,
                 "bip69": false
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 251920,
+            "coin_age_days": 1749.44
         },
         {
             "txid": "d690293a9d5b9581f7cb816c59dd60d77a50acdecf6fb322979f3309e96398b9",
@@ -14400,7 +14866,9 @@
                 "sequence": false,
                 "bip69": false
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 192882,
+            "coin_age_days": 1339.46
         },
         {
             "txid": "6b17a4295bc2a2d0f478044f0072950bf49c209f533237f2c528c92ef69bfb15",
@@ -14419,7 +14887,9 @@
                 "sequence": false,
                 "bip69": false
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 185580,
+            "coin_age_days": 1288.75
         },
         {
             "txid": "904be79d815eb1523243506cbc32e49080ac3a3bf3632f80f959788d47aa90a4",
@@ -14438,7 +14908,9 @@
                 "sequence": false,
                 "bip69": false
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 86758,
+            "coin_age_days": 602.49
         },
         {
             "txid": "0532f863bd8e06ca6df273b1cd14dcdd9e4786b11f63540fd51955024c741deb",
@@ -14457,7 +14929,9 @@
                 "sequence": false,
                 "bip69": false
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 409,
+            "coin_age_days": 2.84
         },
         {
             "txid": "048d6cec58e19171b07b3c2d3c410dae640d205841a42a3ec98dccf423d308ad",
@@ -14476,7 +14950,9 @@
                 "sequence": false,
                 "bip69": false
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 148420,
+            "coin_age_days": 1030.69
         },
         {
             "txid": "96a7a54f4adf7a8c3cb85eb59e0c718e6b5c80e0f3b1e189e94254d257dcaa00",
@@ -14495,7 +14971,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 269504,
+            "coin_age_days": 1871.56
         },
         {
             "txid": "8181b57522bb8de94964ecae008741497d5662ca4d0f9ad02978c0716edaad01",
@@ -14514,7 +14992,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 248068,
+            "coin_age_days": 1722.69
         },
         {
             "txid": "7891fc434db1aeb5fc37d57414e233e403f7095a3c394fcc34147ec7a0086d03",
@@ -14533,7 +15013,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 29664,
+            "coin_age_days": 206.0
         },
         {
             "txid": "75b72fe31cbed270f204e74ff7eda3f88f1417ec1af7b3711614a4d5a855d809",
@@ -14552,7 +15034,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 139248,
+            "coin_age_days": 967.0
         },
         {
             "txid": "ed8e079b2e171950b99ce3e990bc1202de6ec437d062ce904c5445b6f30a980b",
@@ -14571,7 +15055,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 10734,
+            "coin_age_days": 74.54
         },
         {
             "txid": "b6c6506b7c3f0ab5717768853400be58376e7268ebe92aef9a9d63eaea705e0d",
@@ -14590,7 +15076,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 191063,
+            "coin_age_days": 1326.83
         },
         {
             "txid": "89dd440519e13e1f657808833d8128ab940462d7025d0e2805fe1e547da69f10",
@@ -14609,7 +15097,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 208838,
+            "coin_age_days": 1450.26
         },
         {
             "txid": "00388d2eaf3e72d82f4244baae5d21374ceb22e9a666de9aa2bf20f8ab794c11",
@@ -14628,7 +15118,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 129486,
+            "coin_age_days": 899.21
         },
         {
             "txid": "bb6444f4c7edce94a2f7625b6ecca239b9a63d6a9a87ca14f90ef1b383ff6412",
@@ -14647,7 +15139,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 55286,
+            "coin_age_days": 383.93
         },
         {
             "txid": "cf86037c154322b36ed8f5480c95d91d589b17a0c09a4bf7504044e7171d5218",
@@ -14666,7 +15160,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 264050,
+            "coin_age_days": 1833.68
         },
         {
             "txid": "b8121447046b51b260d427eb16be2c3e2408ce9cffd873f7ea9b6267675b171a",
@@ -14685,7 +15181,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 170119,
+            "coin_age_days": 1181.38
         },
         {
             "txid": "5d97bc612dc3ea053ffb4795eb7ea1d6897ee9e3f650c46f40e01d201606bc1a",
@@ -14704,7 +15202,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 39141,
+            "coin_age_days": 271.81
         },
         {
             "txid": "ccf8977cc2d9d32c6151c4f9ff2d5ae58e81bce929a1d2f15687451833b0db2a",
@@ -14723,7 +15223,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 109223,
+            "coin_age_days": 758.49
         },
         {
             "txid": "e970d8f700fa7ce873d27ed8e4f097c4d254a066e2f22b97bd3a8acd14a7bc2e",
@@ -14742,7 +15244,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 234037,
+            "coin_age_days": 1625.26
         },
         {
             "txid": "0e24548db36994f44475e1fc6a0cead5ef581f5b434bcb333a96962125f4a62f",
@@ -14761,7 +15265,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 252708,
+            "coin_age_days": 1754.92
         },
         {
             "txid": "55a3ebd8cb281504631bf679b972a4980b6e9a6c3b1810889f8f494c76d39136",
@@ -14780,7 +15286,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 270848,
+            "coin_age_days": 1880.89
         },
         {
             "txid": "2fe075cf0ec799f3529ed6a28e0a08b45fe1fc9bd93c3f33bdbc42d5bff4f736",
@@ -14799,7 +15307,9 @@
                 "sequence": false,
                 "bip69": false
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 33619,
+            "coin_age_days": 233.47
         },
         {
             "txid": "eecdb0dda68816667bfd00583bb435d37cf1492c492c078612007e7323a69a38",
@@ -14818,7 +15328,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 197710,
+            "coin_age_days": 1372.99
         },
         {
             "txid": "d5211bedb9c87387ef332dd701d1b55950d2149d9233ea6bcfe3bc09ddb3e83a",
@@ -14837,7 +15349,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 221705,
+            "coin_age_days": 1539.62
         },
         {
             "txid": "9e6cc693e5cacd2eb08b876711233305f5febffe71dfcf060f40665696c3803c",
@@ -14856,7 +15370,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 77609,
+            "coin_age_days": 538.95
         },
         {
             "txid": "e847b23a472ef1b764a04569f9808524f4210fcf71edad326a0a2e5a09bb9a3f",
@@ -14875,7 +15391,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 169682,
+            "coin_age_days": 1178.35
         },
         {
             "txid": "04898ceb962599f9129d5d09779a54c0d2c440ff0e859dc0b4f88a61210c7e42",
@@ -14894,7 +15412,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 133617,
+            "coin_age_days": 927.9
         },
         {
             "txid": "b8704666bf91c7e548d98f59b1fd6bb577af999f6a2208a2b27b9dd987975c43",
@@ -14913,7 +15433,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 37855,
+            "coin_age_days": 262.88
         },
         {
             "txid": "0fcd2579f33f9d2c61d49a8d5ec965a54c4d107a98b055ff95f0181a905d8e49",
@@ -14932,7 +15454,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 230724,
+            "coin_age_days": 1602.25
         },
         {
             "txid": "083786b907bf459d736ad2849b34910563addf93f524e815e19a081039a6ec49",
@@ -14951,7 +15475,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 44665,
+            "coin_age_days": 310.17
         },
         {
             "txid": "92a4d29691147b895e2f42bc4256cac78924a23c90f7ffd800612f792ef3834f",
@@ -14970,7 +15496,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 6469,
+            "coin_age_days": 44.92
         },
         {
             "txid": "c092a3b6fe70662e0fd607b75e4a985103798860c5c5e30b1b54f8488b908b50",
@@ -14989,7 +15517,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 268153,
+            "coin_age_days": 1862.17
         },
         {
             "txid": "ab6fe730600d9bd7c28682bff5fc3da7a4794477acc78649f2c0fb6afd608e55",
@@ -15008,7 +15538,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 200456,
+            "coin_age_days": 1392.06
         },
         {
             "txid": "d53baa9fc7a3348104b8d68538bcd189d0756d283b7085632c3ae3fe9bb84b57",
@@ -15027,7 +15559,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 201446,
+            "coin_age_days": 1398.93
         },
         {
             "txid": "9772e61f774641b39288f6a40432189d9bb7df5b89f6d51fe79f1493ee186257",
@@ -15046,7 +15580,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 178893,
+            "coin_age_days": 1242.31
         },
         {
             "txid": "6ebf25ef2a42b6d949e540a045898aa55aa6b341ca4c8ccf78064af2ceb41563",
@@ -15065,7 +15601,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 197751,
+            "coin_age_days": 1373.27
         },
         {
             "txid": "96925a5f2ab159553818ca628dd1ede066ad1bbfa238b359bbd2da489256bf66",
@@ -15084,7 +15622,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 257879,
+            "coin_age_days": 1790.83
         },
         {
             "txid": "4324ee629252ef7a76d26321b4f143761ebd470ff8f013a7ea6250734176d066",
@@ -15103,7 +15643,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 228996,
+            "coin_age_days": 1590.25
         },
         {
             "txid": "f769968d8bdbeeda4ccfaf3eea85d75bc4fb9a43526c89d5e9baa9bc3d05f666",
@@ -15122,7 +15664,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 38598,
+            "coin_age_days": 268.04
         },
         {
             "txid": "a0d1368e61598b03c0cd03da0208b3fd3ad3c79eb0c6077877b17fca8d667969",
@@ -15141,7 +15685,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 97099,
+            "coin_age_days": 674.3
         },
         {
             "txid": "19cecf4e95a5dbdfecb776919564794eadfd497424c05f4f664283da5871e969",
@@ -15160,7 +15706,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 131233,
+            "coin_age_days": 911.34
         },
         {
             "txid": "937a1288f149261486c72a849831b2b4a18a4bfc7a3aa3e204763f8f9839086d",
@@ -15179,7 +15727,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 170119,
+            "coin_age_days": 1181.38
         },
         {
             "txid": "661289527be96e30b058d6d7b02bb57cb10d43fb444c415a8de331cb4ad7d374",
@@ -15198,7 +15748,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 153819,
+            "coin_age_days": 1068.19
         },
         {
             "txid": "c5d39accf79036caeecfab63e862cb26cb952edd8a8ce074a650f88a11063f76",
@@ -15217,7 +15769,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 245138,
+            "coin_age_days": 1702.35
         },
         {
             "txid": "16befc1e192ef1b16c40e21dd9891d48698bdd971d0b47e490aa5e875b80b076",
@@ -15236,7 +15790,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 10085,
+            "coin_age_days": 70.03
         },
         {
             "txid": "b07f4931c08372f9ba4000abfc15378ea9268b0d64867a4c708bcbf8e7f6f277",
@@ -15255,7 +15811,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 177363,
+            "coin_age_days": 1231.69
         },
         {
             "txid": "e653d2eba87a61cb9e35b5cd636c2c09f1f408c600a61d3ad087e1a141389078",
@@ -15274,7 +15832,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 91585,
+            "coin_age_days": 636.01
         },
         {
             "txid": "f8568bc00c291e203dd85434a9d066b82d9c75537c08a390f6fc14b7a7263779",
@@ -15293,7 +15853,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 252082,
+            "coin_age_days": 1750.57
         },
         {
             "txid": "3232f513b9b33226921ca63fce93545bd6e9804abfcc6cc7031afc208e61b97a",
@@ -15312,7 +15874,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 246904,
+            "coin_age_days": 1714.61
         },
         {
             "txid": "0e16046da083a2141f64264ff9a2d482b1ab927c7fbbec51cd066afba259147c",
@@ -15331,7 +15895,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 76129,
+            "coin_age_days": 528.67
         },
         {
             "txid": "2d7e5bf51183448bacb2ea0ed066f47e688f6c87dbdcf71efbd01477c215237d",
@@ -15350,7 +15916,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 87512,
+            "coin_age_days": 607.72
         },
         {
             "txid": "4f4b4ff47ef889c65e1a8dfe203196944f3b98e0e3f93b1bb707b42e53c4c486",
@@ -15369,7 +15937,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 140113,
+            "coin_age_days": 973.01
         },
         {
             "txid": "418846d41c8cfe3f014e00d03a27537e454b42669b0d278d63843ac2520bd687",
@@ -15388,7 +15958,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 277924,
+            "coin_age_days": 1930.03
         },
         {
             "txid": "4d31fec8aa993dbb07e1f48b6387bde6b5a5b919d56b34c9b1139dbb62d61689",
@@ -15407,7 +15979,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 230719,
+            "coin_age_days": 1602.22
         },
         {
             "txid": "f2d26fcb1d693dc3bff74de479779f651c1848a34b8bbd84f854deffb61dfc92",
@@ -15426,7 +16000,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 128350,
+            "coin_age_days": 891.32
         },
         {
             "txid": "6ee565ae027640f36c1a695ed26f78eb1f89e281cb794bacd50e61894ce21998",
@@ -15445,7 +16021,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 135957,
+            "coin_age_days": 944.15
         },
         {
             "txid": "89827d17b40638a855867dadae7f10eafa6c8e798ae6d9fa9a404762a0ba3998",
@@ -15464,7 +16042,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 6469,
+            "coin_age_days": 44.92
         },
         {
             "txid": "a12a900af615059039b0ed57b8012d58b925d5f6e5eff7c836e4cce1041c1b99",
@@ -15483,7 +16063,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 197750,
+            "coin_age_days": 1373.26
         },
         {
             "txid": "5939dcd08f489148163aa03bf6d28722833321f20d40523e069017e9faa14f9d",
@@ -15502,7 +16084,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 131233,
+            "coin_age_days": 911.34
         },
         {
             "txid": "bd71940da3999f854cc95caf64ceebd6554ffe9ae5a0905e0a5c9b7319c408a1",
@@ -15521,7 +16105,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 199219,
+            "coin_age_days": 1383.47
         },
         {
             "txid": "1a40dabd5d3fc6429dd289c8044e206e1ead7108b2c4385d193ce29f5a07a0a3",
@@ -15540,7 +16126,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 224218,
+            "coin_age_days": 1557.07
         },
         {
             "txid": "3e010c58c4205edaddad452a0d7b9dcf5f07952e5334f0fdade23d6e98f675a5",
@@ -15559,7 +16147,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 25624,
+            "coin_age_days": 177.94
         },
         {
             "txid": "a14b081ffd4cc1850e0d9e375f0b0f8aebefd901690487c94c32292c74bcbfaa",
@@ -15578,7 +16168,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 245137,
+            "coin_age_days": 1702.34
         },
         {
             "txid": "9c32339a8542c34e11f625953965faa15019d535a8c0ecbdcf695ad3facc60ac",
@@ -15597,7 +16189,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 269567,
+            "coin_age_days": 1871.99
         },
         {
             "txid": "bb75c5aa5c00608a1a3ccfe972366499a65f044e521e6b07f5afd856d89958ad",
@@ -15616,7 +16210,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 123979,
+            "coin_age_days": 860.97
         },
         {
             "txid": "35330b670020ff7134927e68655d45e430715ab94f9e461fe9c43c45e5a5fead",
@@ -15635,7 +16231,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 197593,
+            "coin_age_days": 1372.17
         },
         {
             "txid": "f2550018110d8a95c58d44216df4a25dd317ddb35fd2f421c59bc343b2c317b4",
@@ -15654,7 +16252,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 238254,
+            "coin_age_days": 1654.54
         },
         {
             "txid": "7a2ff56ffc3dfdecf80caf8b407483b1a6c7b5c65055a720920a414977c1e1b6",
@@ -15673,7 +16273,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 16644,
+            "coin_age_days": 115.58
         },
         {
             "txid": "ff190d9c7b2263614474397d6dea3e0e322d797a2da3502791cdeab6b3bea8b8",
@@ -15692,7 +16294,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 159915,
+            "coin_age_days": 1110.52
         },
         {
             "txid": "741b6e5072dc0d32635b37b76c298f13e4d0f2228bb41a10db85b158218749b9",
@@ -15711,7 +16315,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 223937,
+            "coin_age_days": 1555.12
         },
         {
             "txid": "7c9d0f4215f37dd58264a820e72159ac30cb858f73d0bd39874d3cf753f740bf",
@@ -15730,7 +16336,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 94287,
+            "coin_age_days": 654.77
         },
         {
             "txid": "5e2377247bcc15136117662cb9b30792248bd3fb08528145271aa080add020c6",
@@ -15749,7 +16357,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 61106,
+            "coin_age_days": 424.35
         },
         {
             "txid": "7df1187999e6d3f546307067f19ae950bdbc83abc048870aafc3d3a1eaaaf6c6",
@@ -15768,7 +16378,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 168916,
+            "coin_age_days": 1173.03
         },
         {
             "txid": "a1dc19b74a84dfa1a836ed77cf59b16c574c2f87e8bffb121249e6208edc5cc7",
@@ -15787,7 +16399,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 211491,
+            "coin_age_days": 1468.69
         },
         {
             "txid": "4ab0448e97f56d0d0be08bb5b7f0248484a162259cbc2420ced0b7e752535dc7",
@@ -15806,7 +16420,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 201343,
+            "coin_age_days": 1398.22
         },
         {
             "txid": "4712e1425cd6b1610cd3e47ba29f28a5f571ca528baf677e563eb5c53c9017c9",
@@ -15825,7 +16441,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 59056,
+            "coin_age_days": 410.11
         },
         {
             "txid": "cb8eba08a1de60f1a152603d35cc3a3419be1c8d3e717a9c86005518bcdfcccc",
@@ -15844,7 +16462,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 232640,
+            "coin_age_days": 1615.56
         },
         {
             "txid": "ec126f1ff950e2c50840fabe6cd6da79dbee944505cda683643d1f7cfb958ccd",
@@ -15863,7 +16483,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 238247,
+            "coin_age_days": 1654.49
         },
         {
             "txid": "b42f641b17ed00f328c5698ebf699cbd0a218670b7d65d902c55bcb198861dcf",
@@ -15882,7 +16504,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 45655,
+            "coin_age_days": 317.05
         },
         {
             "txid": "8291a8bc417badbb882f75a59b1848e94f60d3f6a6340b508ffbdc3391af98cf",
@@ -15901,7 +16525,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 131230,
+            "coin_age_days": 911.32
         },
         {
             "txid": "1f5ba6bf776625c70e06914edfbbdcdce74ce20ccc566ba4e847a204a806aecf",
@@ -15920,7 +16546,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 108903,
+            "coin_age_days": 756.27
         },
         {
             "txid": "1b16a0dd5b1bdc832b64a0958645dfc7b8156e8ad39ef1f860957dfb019a15d2",
@@ -15939,7 +16567,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 162862,
+            "coin_age_days": 1130.99
         },
         {
             "txid": "765b08080845f081ff7f930ba10ddd0681fa5508c8b1ec966877fc915f2ea4d3",
@@ -15958,7 +16588,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 132535,
+            "coin_age_days": 920.38
         },
         {
             "txid": "32bc074a244d5de42a73c080fa5735954c872a5d7d157926994d5aafb2bce6d5",
@@ -15977,7 +16609,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 99825,
+            "coin_age_days": 693.23
         },
         {
             "txid": "00c06438aa70b8f25b9dab44801bc6ba31a6e6d833c3ff0dcdf52d829378bbd6",
@@ -15996,7 +16630,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 51910,
+            "coin_age_days": 360.49
         },
         {
             "txid": "4a31c7f404f83de90a51d195292dbe5b689cee2c7b3f1a4b7bebaae939c5b1df",
@@ -16015,7 +16651,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 219025,
+            "coin_age_days": 1521.01
         },
         {
             "txid": "f6b44834689171e61c69bc9cb54fab35f4e43a3487715aaa2d0fbc17683105e3",
@@ -16034,7 +16672,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 29665,
+            "coin_age_days": 206.01
         },
         {
             "txid": "5371bb25e76dcb60dba7551a09e3e143b52ab7eece91c738c78620ff5c7db0e4",
@@ -16053,7 +16693,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 32973,
+            "coin_age_days": 228.98
         },
         {
             "txid": "e50f39d3a0fcf831b8171682a0223515612139edce0dc80ec520481747e1e7e7",
@@ -16072,7 +16714,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 83764,
+            "coin_age_days": 581.69
         },
         {
             "txid": "c8b28e7e188a30de2a721a81ba3993e779d6fa0f1325cc039d74f4d52a5d03e8",
@@ -16091,7 +16735,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 56240,
+            "coin_age_days": 390.56
         },
         {
             "txid": "c08ee254bb88f1166f63e931648d0febe85dd3cd202724d0475220f569b441e9",
@@ -16110,7 +16756,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 194651,
+            "coin_age_days": 1351.74
         },
         {
             "txid": "410c1bce7c167ce5fdca196011fe6079f8fb92dbd543f3081375e28bdbb84bee",
@@ -16129,7 +16777,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 125126,
+            "coin_age_days": 868.93
         },
         {
             "txid": "06fcd46b9d5987c595b04d7202c28269ec41606d4f7bf5f359f9bf9e209713ef",
@@ -16148,7 +16798,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 253238,
+            "coin_age_days": 1758.6
         },
         {
             "txid": "5a63c20aba3188b23464eed8986d731e6e01eaa681e7cedf9548d06a3d993bef",
@@ -16167,7 +16819,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 95466,
+            "coin_age_days": 662.96
         },
         {
             "txid": "f830d50156eea6b0e67fdeaddeacc19c1e136aa351aeb68b6327a0b21bb537f5",
@@ -16186,7 +16840,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 223194,
+            "coin_age_days": 1549.96
         },
         {
             "txid": "bbbc0ec3f54007e3307febdb2900a0ccd3ad86e1fbff68f37c7167ccdfae2df6",
@@ -16205,7 +16861,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 221115,
+            "coin_age_days": 1535.52
         },
         {
             "txid": "318fb3e2ce79de11d2758a78d5f6e549a975b50840dcb91873e7955fdcf069f6",
@@ -16224,7 +16882,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 238239,
+            "coin_age_days": 1654.44
         },
         {
             "txid": "247ec608130ca71675b91f778624afe4cc1313aeac9e4752436fa340878cd9f6",
@@ -16243,7 +16903,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 75704,
+            "coin_age_days": 525.72
         },
         {
             "txid": "7a9ce30882eb0944f14acb7953be8e0dc806879d69faf73c6119aaa8a545e3f7",
@@ -16262,7 +16924,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 169021,
+            "coin_age_days": 1173.76
         },
         {
             "txid": "1e3bbcc05ea38f45fabd035b425109d29ffe3fc07c4cb7e19db07d74beafecf8",
@@ -16281,7 +16945,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 248031,
+            "coin_age_days": 1722.44
         },
         {
             "txid": "a406b4b61b594561b1ac9ccec969bd13a64fdb5543e89129f9280e12c05f4afb",
@@ -16300,7 +16966,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 83764,
+            "coin_age_days": 581.69
         },
         {
             "txid": "79f36d247e21d6ca16b35740aef3ec0accfd80745464805754e70f22d859f1fc",
@@ -16319,7 +16987,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 19302,
+            "coin_age_days": 134.04
         },
         {
             "txid": "e3e394f419e96a84c674824a31773a2d1135ed6027734b21bcdddbd19af4c3fe",
@@ -16338,7 +17008,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 6885,
+            "coin_age_days": 47.81
         },
         {
             "txid": "9f58588bcadc6a0be11192c47f4a970a0778e6fdde28855fe135a31a82d6ccfe",
@@ -16357,7 +17029,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 96989,
+            "coin_age_days": 673.53
         },
         {
             "txid": "637fd121296572ee4e3f0cad67110e3a03e1f16d23e751ede1b0dade811ca3ff",
@@ -16376,7 +17050,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 209223,
+            "coin_age_days": 1452.94
         },
         {
             "txid": "7b573cb28bd2926c89684968b553dfb0d5a8574b62e0c8082960a5e1042c757b",
@@ -16414,7 +17090,9 @@
                 "sequence": false,
                 "bip69": false
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 5,
+            "coin_age_days": 0.03
         },
         {
             "txid": "ecc827a45c6cda012c3fd1c1b90fa4b404acfb57b61c0fea4cba8d2631b2b47c",
@@ -16528,7 +17206,9 @@
                 "sequence": false,
                 "bip69": false
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 242574,
+            "coin_age_days": 1684.54
         },
         {
             "txid": "5036de798477ba3e48f82f2469d3be5401ecda01626dd944d8ee6d02d3d3bf58",
@@ -16547,7 +17227,9 @@
                 "sequence": false,
                 "bip69": false
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 163535,
+            "coin_age_days": 1135.66
         },
         {
             "txid": "0a238f80f89a704401fea5e2d3230c7cf3d354c24ec0e84ca78be579f40f45b6",
@@ -16699,7 +17381,9 @@
                 "sequence": false,
                 "bip69": false
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 5509,
+            "coin_age_days": 38.26
         },
         {
             "txid": "43520bd70cc83ebc27a6071f9e97f478b9b7ef7329bab7b69eebba1e60f6bc59",
@@ -16794,7 +17478,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 76848,
+            "coin_age_days": 533.67
         },
         {
             "txid": "9c843f073682ee2eaaec61eee1b4bf01573ca03b0f840b531d1a57ef3ce02705",
@@ -16946,7 +17632,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 84891,
+            "coin_age_days": 589.52
         },
         {
             "txid": "a3868704d0cd3ba9e152a8d40b95634f8f44d08c105965db30e24b2f23713815",
@@ -17155,7 +17843,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 249996,
+            "coin_age_days": 1736.08
         },
         {
             "txid": "6df0da3b9e4a396a94c45efdff5cce4631bdc8e2c5eedb5bc010728184d75f2b",
@@ -17174,7 +17864,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 15396,
+            "coin_age_days": 106.92
         },
         {
             "txid": "625066bfa455ae1f5fe833830b30746a108632e8d7993ee262bc7e33cbf8bb2b",
@@ -17383,7 +18075,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 150077,
+            "coin_age_days": 1042.2
         },
         {
             "txid": "1c6a9658302b9fb3a6099de8564866047836245df47c7be0cbd750d4b9bad13e",
@@ -17516,7 +18210,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 37290,
+            "coin_age_days": 258.96
         },
         {
             "txid": "2fa4f03483a6d967f144d7d8090f07497ce551f4e3c4fbfe5825e7ad43abc94b",
@@ -17649,7 +18345,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 218479,
+            "coin_age_days": 1517.22
         },
         {
             "txid": "f5b7bfa94d96be899a1f5276d1210c3c54eed9501226485d91b5c8bb0e62fc52",
@@ -17839,7 +18537,9 @@
                 "sequence": false,
                 "bip69": false
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 217855,
+            "coin_age_days": 1512.88
         },
         {
             "txid": "1d8ca0deeb3428bf2aaf70baaa09b9b074014ebe91363ea124c20080767da868",
@@ -17877,7 +18577,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 97100,
+            "coin_age_days": 674.31
         },
         {
             "txid": "c4c91ae2bb76c39503962c1898745e91358157df4e989318bd7d877ecc53006b",
@@ -17991,7 +18693,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 214904,
+            "coin_age_days": 1492.39
         },
         {
             "txid": "170721a869779210884707d9f2904aad94eb603037d11702f4ad22174033a272",
@@ -18105,7 +18809,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 236851,
+            "coin_age_days": 1644.8
         },
         {
             "txid": "b1ec45f05aefaf83de5b78e221bb8824b3ec6b265325d6a97fbbe62bb581ff7e",
@@ -18162,7 +18868,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 105787,
+            "coin_age_days": 734.63
         },
         {
             "txid": "69a772f11eca6e3a060538e1805ed5edb09055f8f1f81588deebbfa2f28cd188",
@@ -18200,7 +18908,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 103500,
+            "coin_age_days": 718.75
         },
         {
             "txid": "7132e83bf591e3b9a6ab5cf5a1dc7020aaf85a395ae42317d5be15f9cc7cab89",
@@ -18409,7 +19119,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 201184,
+            "coin_age_days": 1397.11
         },
         {
             "txid": "cdd0b02bb528f8d03522369a88a5b561442d6cf6a543a85c1680ca2ce4d3f698",
@@ -18542,7 +19254,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 27078,
+            "coin_age_days": 188.04
         },
         {
             "txid": "75fe27a57fdd35c80e37d0af1ff3dcafe807414d2d0a62ac17362e1700ee729d",
@@ -18580,7 +19294,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 125107,
+            "coin_age_days": 868.8
         },
         {
             "txid": "fb080c55d073b3ce84a54e39be1da0f77377a189b8fe1fd07ad563e22f6f489f",
@@ -18618,7 +19334,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 116915,
+            "coin_age_days": 811.91
         },
         {
             "txid": "dd2ce6563e0014ca3d518a9657df1c3a4bad9c067318f3285c43054ebc5f36a0",
@@ -18922,7 +19640,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 200175,
+            "coin_age_days": 1390.1
         },
         {
             "txid": "195e9b4023806c4fa0231845f02f1b078184ac3bfd939e881e048e06fe60ccbb",
@@ -18960,7 +19680,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 135047,
+            "coin_age_days": 937.83
         },
         {
             "txid": "45f61257a7ce1285cdcd35610ead4d1646bd83eb24681c6a8cb2b2c608c314bd",
@@ -18979,7 +19701,9 @@
                 "sequence": false,
                 "bip69": false
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 179253,
+            "coin_age_days": 1244.81
         },
         {
             "txid": "284d94d4111a94f1f0d510daa46de9ed6fb44036f61a705bedc90258c1fc4bbd",
@@ -19207,7 +19931,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 77101,
+            "coin_age_days": 535.42
         },
         {
             "txid": "0efc6f74219409d595cc294b128824eb2e1802ab497cf48aed39a69e355d63d0",
@@ -19606,7 +20332,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 173544,
+            "coin_age_days": 1205.17
         },
         {
             "txid": "fa21fda66b9070b85a90c741bd061211215854702e9898c3dde349adffd168c3",
@@ -19644,7 +20372,9 @@
                 "sequence": false,
                 "bip69": false
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 1,
+            "coin_age_days": 0.01
         },
         {
             "txid": "b9d8cd4bc9358e8467d3cc2caf0b2e2880d441976e3adec80e3b4a90c1030565",
@@ -23007,7 +23737,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 0,
+            "coin_age_days": 0.0
         },
         {
             "txid": "b16fc03f919e7b1a03ab3673f1aa97568b9492ceae0b83f4b0079de2b716de13",
@@ -23064,7 +23796,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 5104,
+            "coin_age_days": 35.44
         },
         {
             "txid": "ae6e137e8e890c3511931440c768e8f9eec23781deeabdbe8072c9bcd07a19a7",
@@ -23140,7 +23874,9 @@
                 "sequence": true,
                 "bip69": false
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 166512,
+            "coin_age_days": 1156.33
         },
         {
             "txid": "4bf57e323bb9df830130aa4e9dc2b90f4785e4e12695abf2085e1fb45453f51f",
@@ -23216,7 +23952,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 1,
+            "coin_age_days": 0.01
         },
         {
             "txid": "7a11994ca38be2d14060b3a74aee9f0dc8d1832902db85e765d5bbabbac8ab5c",
@@ -23292,7 +24030,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 1,
+            "coin_age_days": 0.01
         },
         {
             "txid": "500594f070d6c11ec112998294434e145de7d0600166c66c1ecbb92273cd127e",
@@ -23387,7 +24127,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 2,
+            "coin_age_days": 0.01
         },
         {
             "txid": "18ee85ba827269a4efa98fe0bc24fd44b9f944215fd666dcc32119057e6f324b",
@@ -23558,7 +24300,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 67764,
+            "coin_age_days": 470.58
         },
         {
             "txid": "7b17a8b3333a56773a394f745e5822eb46c35b2d966a642cf138b9d777983cb6",
@@ -23748,7 +24492,9 @@
                 "sequence": true,
                 "bip69": false
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 197710,
+            "coin_age_days": 1372.99
         },
         {
             "txid": "fd53c50d741c1873d6458c4a93a25d89e338273970228fac0adc9aad445ea66e",
@@ -23862,7 +24608,9 @@
                 "sequence": true,
                 "bip69": false
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 226704,
+            "coin_age_days": 1574.33
         },
         {
             "txid": "0bcf7dfdff3a446a5c9bc8004d4dee943d1dd3a1e22167047e16965a05b0b4d5",
@@ -23957,7 +24705,9 @@
                 "sequence": true,
                 "bip69": false
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 269686,
+            "coin_age_days": 1872.82
         },
         {
             "txid": "fb91793ed77937c8ff022255b5ae8a7e91ffcf1213d06ef68a064794036dc076",
@@ -24983,7 +25733,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 4,
+            "coin_age_days": 0.03
         },
         {
             "txid": "a7cd1e2766b9ac49305bb97af428102562b2baba8b4f69bf16e0e99eee371cca",
@@ -25040,7 +25792,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 0,
+            "coin_age_days": 0.0
         },
         {
             "txid": "08a784a247b5e385206dd9a7739cadfe6a51b5c52baae26a4957498e4c64dae5",
@@ -25173,7 +25927,9 @@
                 "sequence": true,
                 "bip69": false
             },
-            "tier": "tier_1_verified"
+            "tier": "tier_1_verified",
+            "block_height_delta": 197291,
+            "coin_age_days": 1370.08
         },
         {
             "txid": "3c5d997fcb3d9b4935d4bb514849c4da10b462a226bb10497876939877a357a8",
@@ -25553,7 +26309,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 5788,
+            "coin_age_days": 40.19
         },
         {
             "txid": "d4bf30597a28c553aa2384e8ae45233788ff501b8b89ae03ca9803a40d8060a1",
@@ -25743,7 +26501,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 88390,
+            "coin_age_days": 613.82
         },
         {
             "txid": "14c1c2b2b7565978da87499770da2298a672eb45b71015269371dcfc82a6ede2",
@@ -25762,7 +26522,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 104885,
+            "coin_age_days": 728.37
         },
         {
             "txid": "953ec9bb2460cab52543ba2f21703035dc375ed02ee1be5eaa37117f640bf5e4",
@@ -25781,7 +26543,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 89079,
+            "coin_age_days": 618.6
         },
         {
             "txid": "403ee10e1efe4d50861f41867d246a9a651e5b96b773a2ef2e2ac337aac078ec",
@@ -25800,7 +26564,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 88322,
+            "coin_age_days": 613.35
         },
         {
             "txid": "e7b3219f388dd1a279d0b9f1f8517da354d7fe95b3ba71f0713b97c379470392",
@@ -25819,7 +26585,9 @@
                 "sequence": true,
                 "bip69": false
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 7,
+            "coin_age_days": 0.05
         },
         {
             "txid": "7525288bd792fa359a13e3f791eeda730f2ee5731e0df66269639f91b79a7b6e",
@@ -25933,7 +26701,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 0,
+            "coin_age_days": 0.0
         },
         {
             "txid": "def8462fb637d53a8621374e76bb5fbf961b84c9d9dd1328675f6b1a95052568",
@@ -25952,7 +26722,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 1,
+            "coin_age_days": 0.01
         },
         {
             "txid": "d010627e62197cb79a2d7c78feb29ae5a8951335c52038a56a8a8f2c96c78ee2",
@@ -25971,7 +26743,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 1,
+            "coin_age_days": 0.01
         },
         {
             "txid": "0249fdd0ec9f345b0cf51d831a4143a8d9259e29e1e860631fd6edf2939cf997",
@@ -26028,7 +26802,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 193443,
+            "coin_age_days": 1343.35
         },
         {
             "txid": "ed390cb4df09317e8b55349902687ac8448c3a09718bdfc23653916e74e8fe32",
@@ -39290,7 +40066,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 138982,
+            "coin_age_days": 965.15
         },
         {
             "txid": "bae725ba71f7124878909c22cee05159a0dc7d589e001d2fcb407b02e77e3576",
@@ -39879,7 +40657,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 224248,
+            "coin_age_days": 1557.28
         },
         {
             "txid": "95fba41eac4386a1229877e9f63cbc8bd7fcb9eed41adaeeecc1232edfad5389",
@@ -44002,7 +44782,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 224236,
+            "coin_age_days": 1557.19
         },
         {
             "txid": "6aefce5a0c2104eb6322c979ccba706831d6dfbf6a7bf9d2c71eca20e3240ef6",
@@ -44496,7 +45278,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 2,
+            "coin_age_days": 0.01
         },
         {
             "txid": "b4e5ad1d79727aaca816a9662a1764774cc1a06c2865103a0455631508202660",
@@ -44762,7 +45546,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 0,
+            "coin_age_days": 0.0
         },
         {
             "txid": "dc0f15d50ba073684830c1be7b652a4f6f5645f26dd9d78e839472791cf1f7af",
@@ -44781,7 +45567,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 0,
+            "coin_age_days": 0.0
         },
         {
             "txid": "c6e2bde509b418f69ee28873588e28d3aa4c1af6eb8f82135b39e5724c92c1a0",
@@ -44914,7 +45702,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 0,
+            "coin_age_days": 0.0
         },
         {
             "txid": "7f9a4dd61c4007394a5a3c588451dc8ea6b74a910ffbf123853c8690318d31fd",
@@ -45009,7 +45799,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 147399,
+            "coin_age_days": 1023.6
         },
         {
             "txid": "9111ddadc003d032aa61cd1988d1f90475d14660fb75057c19bd9dc054a979d5",
@@ -45028,7 +45820,9 @@
                 "sequence": true,
                 "bip69": false
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 8,
+            "coin_age_days": 0.06
         },
         {
             "txid": "8fdf6a59d8a04662d46302866d65127c142eeb350b9ad3386ea5816721f97975",
@@ -45465,7 +46259,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 212495,
+            "coin_age_days": 1475.66
         },
         {
             "txid": "d99919e51bc960f723a52d15d9f2063d74dee8b8da9c6ecc28bf0ef32451c42e",
@@ -45655,7 +46451,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 189121,
+            "coin_age_days": 1313.34
         },
         {
             "txid": "267d56c5073e39993bb227c5ad00c8c8f162fc310c3ce0419a5bdc78b5aba33e",
@@ -45712,7 +46510,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 212499,
+            "coin_age_days": 1475.69
         },
         {
             "txid": "1fd0a85a4ef62304b5159ce934517ac3fefb67d18bd72ccd64dac6f83e9cdab0",
@@ -50614,7 +51414,9 @@
                 "sequence": true,
                 "bip69": false
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 7474,
+            "coin_age_days": 51.9
         },
         {
             "txid": "13c0b65a5e539f53cab1bee05defa9c14a94104da9f2856925332c4a15f592f6",
@@ -50671,7 +51473,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 266099,
+            "coin_age_days": 1847.91
         },
         {
             "txid": "0e03bc9ec56770b1b992f5b1246588e7bc9d4a40c159350d73389d8a87c9ed82",
@@ -50785,7 +51589,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 155162,
+            "coin_age_days": 1077.51
         },
         {
             "txid": "48656d9870dbee8f8c8561dec5f46729750b18b3db5897015651308dce5227c5",
@@ -50823,7 +51629,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 75420,
+            "coin_age_days": 523.75
         },
         {
             "txid": "c962bcea92157ac4cede9494a179d25449c9c9abef77bf26046c93e7ae9a0469",
@@ -50899,7 +51707,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 129284,
+            "coin_age_days": 897.81
         },
         {
             "txid": "1edc78c20519ebb1beaaeed9957ba254dd8faa41745aebbe3a3a85f6af21dc72",
@@ -51013,7 +51823,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 4,
+            "coin_age_days": 0.03
         },
         {
             "txid": "295f34bf43f793d58b20b1c5d19377ae66e852a59402d1e3ef0200e83524c9ea",
@@ -51032,7 +51844,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 67677,
+            "coin_age_days": 469.98
         },
         {
             "txid": "f5239dd840292ae50d27c2eabf182ea5d2f9dc901f3247a75cb9dd59fb8f3b9b",
@@ -51184,7 +51998,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 149909,
+            "coin_age_days": 1041.03
         },
         {
             "txid": "677ae44b5e7476d71268646e852746edb371d8661a8fed9bdcb30aa45d93a79e",
@@ -51260,7 +52076,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 2,
+            "coin_age_days": 0.01
         },
         {
             "txid": "52b7a357709e9b0769ca19898e8cc16aa9cabd49cfb9c9641fa58d487c358602",
@@ -51317,7 +52135,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 13,
+            "coin_age_days": 0.09
         },
         {
             "txid": "ba0a68ef929e8fc50a0deb41a09464d3cda53946628aff7b570f4107bc07e54c",
@@ -51507,7 +52327,9 @@
                 "sequence": true,
                 "bip69": false
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 141,
+            "coin_age_days": 0.98
         },
         {
             "txid": "b36dede9e26210b358c5583c9c2c45bdafecf692370a21fe6caf31d6c90266b8",
@@ -51526,7 +52348,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 16,
+            "coin_age_days": 0.11
         },
         {
             "txid": "8f35c544bb022fce39312c28d8f334fc72ee6756c70e403679d5a1cfbe1eaa0b",
@@ -51640,7 +52464,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 124042,
+            "coin_age_days": 861.4
         },
         {
             "txid": "aeac5c2217400d201dbf469889e09d0c8f628f4e7b282524f5b6915055bc7bab",
@@ -51735,7 +52561,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 88500,
+            "coin_age_days": 614.58
         },
         {
             "txid": "9de359a2b8a74a0726e41e3e58092662aff9a9751fafa45efedb9feca673e35f",
@@ -51754,7 +52582,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 88031,
+            "coin_age_days": 611.33
         },
         {
             "txid": "505826cb64a10a7521c71176ce8780f6bb4fc7443d361ecd9ee0ef889284f631",
@@ -51792,7 +52622,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 84947,
+            "coin_age_days": 589.91
         },
         {
             "txid": "7c0d02647415a57530d096c4a2710c0b7bfbf37b44170c9264b79f5f8f639f92",
@@ -51849,7 +52681,9 @@
                 "sequence": true,
                 "bip69": false
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 11775,
+            "coin_age_days": 81.77
         },
         {
             "txid": "bafbdb56b81498eddb1a77efcc6b7b96eade41718a0535a9fd7f51d9ade34a0f",
@@ -51982,7 +52816,9 @@
                 "sequence": true,
                 "bip69": false
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 6,
+            "coin_age_days": 0.04
         },
         {
             "txid": "064dc2107df38374869047d1f8557e769cf1df9186e0f64afbe48ec3ef172ee0",
@@ -52058,7 +52894,9 @@
                 "sequence": true,
                 "bip69": false
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 19,
+            "coin_age_days": 0.13
         },
         {
             "txid": "6762f26df1cbab7465bf481d56262fa549471e807422c6b83578cef23dbc90d4",
@@ -52172,7 +53010,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 0,
+            "coin_age_days": 0.0
         },
         {
             "txid": "025a6192d27ee33907a15ef94545cc7a3e19d678ddae794461db033a9bb9460f",
@@ -52286,7 +53126,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 51406,
+            "coin_age_days": 356.99
         },
         {
             "txid": "9f823911f7c35ec6dde8c77e5db7c5f12ef255efa812608bf35cf8be3dfe0caf",
@@ -52305,7 +53147,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 50686,
+            "coin_age_days": 351.99
         },
         {
             "txid": "42405ebe79b302a05ab390d49a50cf5222b638a891be316602055dcfb3ad3706",
@@ -52381,7 +53225,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 76,
+            "coin_age_days": 0.53
         },
         {
             "txid": "94c2a7c1d7b1e7af310e3fea553c8e1c22ecb291aaeb66d8f460e053cc073dfa",
@@ -52419,7 +53265,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 366866,
+            "coin_age_days": 2547.68
         },
         {
             "txid": "c544b9022309f9a6d24fd97887153e37dd8c23b02e881cb366b3f78e6353cfd7",
@@ -52495,7 +53343,9 @@
                 "sequence": true,
                 "bip69": false
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 231090,
+            "coin_age_days": 1604.79
         },
         {
             "txid": "b3875cd4510dba12b6904bf9c7da2a1d5ea47df0be4dfb3b7920487bf8fa2527",
@@ -52514,7 +53364,9 @@
                 "sequence": true,
                 "bip69": false
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 230991,
+            "coin_age_days": 1604.1
         },
         {
             "txid": "bc4f36ca6667f98d026521814a91e7914f5d6ada18b6081dc42a41d68a2ab212",
@@ -52552,7 +53404,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 15,
+            "coin_age_days": 0.1
         },
         {
             "txid": "0e5268fdc2376e1243f7e8bd94df5f6f450c228fa36f5cfd327c612f1de9110c",
@@ -52609,7 +53463,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 13105,
+            "coin_age_days": 91.01
         },
         {
             "txid": "88b7ac9b468efa39103fc97c4f06a7ed72a0c75c098b187e8fa29d0b921f1edf",
@@ -52628,7 +53484,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 13105,
+            "coin_age_days": 91.01
         },
         {
             "txid": "2df505d7cd43096ec3c846937d28056483242c16baed31e670f79cb5d26c49e5",
@@ -52647,7 +53505,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 13105,
+            "coin_age_days": 91.01
         },
         {
             "txid": "e21e37a77af51a8025a9da5c4cc7dc4a72a75db43fb6a917dcca2b9c2112fcaf",
@@ -52989,7 +53849,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 1,
+            "coin_age_days": 0.01
         },
         {
             "txid": "0671eec6e5c60a926bc17ee24692a436a36fe61a16ec0b415f2923dc8ebac248",
@@ -53464,7 +54326,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 37,
+            "coin_age_days": 0.26
         },
         {
             "txid": "a5951ff3079d62a7a4e33ef8c2c51b1dfe7c1a42e29dd9e56ac09a5465be9095",
@@ -53578,7 +54442,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 17685,
+            "coin_age_days": 122.81
         },
         {
             "txid": "8bacae2404cb725a0f8c9e872c5b7b9e0584ece777c57a2ec356017492f31c06",
@@ -53711,7 +54577,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 1,
+            "coin_age_days": 0.01
         },
         {
             "txid": "f02ba655b66297502c32afc59396c63cb12bceadc548b416db4ecefe34d3fceb",
@@ -54034,7 +54902,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 2,
+            "coin_age_days": 0.01
         },
         {
             "txid": "7a175d5f17c1d53ef8e5b5e0ca7175ae2bdddf50cca34feb8834e150a5dd578c",
@@ -54091,7 +54961,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 0,
+            "coin_age_days": 0.0
         },
         {
             "txid": "b30c641c4e659f30a71e5f8647a46149ad42dc731c30b47db9e9a598b4a74f66",
@@ -54186,7 +55058,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 366858,
+            "coin_age_days": 2547.62
         },
         {
             "txid": "287ac8fc2957e75243dd68866ce186163c9417100da580737a09c2c66a54e2c8",
@@ -54338,7 +55212,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 4,
+            "coin_age_days": 0.03
         },
         {
             "txid": "c5a3184d05a52c5925dd60afef78b0bf8815b36c089d21839dbc6d5553d88b3e",
@@ -54414,7 +55290,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 346503,
+            "coin_age_days": 2406.27
         },
         {
             "txid": "a1c543e6aa91a1947f701890b0cba87c48503854c063a5d7a8195ac212e9be06",
@@ -54452,7 +55330,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 346415,
+            "coin_age_days": 2405.66
         },
         {
             "txid": "5421980f5b6f9dd25b81bb82ed7b408c27992f61cd4c8f26a3230defc1e7a405",
@@ -54471,7 +55351,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 349791,
+            "coin_age_days": 2429.1
         },
         {
             "txid": "50f38065eed53ae671ea8d4931274c3d1a141d2cf0ef0a393b1902fee9a23772",
@@ -54794,7 +55676,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 231079,
+            "coin_age_days": 1604.72
         },
         {
             "txid": "1571e866d451f23e15b9a98e64ee52b8f4f236bec98e727b08c7df097a271a41",
@@ -54851,7 +55735,9 @@
                 "sequence": true,
                 "bip69": false
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 130255,
+            "coin_age_days": 904.55
         },
         {
             "txid": "1e656c2ae52930b28c1711aeb13dd7fc63ab5869e87fa3e1fa912e78db9572d0",
@@ -55326,7 +56212,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 16,
+            "coin_age_days": 0.11
         },
         {
             "txid": "29481a5d4f500ae0e7cb351b14068d137822673e388506b3292c65034a1905c7",
@@ -55402,7 +56290,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 14,
+            "coin_age_days": 0.1
         },
         {
             "txid": "d7fd7891be6767a76f810a99105d083292a0dbb5c0fcaf738efce96e71fc4b47",
@@ -55706,7 +56596,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 103775,
+            "coin_age_days": 720.66
         },
         {
             "txid": "991936b13699a9923daa30f57a025c041993cd90c6463450928eb0ad327c3364",
@@ -55744,7 +56636,9 @@
                 "sequence": true,
                 "bip69": false
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 19,
+            "coin_age_days": 0.13
         },
         {
             "txid": "018f5758b33a5041dcc96cc5c9d763e7110605a440ac5ed9acde5138fa5230f6",
@@ -55858,7 +56752,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 1,
+            "coin_age_days": 0.01
         },
         {
             "txid": "e469d4d68c6c002211c10bf03eb6d69030f2d34ebbb2eec8503c4b753078397d",
@@ -56105,7 +57001,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 0,
+            "coin_age_days": 0.0
         },
         {
             "txid": "a2b311936ff62c95d8dc7b36be1ffd6b3cd89c6761908bff1861ec44f74f1b47",
@@ -56257,7 +57155,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 0,
+            "coin_age_days": 0.0
         },
         {
             "txid": "aea3f1dfaa9853ee319e5c57841d6d1345682c948cd1a663af763b5df0527242",
@@ -56333,7 +57233,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 7577,
+            "coin_age_days": 52.62
         },
         {
             "txid": "b0503f651c638c677ffc7303ce8fea6b7ca4ca63bba404084b22ab985279d117",
@@ -56352,7 +57254,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 240820,
+            "coin_age_days": 1672.36
         },
         {
             "txid": "1d737e7157aac5db05ed73fc36c9dbf55dbd540355e289ec277c06463c1b57a2",
@@ -56865,7 +57769,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 7663,
+            "coin_age_days": 53.22
         },
         {
             "txid": "ae19af536449bebb2f7cecf55cdcd470ff8e6b6f3080e25dc74a2101a1523444",
@@ -57549,7 +58455,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 1,
+            "coin_age_days": 0.01
         },
         {
             "txid": "090bd02508f175f6e94d39efdabf97d910c4061f557e5093518e26da29152891",
@@ -57682,7 +58590,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 62098,
+            "coin_age_days": 431.24
         },
         {
             "txid": "2c349771935aaff1ee8d668d155d3402042e71f583904b7793f6fcabc9306965",
@@ -57815,7 +58725,9 @@
                 "sequence": true,
                 "bip69": false
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 15,
+            "coin_age_days": 0.1
         },
         {
             "txid": "56c68fde74331862a54986224d5584e718d1700d27aeff2533ef61b4b7df4781",
@@ -57834,7 +58746,9 @@
                 "sequence": true,
                 "bip69": false
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 3,
+            "coin_age_days": 0.02
         },
         {
             "txid": "5b952e7751488e2aef0d8d9fef5978958dc76b702c5271410bd40e76ee3da9d8",
@@ -57853,7 +58767,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 89723,
+            "coin_age_days": 623.08
         },
         {
             "txid": "34fa9ecd7c1fe97ff92a064b829af553bdc7149ff357a677c9b5b809d19b6403",
@@ -58195,7 +59111,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 0,
+            "coin_age_days": 0.0
         },
         {
             "txid": "e04ed433931d8a9e3fb4a8321263ba59d2cddb025dd9074213c5d92daaf159ef",
@@ -58556,7 +59474,9 @@
                 "sequence": true,
                 "bip69": false
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 218868,
+            "coin_age_days": 1519.92
         },
         {
             "txid": "2cd60d95f08621e01266742459d66ded8d3cb23b3b65c970e36693ffe5e6c969",
@@ -58651,7 +59571,9 @@
                 "sequence": true,
                 "bip69": false
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 265559,
+            "coin_age_days": 1844.16
         },
         {
             "txid": "ef8c0c317d71dfdcbefd4719324c53a92becb67e6ad87dd775dc53957fcf3297",
@@ -59544,7 +60466,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 71356,
+            "coin_age_days": 495.53
         },
         {
             "txid": "803db1351cc16221f2d90f7d961168b79a2936ea784ae90dd5c370f9edad83de",
@@ -59601,7 +60525,9 @@
                 "sequence": true,
                 "bip69": false
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 75086,
+            "coin_age_days": 521.43
         },
         {
             "txid": "218a82129749aeedb371e23eeea2b6f915a891164e2b11a86acf520460b94529",
@@ -60209,7 +61135,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 0,
+            "coin_age_days": 0.0
         },
         {
             "txid": "be1c5e69098ead81e220b94e68a0e168258e1ff60a45e976088f94548e42e155",
@@ -60247,7 +61175,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 64151,
+            "coin_age_days": 445.49
         },
         {
             "txid": "2973b194139ffcd81f1ef032ffc3450d22672f273218a3221e03f83bd7f0f0c0",
@@ -60266,7 +61196,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 3496,
+            "coin_age_days": 24.28
         },
         {
             "txid": "6931cea2547a94248fdb147f6be3cae3ef3006efdc843db60a7364f44ae4373d",
@@ -60285,7 +61217,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 14,
+            "coin_age_days": 0.1
         },
         {
             "txid": "82303f3df3666347a96eef8f045cd05abc5b553a63d33bf4c79153287ee6cebd",
@@ -60931,7 +61865,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 26453,
+            "coin_age_days": 183.7
         },
         {
             "txid": "643536a4b9bc22fbc4c9d1009e476635c6f34d6c3a709443928a29b291fae859",
@@ -60950,7 +61886,9 @@
                 "sequence": false,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 8,
+            "coin_age_days": 0.06
         },
         {
             "txid": "dc6941965252a4aaa1f7455cfd3ba1bf70f590c680f9dfef75a95afcfe440e99",
@@ -61121,7 +62059,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 149055,
+            "coin_age_days": 1035.1
         },
         {
             "txid": "099323d72ce661bed13225161cccbb016d37e5eee74ede30a7ecdc392b99b97d",
@@ -61178,7 +62118,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 0,
+            "coin_age_days": 0.0
         },
         {
             "txid": "cbccad6dfad55919c9b11fa82051f7e98a15eb67550b4851b6a3bec04408a922",
@@ -61197,7 +62139,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 0,
+            "coin_age_days": 0.0
         },
         {
             "txid": "8e9049ff2f685f04fc5c0bf5f83dadfc67668f524ee5b3dcec43a888ab1682c9",
@@ -61311,7 +62255,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 219503,
+            "coin_age_days": 1524.33
         },
         {
             "txid": "2089e3faa675d105af760eccb79f0913eb4ce5a8cd99c26b21de92ddc461c430",
@@ -61501,7 +62447,9 @@
                 "sequence": true,
                 "bip69": false
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 4377,
+            "coin_age_days": 30.4
         },
         {
             "txid": "01f5032e53bb62beb01bc963ec13be13c39405ad7ec714791b8b38240fea159b",
@@ -61520,7 +62468,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 7959,
+            "coin_age_days": 55.27
         },
         {
             "txid": "a8fcfc5ac796feca44520aa4817936f03841f635fa5f5c654c9dcc0897bf0c16",
@@ -61615,7 +62565,9 @@
                 "sequence": true,
                 "bip69": false
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 14,
+            "coin_age_days": 0.1
         },
         {
             "txid": "a4706cac80d687091394183b7b8d14340a399ed0403ed58d32088cf64237224b",
@@ -61767,7 +62719,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 0,
+            "coin_age_days": 0.0
         },
         {
             "txid": "7856cf7cb9c9fd97699cc814cbdd891825af0bddec974ac9ea43272da6014a31",
@@ -61786,7 +62740,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 0,
+            "coin_age_days": 0.0
         },
         {
             "txid": "aebdd45b1ad7cc34b790afe09b7201c507464afb9374a9c592b38725f82658be",
@@ -61824,7 +62780,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 28912,
+            "coin_age_days": 200.78
         },
         {
             "txid": "fdf49cbae96cb10ddb1a1ad8b6f3d5735d05c9f4fac788764463d49ec61e3128",
@@ -62014,7 +62972,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 153027,
+            "coin_age_days": 1062.69
         },
         {
             "txid": "f029d44ea3ba1b258b906afa6bf8fac83bdfef553ceb512a74b8f823ff3ddf7d",
@@ -62565,7 +63525,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 142186,
+            "coin_age_days": 987.4
         },
         {
             "txid": "39a46765166c3a939804fa216f7e8b376b343f553569fdddc073c655258eb380",
@@ -62603,7 +63565,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 0,
+            "coin_age_days": 0.0
         },
         {
             "txid": "00fbef010c9b670e1c0907f211c0c6d9ba2987133e43bee2da71933817804ae6",
@@ -62679,7 +63643,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 0,
+            "coin_age_days": 0.0
         },
         {
             "txid": "ed584b6101464e842d828922911b6ff2bcf888de4b3276faa9b796c0adb4c9af",
@@ -62755,7 +63721,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 336842,
+            "coin_age_days": 2339.18
         },
         {
             "txid": "5c151bc8a0a884e58e195463595f9c96655ac5ac5ce331ab36c6d30eba3a1e1e",
@@ -63078,7 +64046,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 336100,
+            "coin_age_days": 2334.03
         },
         {
             "txid": "82e8e6516b0c933acc80b1b7c85696efd983dc8d525cdc0a2f2a924cd1fe6861",
@@ -63211,7 +64181,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 0,
+            "coin_age_days": 0.0
         },
         {
             "txid": "3d5aa3d433650dc296b31b19af9d5b78b8977c1b357a22c4910f3999f72a80d3",
@@ -63363,7 +64335,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 305800,
+            "coin_age_days": 2123.61
         },
         {
             "txid": "08389a52a99ce22328b21734f25522fa9cce2981ee3e406d77cf4a1cf4db3380",
@@ -63382,7 +64356,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 298909,
+            "coin_age_days": 2075.76
         },
         {
             "txid": "54c2115c95a88f168b57627d55eeacc34595217d2e17106276c61ae7549ac4c2",
@@ -63553,7 +64529,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 15078,
+            "coin_age_days": 104.71
         },
         {
             "txid": "05e331304ba76b63a7744ced2e80642ca4038f73af29332eccbf297e4fe6e60c",
@@ -63743,7 +64721,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 27,
+            "coin_age_days": 0.19
         },
         {
             "txid": "4054fc432106a04e8c7a1dece400f94cf771ef5ae5b037df655d89b533dc1bd5",
@@ -64522,7 +65502,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 169820,
+            "coin_age_days": 1179.31
         },
         {
             "txid": "7c5b5127724867a4e2ba985b55d11ccca8134ae428ae888bd2d59eea8f659a57",
@@ -64617,7 +65599,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 137399,
+            "coin_age_days": 954.16
         },
         {
             "txid": "a416eb146466459c905d611f8976865303bfcd80cdc91d1077f123ea158a41d3",
@@ -64826,7 +65810,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 0,
+            "coin_age_days": 0.0
         },
         {
             "txid": "b5eaa9db67892bc626d71bb017040a01886c05a79a72d974b806e5c9679259bb",
@@ -64864,7 +65850,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 0,
+            "coin_age_days": 0.0
         },
         {
             "txid": "62619b0ec74fb3efdf76b888d98d51452ac644bc49ee49939343b1e4edb23fbb",
@@ -65130,7 +66118,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 0,
+            "coin_age_days": 0.0
         },
         {
             "txid": "6cd67aca731377bc4f6b9e2288b3958510e3fadb2b1253defda484f86d892f2c",
@@ -65548,7 +66538,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 1,
+            "coin_age_days": 0.01
         },
         {
             "txid": "c448a3afc344a6da9843e7c0a276fa979555eceeeb3d00266c6f0c716edbadc2",
@@ -65662,7 +66654,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 0,
+            "coin_age_days": 0.0
         },
         {
             "txid": "c72ab103a8202bc0d4d57574e4899eb17123daaaa488d331d634a90ba28351b4",
@@ -65719,7 +66713,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 5,
+            "coin_age_days": 0.03
         },
         {
             "txid": "4c1381989d74bed7575be57689d8a102f9b2ffeac1a13f9343bc19b076874335",
@@ -65795,7 +66791,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 23,
+            "coin_age_days": 0.16
         },
         {
             "txid": "49db4fd16d088105a9e365a242c524e51eaec7433c5331dc5b1ca2ede1df3b52",
@@ -65814,7 +66812,9 @@
                 "sequence": true,
                 "bip69": true
             },
-            "tier": "tier_3_heuristic"
+            "tier": "tier_3_heuristic",
+            "block_height_delta": 129421,
+            "coin_age_days": 898.76
         },
         {
             "txid": "c611ad054eb13a8734753a818486f8b9b07bc3a50cdf29896f2fa7b6904c0f22",
