@@ -108,10 +108,10 @@ function renderStatCards(summary, tier1) {
     const status = document.getElementById('stat-status');
 
     if (stolen) {
-        const btc = Number(summary.total_stolen_tier_1_btc);
+        const btc = Number(summary.externally_validated_btc || summary.total_stolen_tier_1_btc);
         stolen.textContent = fmt(btc, 2) + ' BTC';
     }
-    if (utxos) utxos.textContent = fmt(summary.swept_utxos_count, 0);
+    if (utxos) utxos.textContent = fmt(summary.addresses_drained_verified || summary.swept_utxos_count, 0);
 
     // Check if all tier1 balances are still holding (no outgoing txs in data)
     if (status) {
@@ -299,6 +299,20 @@ const WAVES = [
         rbf: 'Yes',
         consolidation: 'Each victim → unique fresh P2WSH vault',
         tactic: 'Complete evasion pivot. No shared destination = no destination convergence signal. Only fee convergence remained.'
+    },
+    {
+        id: 'w4-10',
+        label: 'Waves 4–10',
+        date: 'Aug 1+ · Multiple windows',
+        fee: 'Varies',
+        market: '~3',
+        multiple: 'N/A',
+        addresses: '1,162+',
+        btc: '115.90+',
+        blocks: '960481+',
+        rbf: 'Mixed',
+        consolidation: 'Various strategies',
+        tactic: 'Independent researchers (coldcard.rip) identified 6 additional subsequent waves targeting smaller balances and using diverse laundering techniques.'
     }
 ];
 

@@ -11,8 +11,8 @@
     <meta property="og:description" content="Live forensic dashboard tracking 4 attack waves, verified attacker consolidation addresses, victim impact analysis, and fund flows from the Coldcard random-number flaw.">
     <meta property="og:type" content="website">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Coldcard RNG Investigation — 1,983 BTC Stolen">
-    <meta name="twitter:description" content="Live forensic dashboard. 4 attack waves. 3,474 UTXOs swept. All coins still in verified attacker addresses.">
+    <meta name="twitter:title" content="Coldcard RNG Investigation — 1,719+ BTC Stolen">
+    <meta name="twitter:description" content="Live forensic dashboard. 10 attack waves. 4,925+ UTXOs swept. Coins sitting in verified attacker addresses.">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -43,12 +43,13 @@
 
             <header class="page-hero">
                 <p class="hero-kicker">Bitcoin Data Labs · Forensic Investigation · Coldcard RNG Vulnerability</p>
-                <h1 class="page-title">1,983 BTC Stolen.<br>It's All Still Sitting There.</h1>
+                <h1 class="page-title">1,719+ BTC Stolen.<br>It's All Still Sitting There.</h1>
                 <p class="hero-lede">
+                    Cross-validated by Galaxy Research, Chainalysis, and community trackers.
                     A build guard checked whether the hardware RNG macro existed, not whether it was enabled.
                     From March 2021, affected Coldcard devices generated wallet seeds from predictable inputs.
-                    Four waves of automated sweeps extracted funds from thousands of addresses over two days.
-                    Our pipeline tracks every verified theft transaction using strict on-chain fingerprints.
+                    Ten waves of automated sweeps extracted funds from thousands of addresses over two days.
+                    Our pipeline tracks theft transactions using strict on-chain fingerprints.
                 </p>
             </header>
 
@@ -75,7 +76,7 @@
                     <div class="pulse-label">UTXOs Swept</div>
                 </div>
                 <div class="pulse-stat">
-                    <div class="pulse-number" id="stat-waves">4</div>
+                    <div class="pulse-number" id="stat-waves">10</div>
                     <div class="pulse-label">Attack Waves</div>
                 </div>
                 <div class="pulse-stat">
@@ -127,7 +128,39 @@
             </section>
 
             <!-- ═══════════════════════════════════════════════════════
-                 ACT 4 · WHO WAS HIT? (UNIQUE INSIGHT)
+                 ACT 4 · LAUNDERING TAXONOMY (NEW)
+            ═══════════════════════════════════════════════════════ -->
+
+            <section class="section-wrap" id="section-taxonomy">
+                <div class="section-header">
+                    <h2>Attacker Strategy Taxonomy</h2>
+                    <span class="section-tag">Cross-Validated · Chainalysis</span>
+                </div>
+                <p class="section-subhead">
+                    Multiple independent attackers were involved. Chainalysis identified four distinct laundering strategies across the stolen funds.
+                </p>
+                <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(220px, 1fr));gap:1rem;margin-top:1.5rem;">
+                    <div style="background:var(--bg-card);padding:1.5rem;border:1px solid var(--border-color);border-radius:8px;">
+                        <h3 style="font-size:1.1rem;margin:0 0 0.5rem 0;">Type 1: Consolidation</h3>
+                        <p style="font-size:0.9rem;color:var(--text-faint);margin:0;">Swept into large cold storage vaults. Over $35M remains dormant and unspent.</p>
+                    </div>
+                    <div style="background:var(--bg-card);padding:1.5rem;border:1px solid var(--border-color);border-radius:8px;">
+                        <h3 style="font-size:1.1rem;margin:0 0 0.5rem 0;">Type 2: Cross-chain</h3>
+                        <p style="font-size:0.9rem;color:var(--text-faint);margin:0;">Bridged out to EVM chains and actively laundered through TornadoCash.</p>
+                    </div>
+                    <div style="background:var(--bg-card);padding:1.5rem;border:1px solid var(--border-color);border-radius:8px;">
+                        <h3 style="font-size:1.1rem;margin:0 0 0.5rem 0;">Type 3: CEX Off-ramp</h3>
+                        <p style="font-size:0.9rem;color:var(--text-faint);margin:0;">Moved through intermediary addresses and deposited directly to Centralized Exchanges.</p>
+                    </div>
+                    <div style="background:var(--bg-card);padding:1.5rem;border:1px solid var(--border-color);border-radius:8px;">
+                        <h3 style="font-size:1.1rem;margin:0 0 0.5rem 0;">Type 4: CoinJoin</h3>
+                        <p style="font-size:0.9rem;color:var(--text-faint);margin:0;">Actively mixed utilizing the Wasabi Wallet coordinator protocol.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ═══════════════════════════════════════════════════════
+                 ACT 5 · WHO WAS HIT? (UNIQUE INSIGHT)
             ═══════════════════════════════════════════════════════ -->
 
             <section class="section-wrap" id="section-victims">
@@ -138,6 +171,20 @@
                 <p class="section-subhead">
                     Distribution of swept addresses by BTC amount lost. Computed from our heuristic sweep dataset — every address flagged with ≥50% confidence score.
                 </p>
+                <div style="display:flex;gap:1.5rem;margin-bottom:1.5rem;font-family:var(--font-sans);">
+                    <div style="flex:1;background:var(--bg-card);padding:1rem;border:1px solid var(--border-color);border-radius:8px;text-align:center;">
+                        <div style="font-size:1.5rem;font-weight:700;color:var(--text-primary);margin-bottom:0.25rem;">3.5 Years</div>
+                        <div style="font-size:0.8rem;color:var(--text-faint);text-transform:uppercase;letter-spacing:0.05em;">Median Dormancy</div>
+                    </div>
+                    <div style="flex:1;background:var(--bg-card);padding:1rem;border:1px solid var(--border-color);border-radius:8px;text-align:center;">
+                        <div style="font-size:1.5rem;font-weight:700;color:var(--text-primary);margin-bottom:0.25rem;">88%</div>
+                        <div style="font-size:0.8rem;color:var(--text-faint);text-transform:uppercase;letter-spacing:0.05em;">Coins > 1 Yr Old</div>
+                    </div>
+                    <div style="flex:1;background:var(--bg-card);padding:1rem;border:1px solid var(--border-color);border-radius:8px;text-align:center;">
+                        <div style="font-size:1.5rem;font-weight:700;color:var(--text-primary);margin-bottom:0.25rem;">1.02 BTC</div>
+                        <div style="font-size:0.8rem;color:var(--text-faint);text-transform:uppercase;letter-spacing:0.05em;">Median Victim Loss</div>
+                    </div>
+                </div>
                 <div class="histogram-wrap" id="histogram-wrap">
                     <div id="victim-histogram">
                         <!-- Populated by JS -->
@@ -200,7 +247,7 @@
                     <span class="section-tag">Privacy-Preserving · Client-Side Only</span>
                 </div>
                 <p class="section-subhead">
-                    Your address is hashed locally in your browser using SHA-256. The hash is checked against our database of <span id="hash-count">4,312+</span> verified compromised addresses. <strong>Your address is never transmitted to our servers.</strong>
+                    Your address is hashed locally in your browser using SHA-256. The hash is checked against our database of <span id="hash-count">4,925+</span> verified compromised addresses. <strong>Your address is never transmitted to our servers.</strong>
                 </p>
 
                 <div class="checker-section">
